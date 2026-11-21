@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>一个让 AI 编程更“懒”、更少写废代码的 skill</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>一个让 AI 编程更“懒”、更少写废代码的 skill</h1><p><a href="https://cpython666.github.io/life/ponytail-ai-coding-skill">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.073121+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/life/ponytail-ai-coding-skill">#1</a> · 未署名 · <time>2026-07-10 00:00:00</time></p><div class="body"><h1>一个让 AI 编程更“懒”、更少写废代码的 skill</h1>
+<p><img alt="" class="illustration" loading="lazy" src="../media/dcae14a04801a80430451a541f7139734200850f1e34e2768f47b1ec70585bda.png"/></p>
+<p>这期视频给大家推荐一个让 AI 编程更“懒”、更少写废代码的 skill。</p>
+<p>不知道大家有没有发现，现在很多 AI 编程工具有个毛病：</p>
+<p>你只是想修一个小 bug，加一个小优化。</p>
+<p>你可能只是简简单单一句话，想着简单实现一下，结果 AI 大刀阔斧地往你的项目里注入一大坨代码，给你加一堆抽象层，大改你的代码，加一堆封装函数，你想检查一遍都看不过来。</p>
+<p>今天介绍一个有意思的项目，叫 <strong>Ponytail</strong>。</p>
+<p>它的核心思路很简单：让 AI 编程时变懒。</p>
+<p>但这个“懒”不是偷懒，而是像一个见过太多烂代码的资深工程师一样，先问一句：</p>
+<p>这东西真的需要写吗？</p>
+<p>Ponytail 会强制 AI 按一个顺序思考：</p>
+<ul>
+<li>能不做就不做。</li>
+<li>代码库里已有的就复用。</li>
+<li>标准库能解决就别造轮子。</li>
+<li>浏览器、数据库、系统原生能力能解决，就别加依赖。</li>
+<li>实在要写，也写最少能工作的版本。</li>
+</ul>
+<p>它还有几个模式。</p>
+<p><code>lite</code> 是轻度模式，AI 会照做，但提醒你有没有更简单方案。</p>
+<p><code>full</code> 是默认模式，优先最小实现。</p>
+<p><code>ultra</code> 就比较狠了，它会直接挑战需求：这个功能现在真的值得做吗？</p>
+<p>我觉得它最有价值的地方，不是让 AI 少写几行代码，而是改变 AI 的默认倾向。</p>
+<p>以前 AI 很容易把简单问题复杂化。</p>
+<p>Ponytail 则会不断把它拉回来：</p>
+<ul>
+<li>别预留未来。</li>
+<li>别为了一个实现写接口。</li>
+<li>别为了一个场景加配置。</li>
+<li>别为了三行逻辑引入一个包。</li>
+</ul>
+<p>如果你经常用 Codex、Claude Code 或 OpenCode 写项目，这个 skill 还挺值得试试。</p>
+<p>一句话总结：</p>
+<p>Ponytail 不是让 AI 更会写代码，而是让 AI 更懂什么时候不该写代码。</p>
+<p>最近使用了一个星期，体验还是不错的，所以推荐给大家。更多的使用方式大家可以去问下 AI。</p>
+<h2>如何安装</h2>
+<p>直接告诉 Codex 安装这个 skill：</p>
+<p><a href="https://github.com/DietrichGebert/ponytail" rel="noreferrer noopener">https://github.com/DietrichGebert/ponytail</a></p>
+<p>然后输入指令指定模式：</p>
+<pre><code>@ponytail ultra
+</code></pre></div></article></main></html>

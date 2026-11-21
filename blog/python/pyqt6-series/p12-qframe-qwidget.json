@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p12-qframe-qwidget",
+  "title": "P12-Qframe与Qweight的区别",
+  "category": "Python",
+  "html": "<h1>P12-Qframe与Qweight的区别</h1>\n<p>在 PyQt 中，<code>QFrame</code> 和 <code>QWidget</code> 是两个不同的类，它们用于创建界面上的可视化组件，但有一些区别。</p>\n<ol>\n<li><code>**QFrame**</code>** 类：**\n<ul>\n<li><code>QFrame</code> 是 <code>QWidget</code> 的子类，因此 <code>QFrame</code> 可以包含在其他 <code>QWidget</code> 内或作为 <code>QMainWindow</code> 的中心部件。</li>\n<li><code>QFrame</code> 是一个简单的容器，通常用于包含其他小部件或进行布局管理。</li>\n<li><code>QFrame</code> 通常用于创建矩形框架，比如创建边框、背景或者一些特殊的辅助图形元素。</li>\n</ul>\n</li>\n</ol>\n<pre><code>from PyQt6.QtWidgets import QFrame\nframe = QFrame()\n</code></pre>\n<ol>\n<li><code>**QWidget**</code>** 类：**\n<ul>\n<li><code>QWidget</code> 是一个通用的用户界面对象，也是 <code>QFrame</code> 的基类。</li>\n<li><code>QWidget</code> 通常用于创建应用程序的主窗口或作为主窗口中的中心部件。</li>\n<li>与 <code>QFrame</code> 相比，<code>QWidget</code> 是更通用的界面元素，可以包含其他小部件，并提供更多的功能。</li>\n</ul>\n</li>\n</ol>\n<pre><code>from PyQt6.QtWidgets import QWidget\nwidget = QWidget()\n</code></pre>\n<p>总的来说，<code>QFrame</code> 更专注于创建框架和辅助图形，而 <code>QWidget</code> 是一个更通用的界面元素，可以包含其他小部件并提供更广泛的功能。在实际使用中，你可以根据需求选择使用 <code>QWidget</code> 或 <code>QFrame</code>。</p>",
+  "sourcePath": "docs/python/pyqt6-series/p12-qframe-qwidget.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:37:55",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

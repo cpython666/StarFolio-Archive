@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>装饰器模式：动态扩展对象功能的设计艺术</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>装饰器模式：动态扩展对象功能的设计艺术</h1><p><a href="https://cpython666.github.io/python/collection/23-design/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%8A%A8%E6%80%81%E6%89%A9%E5%B1%95%E5%AF%B9%E8%B1%A1%E5%8A%9F%E8%83%BD%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.221032+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/python/collection/23-design/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%8A%A8%E6%80%81%E6%89%A9%E5%B1%95%E5%AF%B9%E8%B1%A1%E5%8A%9F%E8%83%BD%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF">#1</a> · 未署名 · <time>2025-04-05T21:52:05+08:00</time></p><div class="body"><h1>装饰器模式：动态扩展对象功能的设计艺术</h1>
+<p>在面向对象设计中，装饰器模式是一种灵活的结构型模式，用于在不修改对象的基础上，动态地给一个对象添加额外的职责。这种模式通过创建一个包含原始对象的包装对象来实现功能的扩展，是继承关系的一个替代方案。本文将详细介绍装饰器模式的概念、实现方式、应用场景以及优缺点。
+<img alt="在这里插入图片描述" class="illustration" loading="lazy" src="../media/3e252c526cb55a484a0f7c5eca4cc9aa801f31edf243e7e738ca199c94626be2.webp"/></p>
+<h2>1. 装饰器模式的定义</h2>
+<p>装饰器模式（Decorator Pattern），也被称为包装器（Wrapper），允许向一个现有的对象添加新的功能，同时又不改变其结构。这种模式创建了一个装饰类，用来包装原有的类，并在保持原类方法签名完整性的前提下，提供了额外的功能。</p>
+<h2>2. 实现装饰器模式</h2>
+<p>在Python中，装饰器模式可以通过使用类来实现，这些类包装了其他类的实例。以下是一个装饰器模式的简单实现示例：</p>
+<pre><code>class Component:
+    """定义一个操作接口"""
+    def operation(self):
+        pass
+
+class ConcreteComponent(Component):
+    """具体实现类，实现了组件接口"""
+    def operation(self):
+        print("ConcreteComponent: Basic operation.")
+
+class Decorator(Component):
+    """装饰器抽象类，持有一个Component对象的引用，并定义一个与Component接口一致的接口"""
+    def __init__(self, component):
+        self._component = component
+
+    def operation(self):
+        self._component.operation()
+
+class ConcreteDecoratorA(Decorator):
+    """具体装饰器A，添加额外的功能"""
+    def operation(self):
+        print("ConcreteDecoratorA: Extended functionality before.")
+        super().operation()
+        print("ConcreteDecoratorA: Extended functionality after.")
+
+class ConcreteDecoratorB(Decorator):
+    """具体装饰器B，添加额外的功能"""
+    def operation(self):
+        print("ConcreteDecoratorB: Extended functionality before.")
+        super().operation()
+        print("ConcreteDecoratorB: Extended functionality after.")
+
+# 客户端代码
+component = ConcreteComponent()
+decorator1 = ConcreteDecoratorA(component)
+decorator2 = ConcreteDecoratorB(decorator1)
+decorator2.operation()
+</code></pre>
+<h2>3. 装饰器模式的应用实例</h2>
+<p>装饰器模式在软件开发中广泛应用于以下场景：</p>
+<ul>
+<li><strong>动态添加功能</strong>：在运行时为对象添加额外的功能。</li>
+<li><strong>维护旧代码</strong>：为旧的或不可修改的代码添加新功能。</li>
+<li><strong>功能组合</strong>：通过不同的装饰器以多种方式组合这些功能。</li>
+</ul>
+<h2>4. 优点和缺点</h2>
+<h3>优点：</h3>
+<ul>
+<li>提高了类的扩展性和灵活性，不需要通过修改现有的代码就可以增强对象。</li>
+<li>符合单一职责原则，每个装饰类完成的只是单一的功能添加。</li>
+<li>符合开闭原则，易于扩展与维护。</li>
+</ul>
+<h3>缺点：</h3>
+<ul>
+<li>使用装饰器模式会增加系统的复杂性，可能会引入多层装饰，使系统维护更加困难。</li>
+<li>多层装饰的使用可能会使系统性能受到一定影响。</li>
+</ul>
+<h2>5. 总结</h2>
+<p>装饰器模式是一个非常有用的工具，适用于那些需要动态地给对象添加职责的场景。它提供了一种灵活的替代扩展功能的方法，比继承更加灵活。正确的使用装饰器模式可以使系统更加灵活，易于扩展和维护。</p></div></article></main></html>

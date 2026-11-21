@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/spider/scrapy-series/p5-first-scrapy-project",
+  "title": "P2-第一个scrapy项目【scrapy教程】",
+  "category": "数据采集",
+  "html": "<h1>P2-第一个scrapy项目【scrapy教程】</h1>\n<ul>\n<li>安装scrapy</li>\n<li>创建scrapy项目</li>\n<li>修改基本配置</li>\n<li>创建一个爬虫</li>\n<li>发送一个请求</li>\n</ul>\n<pre><code>pip install scrapy\n# Linux/macOS\nwhich scrapy\n# windows\nwhere scrapy\n# scrapy包安装位置\npip show scrapy\nscrapy startproject demo\n\nscrapy genspider hello_scrapy http://localhost:8001/\n</code></pre>",
+  "sourcePath": "docs/spider/scrapy-series/p5-first-scrapy-project.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2025-02-20 23:00:23",
+  "modified": "2026-08-05T12:10:57+08:00"
+}

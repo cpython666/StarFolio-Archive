@@ -1,0 +1,2569 @@
+{
+  "format": "starfolio.collection.v1",
+  "sourceRepository": "cpython666/cpython666.github.io",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "records": [
+    {
+      "path": "blog/backend/cron.json",
+      "url": "https://cpython666.github.io/backend/cron",
+      "sha256": "0f92d71602c3ebaa946164c8efeae7ad1f05b06618b0a47f87a9eb35d3c707f9",
+      "title": "Cron 表达式介绍",
+      "category": "后端"
+    },
+    {
+      "path": "blog/backend/git.json",
+      "url": "https://cpython666.github.io/backend/git",
+      "sha256": "f9ffac8fed62fd534ea1330f3579d6ec63ed99ed562548af813722d6076ef9c2",
+      "title": "Git笔记",
+      "category": "后端"
+    },
+    {
+      "path": "blog/backend/jenkins.json",
+      "url": "https://cpython666.github.io/backend/jenkins",
+      "sha256": "fe019d4e0b047bf240eb718e07331360a4830cce221082145d6cd8275d56600c",
+      "title": "Jenkins 从零上手：最常用的功能一篇讲清（自由风格、流水线、凭据、插件）",
+      "category": "后端"
+    },
+    {
+      "path": "blog/backend/nginx.json",
+      "url": "https://cpython666.github.io/backend/nginx",
+      "sha256": "cde389f436f2cb077c8fa727d5f5302aba85ece9cc947916708ae5bbb600ab24",
+      "title": "Nginx笔记",
+      "category": "后端"
+    },
+    {
+      "path": "blog/backend/布隆过滤器.json",
+      "url": "https://cpython666.github.io/backend/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8",
+      "sha256": "2a1e9cad977971d5ce0287b3651cc8ce23ea8e866aca6fc69dac83c7e9d4025a",
+      "title": "布隆过滤器",
+      "category": "后端"
+    },
+    {
+      "path": "blog/breakthrough-notes/resource-treasure-manual.json",
+      "url": "https://cpython666.github.io/breakthrough-notes/resource-treasure-manual",
+      "sha256": "f2b4268bed6b763cb50c1f0eec741d4a40f4dafbf0b40d6d1843ffbdde8aab93",
+      "title": "找资源宝典：资源无界，打破信息壁垒-说明",
+      "category": "成长笔记"
+    },
+    {
+      "path": "blog/life/advice-to-myself-two-years-ago.json",
+      "url": "https://cpython666.github.io/life/advice-to-myself-two-years-ago",
+      "sha256": "c93e885b8563180d89f1f6648df6589c7cd5eda70341b621563cb5398a003118",
+      "title": "写给两年前刚毕业的自己：三条忠告",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/afraid-to-start-self-media.json",
+      "url": "https://cpython666.github.io/life/afraid-to-start-self-media",
+      "sha256": "5d9f8bfa56011efb81c04a835079882f5108e6f9f442bd71d0bbcc9daffe96a4",
+      "title": "想做自媒体不敢开始？不敢露脸怕被别人看到？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/agent-fullstack-data-collection.json",
+      "url": "https://cpython666.github.io/life/agent-fullstack-data-collection",
+      "sha256": "d1d4f88c7a243303144973e4fef4d07ae2b49bb7ecc7ff0306cb25ba46ce4835",
+      "title": "Agent开发的时代来啦，全栈开发的时代来啦，自动化数据采集的时代来啦",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/ai-automation-data-collection.json",
+      "url": "https://cpython666.github.io/life/ai-automation-data-collection",
+      "sha256": "4ca993b4ab8d900a1e61430542989d6aa988f2c41207480118921746a0936313",
+      "title": "自动化数据采集危险啦，我的饭碗裂开啦",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/ai-learning-browser-plugin-product-manager.json",
+      "url": "https://cpython666.github.io/life/ai-learning-browser-plugin-product-manager",
+      "sha256": "2c07599e27974964f6ffaee488d065da7ecce84299f6dd0b314994ab91a8f290",
+      "title": "AI时代，学习方式的变革：一天打造浏览器插件，我成了“产品经理+测试”",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/bad-code-will-be-punished.json",
+      "url": "https://cpython666.github.io/life/bad-code-will-be-punished",
+      "sha256": "b066ff6ad358abef37a56efdca4a1fccb92be7f63b024d3fbfdd49396572d58d",
+      "title": "代码写的垃圾是会被打的",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/codex-auto-coding-blog-refactor.json",
+      "url": "https://cpython666.github.io/life/codex-auto-coding-blog-refactor",
+      "sha256": "d6925922f2e4d1e40772f64b651cc7c06cc15e2a62da9bd50a2f6bab208658e9",
+      "title": "全自动写代码，博客全自动改造，一句话生成表情包动态图标，CodeX太好用了，我已经不自己写代码了",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/codex-dream-skin.json",
+      "url": "https://cpython666.github.io/life/codex-dream-skin",
+      "sha256": "4cd42c95d2ec2cf7d337117ba95ce2a14fbec08f1c7ac6ffb6813339d9922730",
+      "title": "CodeX 可以定制皮肤啦",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/do-the-right-thing.json",
+      "url": "https://cpython666.github.io/life/do-the-right-thing",
+      "sha256": "6c67be5f973ef8bbe5a6144e4da369ef98849d559720bc0be9082cabdf610cb0",
+      "title": "做正确的事，无惧风雨，交给时间",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/fantasy-and-universe.json",
+      "url": "https://cpython666.github.io/life/fantasy-and-universe",
+      "sha256": "014e27277eae2b49f2f3cdc5dff3fcc0cb054a49cc2eb8b22d4e76767beff060",
+      "title": "那时候的我，靠幻想和宇宙活着",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/follower-milestones/1000-followers-passion-fades.json",
+      "url": "https://cpython666.github.io/life/follower-milestones/1000-followers-passion-fades",
+      "sha256": "0fffba6cf34867cb468175c39d6ffd4e5b26495d72ecc47899f933d7f515c1ba",
+      "title": "【千粉纪念】一千个粉丝了，激情不再！",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/follower-milestones/3000-followers-self-media-review.json",
+      "url": "https://cpython666.github.io/life/follower-milestones/3000-followers-self-media-review",
+      "sha256": "f7a593fef0510b2100ac3da9da126ac0c8cc2b8ed58effe3ccfbcbba7f993e49",
+      "title": "3000粉丝了，和兄弟们对齐下颗粒度",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/free-model-image-generation-comparison.json",
+      "url": "https://cpython666.github.io/life/free-model-image-generation-comparison",
+      "sha256": "bdf41c0cf244be8ed583909269f74e3f7f38e4aebf2f3673a885461a93ac0b17",
+      "title": "主流模型免费版生图能力对比从夯到拉，ChatGPT，Claude，豆包，千问，智谱，Kimi，gemini，Grok",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/geo-system-built-in-one-day.json",
+      "url": "https://cpython666.github.io/life/geo-system-built-in-one-day",
+      "sha256": "d41fcdac370e624f83a53200649c533e7c548e00f1164c09870cd82bd09b7d78",
+      "title": "一天做出来的GEO系统长什么样？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/grassroots-without-bright-title.json",
+      "url": "https://cpython666.github.io/life/grassroots-without-bright-title",
+      "sha256": "e863cb6b1c308e91b43541ac4cd938c7f0da51a7166049cd1e88bc2dda08505d",
+      "title": "大家都有一堆亮眼的title，只有我是个真草根",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/hangzhou-five-month-savings.json",
+      "url": "https://cpython666.github.io/life/hangzhou-five-month-savings",
+      "sha256": "63374b47ddf2d3857fe4e87a4a5f9add2f6990077b8554f3b1788e45debdda0e",
+      "title": "毕业杭州工作五个月存了多少钱？花销怎么样？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/how-we-spend-birthdays.json",
+      "url": "https://cpython666.github.io/life/how-we-spend-birthdays",
+      "sha256": "5697b3ce58e2f5e60e77bd1e93e07aef14d6ab118c8eaf73475d44df133b8f18",
+      "title": "大家都是怎么过生日的？我是怎么过生日的？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/hynix-drop-same-story.json",
+      "url": "https://cpython666.github.io/life/hynix-drop-same-story",
+      "sha256": "ec3fd55225a129636c3e646dda741c0e4f99816b51adb51527acefa936f7fdd1",
+      "title": "海力士暴跌，如来。这次不一样？次次都一样！",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/independent-thinking-strength-rhythm.json",
+      "url": "https://cpython666.github.io/life/independent-thinking-strength-rhythm",
+      "sha256": "0faaaf31503dd18c3a3e43f6e3666de6e13b2f28075fc993f67ca47e24435fe4",
+      "title": "自主思考，找到自己的特长和节奏。我喜欢看什么样的博主？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/know-what-you-dont-know.json",
+      "url": "https://cpython666.github.io/life/know-what-you-dont-know",
+      "sha256": "362ceca30de301d750b5bfdb59b5e53720176b5ce95f82f97409383ce027d0a4",
+      "title": "知道自己不懂并不可怕，可怕的是不懂却以为自己很懂",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/no-beauty-filter-not-gay.json",
+      "url": "https://cpython666.github.io/life/no-beauty-filter-not-gay",
+      "sha256": "84443c1151d3a364ea2c760ad6b28a8e4ce104b2f916708458d02b3eb9deba9e",
+      "title": "不开美颜，是一种筛选，我不是gay也是",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/ponytail-ai-coding-skill.json",
+      "url": "https://cpython666.github.io/life/ponytail-ai-coding-skill",
+      "sha256": "f9687a0c7680bde1b3f1a126b168d7ba9fb5b38d8744e7e4da30fd0c77fcbe22",
+      "title": "一个让 AI 编程更“懒”、更少写废代码的 skill",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/programmer-dating-chat.json",
+      "url": "https://cpython666.github.io/life/programmer-dating-chat",
+      "sha256": "5824dbe32f71750248d79b397979515abf2b7e1e8a3e4a2e22de4a76b19b7ba5",
+      "title": "程序员如何找对象？如何聊天？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/recommended-bloggers-chenchangwen-lufei.json",
+      "url": "https://cpython666.github.io/life/recommended-bloggers-chenchangwen-lufei",
+      "sha256": "f1d278dce985dd63402cac1944d78b563f663128a35419e211c205f53dc77201",
+      "title": "推荐两个我最近反复看的博主：陈昌文、路飞",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/review-my-resume-after-five-months.json",
+      "url": "https://cpython666.github.io/life/review-my-resume-after-five-months",
+      "sha256": "d355e108eb49a5db40628aeb2774e3a570ee6c3bbf9181e07e376ac3ae51b279",
+      "title": "拷打自己五个月前的简历，进来体验当面试官，24春招面试回顾",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/self-media-found-by-right-people.json",
+      "url": "https://cpython666.github.io/life/self-media-found-by-right-people",
+      "sha256": "f03787abc91ba13a8a7a59a8a0d6a69964378c64aa879f28c51dab74d2d51c62",
+      "title": "做自媒体，是为了被“对的人”找到",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/self-media-signal-money-mind.json",
+      "url": "https://cpython666.github.io/life/self-media-signal-money-mind",
+      "sha256": "1ba07f3ce85abe00a4a71011255e3cbf4f9837fe6c6096090f9433e91c2841d2",
+      "title": "做自媒体，就是在向世界发射信号。想赚钱，先修心",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/simple-life-plan.json",
+      "url": "https://cpython666.github.io/life/simple-life-plan",
+      "sha256": "adfbd854b55751229b12960028de022204a766297b0bb808ffc7c99a70155fd3",
+      "title": "我想要的生活，好像也很简单。目前我的人生规划[幻想]",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/trading-thinking-baibing-mangtu.json",
+      "url": "https://cpython666.github.io/life/trading-thinking-baibing-mangtu",
+      "sha256": "5e671c5ed53aed5731db9c56b7b4d4a9ec4b69097cfb1085c867f65b380a60da",
+      "title": "用交易思维看白冰和抱抱盲兔，他们的爆仓几乎是必然的",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/two-years-after-graduation-hangzhou-programmer.json",
+      "url": "https://cpython666.github.io/life/two-years-after-graduation-hangzhou-programmer",
+      "sha256": "cc10c591b937b9300a75226297aabf0d7e3e263cdbbdcf287e6cad6d82d26613",
+      "title": "毕业两年，我还没开始我的人生。杭漂程序员生活公开！",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/what-easy-money-demand-looks-like.json",
+      "url": "https://cpython666.github.io/life/what-easy-money-demand-looks-like",
+      "sha256": "3aa731630c8957ca5d57ea7eb5b3b4a0c9668c6a18dfd7ddd093beb722896fc3",
+      "title": "送钱的需求长什么样，钱这么好赚吗？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/life/yearly-flags/2025-flag-review.json",
+      "url": "https://cpython666.github.io/life/yearly-flags/2025-flag-review",
+      "sha256": "9c34fa71a8f2d751f4a075534a2f82385a2a172f3d922c5a2d72bb57b6bd2a64",
+      "title": "25年的flag做到了多少？",
+      "category": "生活随笔"
+    },
+    {
+      "path": "blog/python/collection/23-design/中介者模式：简化对象间通信的协调者.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%AE%80%E5%8C%96%E5%AF%B9%E8%B1%A1%E9%97%B4%E9%80%9A%E4%BF%A1%E7%9A%84%E5%8D%8F%E8%B0%83%E8%80%85",
+      "sha256": "220e44a76d85657acbe3caee888a4578e9af569865b203ae88dbdc91aab04df5",
+      "title": "中介者模式：简化对象间通信的协调者",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/享元模式：优化资源利用的高效策略.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BC%98%E5%8C%96%E8%B5%84%E6%BA%90%E5%88%A9%E7%94%A8%E7%9A%84%E9%AB%98%E6%95%88%E7%AD%96%E7%95%A5",
+      "sha256": "c5b0f4658177ac9898f10294038f6cbd0bd6f94be373e169f76778a448491cc4",
+      "title": "享元模式：优化资源利用的高效策略",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/代理模式：控制对象访问的智能方式.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%EF%BC%9A%E6%8E%A7%E5%88%B6%E5%AF%B9%E8%B1%A1%E8%AE%BF%E9%97%AE%E7%9A%84%E6%99%BA%E8%83%BD%E6%96%B9%E5%BC%8F",
+      "sha256": "93d96287e90114ffaeec1e0f2c863fd5bcc750b3478d035ea9f59f3b03e3b81d",
+      "title": "代理模式：控制对象访问的智能方式",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/原型模式：复制对象的智能解决方案.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A4%8D%E5%88%B6%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%99%BA%E8%83%BD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88",
+      "sha256": "6a76ebe6d46c37fc5e78fd2db8d1e0d17ca338f09391afb6cfa477a13696cdc4",
+      "title": "原型模式：复制对象的智能解决方案",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/命令模式：封装操作为对象的强大技术.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%B0%81%E8%A3%85%E6%93%8D%E4%BD%9C%E4%B8%BA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%BA%E5%A4%A7%E6%8A%80%E6%9C%AF",
+      "sha256": "e064cf09f74d401eabf1d4afa2fa31fb1ff938759b457e97eff46d9ebde9b07d",
+      "title": "命令模式：封装操作为对象的强大技术",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/备忘录模式：恢复对象状态的智能方式.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F%EF%BC%9A%E6%81%A2%E5%A4%8D%E5%AF%B9%E8%B1%A1%E7%8A%B6%E6%80%81%E7%9A%84%E6%99%BA%E8%83%BD%E6%96%B9%E5%BC%8F",
+      "sha256": "8c9d2304907a6bc1b9027a7d2b7cab3e646b26dc4a78fe572abcfa550ff0e9ff",
+      "title": "备忘录模式：恢复对象状态的智能方式",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/外观模式：简化复杂系统的统一接口.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%AE%80%E5%8C%96%E5%A4%8D%E6%9D%82%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%9F%E4%B8%80%E6%8E%A5%E5%8F%A3",
+      "sha256": "c5341207b775b3429e1fad29bf99363945c4c692f3ade95ceb3ab4c79a63c1cf",
+      "title": "外观模式：简化复杂系统的统一接口",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/工厂方法模式：解锁灵活的对象创建策略.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%EF%BC%9A%E8%A7%A3%E9%94%81%E7%81%B5%E6%B4%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%88%9B%E5%BB%BA%E7%AD%96%E7%95%A5",
+      "sha256": "189ac4cdba669e4224794cc329d3f9a00326fc57296a2810eeca5ca5877f6212",
+      "title": "工厂方法模式：解锁灵活的对象创建策略",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/建造者模式：构造复杂对象的艺术.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%9A%E6%9E%84%E9%80%A0%E5%A4%8D%E6%9D%82%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%89%BA%E6%9C%AF",
+      "sha256": "006143258ec9460d236d9e83f9b94eeff427eba38161f13b8e19e5e08a19fa60",
+      "title": "建造者模式：构造复杂对象的艺术",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/抽象工厂模式：深入探索面向对象设计的多样性.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%EF%BC%9A%E6%B7%B1%E5%85%A5%E6%8E%A2%E7%B4%A2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E7%9A%84%E5%A4%9A%E6%A0%B7%E6%80%A7",
+      "sha256": "98cd93dd58680128275bbffc12c819c5b84220df0370ab25df2d046c571cff0a",
+      "title": "抽象工厂模式：深入探索面向对象设计的多样性",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/桥接模式：解耦抽象与实现的设计艺术.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%EF%BC%9A%E8%A7%A3%E8%80%A6%E6%8A%BD%E8%B1%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF",
+      "sha256": "81d3b89d9c8eb82eecbc5a77a48178d8b39422318eecbd2c507a8be639e976dd",
+      "title": "桥接模式：解耦抽象与实现的设计艺术",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/模板方法模式：定义算法骨架的设计策略.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%AE%9A%E4%B9%89%E7%AE%97%E6%B3%95%E9%AA%A8%E6%9E%B6%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%AD%96%E7%95%A5",
+      "sha256": "b5ba6bd6cdef866c1cf63feeec96035b9438c77b0e059aac35569225ad39e100",
+      "title": "模板方法模式：定义算法骨架的设计策略",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/状态模式：管理对象状态转换的动态策略.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%AE%A1%E7%90%86%E5%AF%B9%E8%B1%A1%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2%E7%9A%84%E5%8A%A8%E6%80%81%E7%AD%96%E7%95%A5",
+      "sha256": "c701cbe3200bf479da32e3b46833d056c868ef483cb8e355ff4a3b8c14a1edc2",
+      "title": "状态模式：管理对象状态转换的动态策略",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/独一无二：探索单例模式在现代编程中的奥秘与实践.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C%EF%BC%9A%E6%8E%A2%E7%B4%A2%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E5%9C%A8%E7%8E%B0%E4%BB%A3%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%A5%A5%E7%A7%98%E4%B8%8E%E5%AE%9E%E8%B7%B5",
+      "sha256": "2db34da3370a5d5d2731f5bdff5c00a3e69db2aeba850071d91cb2b80fa08ba8",
+      "title": "单例模式：独一无二：探索单例模式在现代编程中的奥秘与实践",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/策略模式：灵活调整算法的设计精髓.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%81%B5%E6%B4%BB%E8%B0%83%E6%95%B4%E7%AE%97%E6%B3%95%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%B2%BE%E9%AB%93",
+      "sha256": "9a328ef2882921ed9931740f17b6176fc3172e55d07d539736757747f61b2ba5",
+      "title": "策略模式：灵活调整算法的设计精髓",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/组合模式：构建树形对象结构的设计艺术.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%EF%BC%9A%E6%9E%84%E5%BB%BA%E6%A0%91%E5%BD%A2%E5%AF%B9%E8%B1%A1%E7%BB%93%E6%9E%84%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF",
+      "sha256": "60ed21ede083ea02564e6f10780dc0855a411287319586c2060c1d594efa4deb",
+      "title": "组合模式：构建树形对象结构的设计艺术",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/装饰器模式：动态扩展对象功能的设计艺术.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%8A%A8%E6%80%81%E6%89%A9%E5%B1%95%E5%AF%B9%E8%B1%A1%E5%8A%9F%E8%83%BD%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF",
+      "sha256": "51130cf323825aa235e3b9caba94cc1bc8a231e6fac80b80aa94155d35cd83fa",
+      "title": "装饰器模式：动态扩展对象功能的设计艺术",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/观察者模式：实现高效事件驱动编程的策略.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%95%88%E4%BA%8B%E4%BB%B6%E9%A9%B1%E5%8A%A8%E7%BC%96%E7%A8%8B%E7%9A%84%E7%AD%96%E7%95%A5",
+      "sha256": "962ba462c0740d73b198e71c2f802a6e6ef8109b109206fd4b338064056d8e40",
+      "title": "观察者模式：实现高效事件驱动编程的策略",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/解释器模式：专为语言处理定制的模式.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%B8%93%E4%B8%BA%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E5%AE%9A%E5%88%B6%E7%9A%84%E6%A8%A1%E5%BC%8F",
+      "sha256": "e3dcce10290aff93c1df29f224c1a37129084b7e3d945ea487c2e0d8b4678080",
+      "title": "解释器模式：专为语言处理定制的模式",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/访问者模式：处理复杂对象结构的灵活方式.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A4%84%E7%90%86%E5%A4%8D%E6%9D%82%E5%AF%B9%E8%B1%A1%E7%BB%93%E6%9E%84%E7%9A%84%E7%81%B5%E6%B4%BB%E6%96%B9%E5%BC%8F",
+      "sha256": "4b86e9676c2efef156cd889ef67ba4dae6f38b29ba037a81acec4a50c5d5426c",
+      "title": "访问者模式：处理复杂对象结构的灵活方式",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/责任链模式：灵活处理请求的分级策略.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%81%B5%E6%B4%BB%E5%A4%84%E7%90%86%E8%AF%B7%E6%B1%82%E7%9A%84%E5%88%86%E7%BA%A7%E7%AD%96%E7%95%A5",
+      "sha256": "33c63715aea17b1dbb9aa461dbf9acf073b7bb0bc059307f9363ba2f40ccfd56",
+      "title": "责任链模式：灵活处理请求的分级策略",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/迭代器模式：统一访问集合元素的优雅方式.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%BB%9F%E4%B8%80%E8%AE%BF%E9%97%AE%E9%9B%86%E5%90%88%E5%85%83%E7%B4%A0%E7%9A%84%E4%BC%98%E9%9B%85%E6%96%B9%E5%BC%8F",
+      "sha256": "dfde0b969edb1f1e54b76f2b43c33bfe47b236b07ee985194e78c03e82cdd4ff",
+      "title": "迭代器模式：统一访问集合元素的优雅方式",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/23-design/适配器模式：连接不兼容接口的桥梁.json",
+      "url": "https://cpython666.github.io/python/collection/23-design/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%9A%E8%BF%9E%E6%8E%A5%E4%B8%8D%E5%85%BC%E5%AE%B9%E6%8E%A5%E5%8F%A3%E7%9A%84%E6%A1%A5%E6%A2%81",
+      "sha256": "101985cb833a1da0a30c8cbd335fd909a2a344d17861fde468a0b50f81f0f54b",
+      "title": "适配器模式：连接不兼容接口的桥梁",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/langchain.json",
+      "url": "https://cpython666.github.io/python/collection/langchain",
+      "sha256": "829cf76a80e4053d16ab185f0b64c8054e7bfcb557617a031280fcdbd62e10f2",
+      "title": "Langchain",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/collection/pyqt6.json",
+      "url": "https://cpython666.github.io/python/collection/pyqt6",
+      "sha256": "10cbadc73bc3a01805b7f9df85206d431fbf42efaa02a62d0220f78961aa0dea",
+      "title": "PyQt6实战开发之旅-代码均可运行",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/database/sqlalthemy2.json",
+      "url": "https://cpython666.github.io/python/database/sqlalthemy2",
+      "sha256": "0f522bf3f214cc68f7d3b59ab087ca1592fc21385bade9ee66a30e5743df2fab",
+      "title": "SQLAlchemy 2.0 介绍",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/django-series/django-common-commands.json",
+      "url": "https://cpython666.github.io/python/django-series/django-common-commands",
+      "sha256": "926ce95645a47f31a991fa8f2b1af754ef6836493f09ed1960b144a87ac15431",
+      "title": "Django最常用命令合集",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/django-series/django-orm-methods.json",
+      "url": "https://cpython666.github.io/python/django-series/django-orm-methods",
+      "sha256": "a3f1504f4d3171a5ce93ee2ececbddc855ad316aa5f2d2424de5b25c16bf5095",
+      "title": "django-orm常用的方法函数【django】",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/django-series/django-simpleui.json",
+      "url": "https://cpython666.github.io/python/django-series/django-simpleui",
+      "sha256": "eaa288dd9a8d0b5cb5373bff6298ed2ba5a5ebea5f19bb4bca025a8f6e888610",
+      "title": "django-simpleui【django】",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/django-series/drf-throttling-source.json",
+      "url": "https://cpython666.github.io/python/django-series/drf-throttling-source",
+      "sha256": "b9889621b295e4a9714112c1426ebb369ea875f7c6120a6ea96fa76adc12cd5f",
+      "title": "drf限流模块-源码翻译及解读【django】",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/agent.json",
+      "url": "https://cpython666.github.io/python/libs/agent",
+      "sha256": "f4fe8a8bedc0d2f44423d349025b06fd35d7843b70e7e9b4ee70cb6f96b29123",
+      "title": "Python Agent 开发：从入门到精通",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/celery.json",
+      "url": "https://cpython666.github.io/python/libs/celery",
+      "sha256": "ebd9f1b4ec4f6b2abc3a1df997f639fc67194fdee8b584621e8d0615c3985cd8",
+      "title": "Celery 从基础到精通：面向 Python 与自动化数据采集开发者",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/invoke.json",
+      "url": "https://cpython666.github.io/python/libs/invoke",
+      "sha256": "7197792b5daba423817eef9e4fee0f88d5d6872b789b2a2b0c0ed245d5a2df98",
+      "title": "常用命令总敲错？记不住？让你的命令短起来！-invoke【python三方库】",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/pre-commit.json",
+      "url": "https://cpython666.github.io/python/libs/pre-commit",
+      "sha256": "3d7c27fed36bf4b7a2fa688ca72928680be30e2b886b6a9c6e45c6e18cd4b321",
+      "title": "pre-commit 使用指南",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/pytest.json",
+      "url": "https://cpython666.github.io/python/libs/pytest",
+      "sha256": "9fb19da0cd52b1791bc3bd37b54199551c351c1fe454d49cfcf861687baec4fb",
+      "title": "Pytest 从基础到精通：面向 Python 开发与自动化采集",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/text-diff-simple.json",
+      "url": "https://cpython666.github.io/python/libs/text-diff-simple",
+      "sha256": "559c1cf3f7982932ea3252ef6fdcfb675dbab1f9a6f57eeeeecc6536e4279fb7",
+      "title": "文本差异对比如此简单！",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/libs/uv.json",
+      "url": "https://cpython666.github.io/python/libs/uv",
+      "sha256": "7d6b701bb7f539d811a8af09f852fb4e4a70378473033bf57a968f0904ae1b0d",
+      "title": "uv 从基础到精通：给 Conda 用户的实战迁移指南",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p0-series-intro.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p0-series-intro",
+      "sha256": "09f1c96ea9e50873b2b8bdb6830084b4941464277a7d5aa0c9e902a291286d63",
+      "title": "P0-合集介绍",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p1-docs.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p1-docs",
+      "sha256": "e2ca460565a47fa164d5121c3bbe19148d126f9caa9c9e7f44e385f9d6fb7f20",
+      "title": "P1-教程文档",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p10-colorful-ball-interaction.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p10-colorful-ball-interaction",
+      "sha256": "abbd8923383889a48a2a63ebed0b56bbee7e176ad1f29838a680aede647e02d2",
+      "title": "P10-炫彩小球交互效果-pygame实现",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p2-window-logo-title.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p2-window-logo-title",
+      "sha256": "5cb0f21610c571ce034e3e85145c0851ca05506383886c8de2efad86a14d1eb6",
+      "title": "P2-设置logo与标题",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p3-rain-effect.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p3-rain-effect",
+      "sha256": "82732b29444d9db605b8f68b8a78c6ff73b0fb1c091202abbe68cb6e9be20bc5",
+      "title": "P3-下雨特效",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p4-particle-explosion.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p4-particle-explosion",
+      "sha256": "9df5a6d7c70ed6d614acad8b25c0902e6ace73eeebc577a6a6ee06db5ecfc20a",
+      "title": "P4-点击后粒子爆炸",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p5-number-particle-dissolve.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p5-number-particle-dissolve",
+      "sha256": "851c4dfcae2a4f8b42453da7037e5dc8ab0cfd7f087cad5bdc23f6f8067fbb0f",
+      "title": "P5-数字粒子消散",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p6-show-fps.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p6-show-fps",
+      "sha256": "9496502dd01639401a780976b4177f55465d1141ff67b1b9b5894d9180502657",
+      "title": "P6-画面显示fps",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p7-chessboard-background.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p7-chessboard-background",
+      "sha256": "0414a57c8325b76ac51e03fcee680a059d4dce66b482d7a7e6000939ff07c922",
+      "title": "P7-画出一个棋盘背景",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p8-motion-trail.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p8-motion-trail",
+      "sha256": "49772f5ff13077c81db7db380a15ebd0324028e8750403053c28a2bdba0f4575",
+      "title": "P8-物体运动尾迹拖尾",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pygame-series/p9-rotating-text-effect.json",
+      "url": "https://cpython666.github.io/python/pygame-series/p9-rotating-text-effect",
+      "sha256": "cfb6d741f342e984a824784529cc34acc3b720ab2dac1ce36eac3cb1c1803623",
+      "title": "P9-代码-鼠标环形文字旋转动画特效",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p1-learning-reflection.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p1-learning-reflection",
+      "sha256": "10eae3d93e8708f0300883806588f9995ce09a830c346b4ac029e9fbea017259",
+      "title": "P1-PyQt6学习感悟",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p10-how-to-switch-pages.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p10-how-to-switch-pages",
+      "sha256": "633fd1986336bd9b93c85eb71e567140325c299fa745ca18d29c87dda83cc619",
+      "title": "P10-pyqt6中如何实现多页面切换？",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p11-qtabwidget-qstackedwidget.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p11-qtabwidget-qstackedwidget",
+      "sha256": "395a3d1afcf2f7f0a148ce9285606d3e34a79117d9e2a88629196fef1fc22185",
+      "title": "P11-QTabweight与Qstackweight的区别",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p12-qframe-qwidget.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p12-qframe-qwidget",
+      "sha256": "1dcab331df6fa52b374865a8a2f0f6456c2a3be9c8b2847fcc3848ae55e900d7",
+      "title": "P12-Qframe与Qweight的区别",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p13-login-before-main-window.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p13-login-before-main-window",
+      "sha256": "0d95049cb340b2785ba1c2f31f1dad10c80293e2efb342873550d3e3236a9044",
+      "title": "P13-先显示登陆页面，登陆成功后显示主页面",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p14-window-fade.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p14-window-fade",
+      "sha256": "5f81b24dc6d021942af71dc28bf526de5031eb8b8380c3dcf75d1695f2449cd6",
+      "title": "P14-窗口渐显与渐隐",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p15-window-scale-in.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p15-window-scale-in",
+      "sha256": "feffc40925a1fdacbb7cf7549b886388bf727104eb2cf36e009a60ba1325d3ef",
+      "title": "P15-窗口居中变大出现",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p16-minimize-to-tray.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p16-minimize-to-tray",
+      "sha256": "70cce507e326b83cf81ed2519c9fc58d701657fd48b8fad1c7d99908a517bcab",
+      "title": "P16-最小化窗口到托盘，右键菜单，窗口恢复",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p17-background-motion-blur.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p17-background-motion-blur",
+      "sha256": "e4f292ddcf3eebe8ff8466608906c3332810fb59f61199da3c60b6cc16fb68f5",
+      "title": "P17-背景运动及模糊滤镜",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p18-custom-window-drag.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p18-custom-window-drag",
+      "sha256": "a3d0c60b55a12a5d161c2ddd55d8216514a2962ade82731f37abbfcaa6825e23",
+      "title": "P18-窗口自定义拖拽功能",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p19-double-click-change-bg.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p19-double-click-change-bg",
+      "sha256": "b63df5c6ef1f18404713931f4fff01317a2e8fdfe2eca25da10dbe913c53663b",
+      "title": "P19-窗口双击更换背景",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p2-series-intro.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p2-series-intro",
+      "sha256": "a1d407d6ca172178cb651144043165dd1533b398715a0f46246359cf038dbf24",
+      "title": "P2-合集简介",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p20-app-icon-layout.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p20-app-icon-layout",
+      "sha256": "f685afc925d0314539bf67a777073d50f40a58b19df933e327caa2a506cae310",
+      "title": "P20-多软件图标排布",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p21-open-new-page.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p21-open-new-page",
+      "sha256": "4da2586ba170e3e430d7cecdb13f64194fdaf95d4a9857642e359af80ea1b3f6",
+      "title": "P21-点击按钮打开新页面",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p22-draw-rectangle.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p22-draw-rectangle",
+      "sha256": "118c455f034225c85a87dff57986040196634efb4470ca9edd9cf89ca57b005a",
+      "title": "P22-窗口中画一个框",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p23-qgraphicsscene-qgraphicsview.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p23-qgraphicsscene-qgraphicsview",
+      "sha256": "465364a9d2174208ace3f2ad9bec5b90e3f01be77a66e3c672da1fff31c4148e",
+      "title": "P23-介绍一下QGraphicsScene和QGraphicsView",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p24-image-viewer.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p24-image-viewer",
+      "sha256": "7b8f1727cb97b21be505c9b41868d2a02f8ec1298238dafb0ec336a163fe3c3e",
+      "title": "P24-图片浏览，可以放大缩小拖拽",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p25-image-viewer-box-select.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p25-image-viewer-box-select",
+      "sha256": "271e65f7bdea3d1a247b1d7e97586ac259dde631ded0e6d633b8fde480363468",
+      "title": "P25-图片浏览，ctrl+滚轮放大缩小，左键按压拖拽，右键按压画框，框显示坐标信息",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p26-export-scene-image.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p26-export-scene-image",
+      "sha256": "c5687036cbe2a60d765efa9b5a353c6d85f61e9ba99862f55329ad35f5354001",
+      "title": "P26-图片场景输出为图片",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p27-float-slider.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p27-float-slider",
+      "sha256": "c44e7eb5cdd1706e3f30bbb856c6f9ccdb45cb7f9faa6c59bcf508f14a041b16",
+      "title": "P27-浮点数滑块",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p28-qlistwidget-add-widget.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p28-qlistwidget-add-widget",
+      "sha256": "01f06f1bfee5f9efd415524befbc83fba693fbd5a9fa926e814f9a53a825fd25",
+      "title": "P28-QListWidget中添加Widget",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p29-change-theme.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p29-change-theme",
+      "sha256": "5f507f810ab21f2662947b617c718e2de9bc9df026b059b246325e1b206409bc",
+      "title": "P29-更换主题",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p3-hello-pyqt6.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p3-hello-pyqt6",
+      "sha256": "066a6b635638d2109edba520b33425ff7a35f801ab691bf6fcbb650534ec4f5e",
+      "title": "P3-第一个程序-Hello,PyQt6~",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p30-multi-select-list.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p30-multi-select-list",
+      "sha256": "b2d96c8d842a8dc55801e4bc1c2916615d7cc864e0a284666b9b9a0aaac0a717",
+      "title": "P30-多选列表",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p31-process-events-when-gui-blocked.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p31-process-events-when-gui-blocked",
+      "sha256": "1e2ad15fcd44e90694e0d01b4cc7e58ab7eda1d25352f96a0d98e8e8f4c9ced4",
+      "title": "P31-主线程中执行耗时任务时GUI 被阻塞，如何强制处理事件循环中的待处理事件，以更新 GUI",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p32-worker-thread.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p32-worker-thread",
+      "sha256": "8d9f262978ec4415be0a3709269949519b3b68293e2f9844f2a2c5fdce75e82a",
+      "title": "P32-单独线程处理任务",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p33-antialiasing.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p33-antialiasing",
+      "sha256": "a06286f66963db3472b1b7c6e366687ef7f872bc45f8fd0c134c3c65c4adb8c6",
+      "title": "P33-防锯齿选项",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p34-qsettings.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p34-qsettings",
+      "sha256": "3232df4a0b667a0b210bf50bcd4f971960c80a10ae18f8804eb0ab8b1c225a79",
+      "title": "P34-配置相关QSettings",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p35-frosted-dynamic-background.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p35-frosted-dynamic-background",
+      "sha256": "b3cc770c1174d89e410650a298ec5daaa78c325b7e0ee9d043da674272f23951",
+      "title": "P35-【自定义磨砂动态背景】前端及pyqt6实现",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p4-center-window.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p4-center-window",
+      "sha256": "aba90b81d5c95736991e2128e6512903065c749f8e82d922165c5c5052bbe349",
+      "title": "P4-居中显示窗口",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p5-qmainwindow-overview.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p5-qmainwindow-overview",
+      "sha256": "16754415dff8fade658d0222b02ff6c9cb1dce076de51f9f1ca4f51f1460f08c",
+      "title": "P5-PyQt6-初探QMainWindow-各模块的学习方法",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p6-multi-page-switch.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p6-multi-page-switch",
+      "sha256": "d1feede2530feef2ff2d7a9a2219bb407a89d5fd198ef120ace0597898585c30",
+      "title": "P6-多页面切换实例",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p7-menu-bar.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p7-menu-bar",
+      "sha256": "a424a2d325970c035fd2e4a59389ecd7a470c230fbde018905970c1c8b0b135f",
+      "title": "P7-顶部菜单栏实例",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p8-bars-demo.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p8-bars-demo",
+      "sha256": "719ad257f2a9f9bc9ead2100e8775b998d2c9c932b32cdb0f3878ddbc226b998",
+      "title": "P8-多种栏示例",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/pyqt6-series/p9-sidebar-page-switch.json",
+      "url": "https://cpython666.github.io/python/pyqt6-series/p9-sidebar-page-switch",
+      "sha256": "2888b26f76186a49a96e3aba6b4a12425ea1eef3b73e2fdb989a969ad5748788",
+      "title": "P9-左侧菜单控制右侧多页面切换",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/subtitle-extractor/p1-video-copy-extractor.json",
+      "url": "https://cpython666.github.io/python/subtitle-extractor/p1-video-copy-extractor",
+      "sha256": "c35dd1ce5da4e80b318e14d51bdbb0aecec6a8ebe6d69a7204630067793d48ed",
+      "title": "P1-用Python批量提取视频文案，超详细-字幕提取器",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/subtitle-extractor/p2-subtitle-extraction-scenarios.json",
+      "url": "https://cpython666.github.io/python/subtitle-extractor/p2-subtitle-extraction-scenarios",
+      "sha256": "70b0e5eb40b36e0b5185780359a321ef6c717369e002faf2aded0492a398cbc8",
+      "title": "P2-提取视频文案的几种场景及其优缺点-字幕提取器",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/subtitle-extractor/p4-ocr-subtitle-extractor-guide.json",
+      "url": "https://cpython666.github.io/python/subtitle-extractor/p4-ocr-subtitle-extractor-guide",
+      "sha256": "aaf93b58d0bad9f9a89dffd741a0b1d15e4397ea84b2ffb71bdae112cf26b54d",
+      "title": "P4-字幕提取器-OCR版-1.0，使用教程及后续改进方向，进步空间很大",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/django.json",
+      "url": "https://cpython666.github.io/python/web/django",
+      "sha256": "3383a78d29fb7210c93b00fb7528bee4a174d3192fb77a8b734588e7df8db28a",
+      "title": "Django笔记",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/fastapi-intro.json",
+      "url": "https://cpython666.github.io/python/web/fastapi-intro",
+      "sha256": "a35484670b22f7ec7890cb63616563ba6741ae476f55d01ef3cd8e8cf17a7d6e",
+      "title": "P1-FastAPI简介-合集规划介绍",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/fastapi-road.json",
+      "url": "https://cpython666.github.io/python/web/fastapi-road",
+      "sha256": "f7ee837b87297bffb497ca04b13b67607a96c6d7f441045f7bb5b345624943dd",
+      "title": "FastAPI 学习路线",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/fastapi.json",
+      "url": "https://cpython666.github.io/python/web/fastapi",
+      "sha256": "e4f6e2376097fdc6e7de2519cd4c5936051dd2a6a60db5b30d5cae1c040f6490",
+      "title": "FastAPI 简介",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/pydantic.json",
+      "url": "https://cpython666.github.io/python/web/pydantic",
+      "sha256": "c813449b23b9af649949a9693714672675445be16e06c33cefb07f57d7cb42c2",
+      "title": "Pydantic 详解",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/simple-ui.json",
+      "url": "https://cpython666.github.io/python/web/simple-ui",
+      "sha256": "0cf96739c13358bb8cd48bb18fefdcdc332546b8fb781b5388845ac0dc430ff2",
+      "title": "探索SimpleUI：让Django Admin焕发现代光彩",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/starlette.json",
+      "url": "https://cpython666.github.io/python/web/starlette",
+      "sha256": "cbbdddc8422384b86afbe40ae0085d7db7ffe4ca2e6a118a18afd29ebd1a5d05",
+      "title": "Starlette 简介",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/web/typing.json",
+      "url": "https://cpython666.github.io/python/web/typing",
+      "sha256": "3edc9db65d0e1b84fc713f04fa7a52af886695d11cc5020c4ebe42eb0de16472",
+      "title": "Python typing 模块详解",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/买课指南.json",
+      "url": "https://cpython666.github.io/python/%E4%B9%B0%E8%AF%BE%E6%8C%87%E5%8D%97",
+      "sha256": "903890ba701d72b0cda854153c93a8eed72be814aaf37257270d42aba8d953d8",
+      "title": "Python买课指南",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/学习路线.json",
+      "url": "https://cpython666.github.io/python/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF",
+      "sha256": "8b0072cb3626336fc6f7b81305274ec47c4a9407403fb7ad35d3db6d460e7d80",
+      "title": "Python学习路线",
+      "category": "Python"
+    },
+    {
+      "path": "blog/python/视频源码.json",
+      "url": "https://cpython666.github.io/python/%E8%A7%86%E9%A2%91%E6%BA%90%E7%A0%81",
+      "sha256": "359b46cb6ec0e4fbf269885c65ace0c3e978c410ce0ac36a8ade58df7e4573ff",
+      "title": "视频配套源码",
+      "category": "Python"
+    },
+    {
+      "path": "blog/spider/collection/aiohttp.json",
+      "url": "https://cpython666.github.io/spider/collection/aiohttp",
+      "sha256": "15ae57d9b45740f73b21a4e5be99d0504e485fe5c49948cba8dd7689c7e72176",
+      "title": "aiohttp",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/ast.json",
+      "url": "https://cpython666.github.io/spider/collection/ast",
+      "sha256": "61418725ab5f678b83ffb6f724ed9d8dfac2fe4d4ae1fed1d0b25d2282d53eec",
+      "title": "ast详解",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/automation-data-collection-speed-test.json",
+      "url": "https://cpython666.github.io/spider/collection/automation-data-collection-speed-test",
+      "sha256": "d5253c01aa8cb71a30d9af52d0e08c6ee1652e498154d478ef2687b691fae8d7",
+      "title": "数据采集使用自动化真的慢吗？实测速度震惊！",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/clash.json",
+      "url": "https://cpython666.github.io/spider/collection/clash",
+      "sha256": "879671f1a49c95475756ca28ee8011f06d2d4c0be7793bd72f55d5fe4f49d175",
+      "title": "Clash 使用教程：导入订阅、开启代理、全局模式与规则模式",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/crawlab.json",
+      "url": "https://cpython666.github.io/spider/collection/crawlab",
+      "sha256": "12a0efa81857baaa50c014b7ff97358c740a265aeee7102282582e45b49c1393",
+      "title": "Crawlab使用记录",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/crawler-project-ideas.json",
+      "url": "https://cpython666.github.io/spider/collection/crawler-project-ideas",
+      "sha256": "aa08fead5fa388b656ce48022838e160c7e6fc19223a2c7ab4084452441aff05",
+      "title": "爬虫可以做哪些事情？项目探究，项目推荐",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/crawler-roadmap-automation.json",
+      "url": "https://cpython666.github.io/spider/collection/crawler-roadmap-automation",
+      "sha256": "545b240d044de5d77bb505781565eb72f16d393c0c3076becb42a7cab31cb659",
+      "title": "爬虫学习路线-自动化，80%需求有手就行",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/drissionpage.json",
+      "url": "https://cpython666.github.io/spider/collection/drissionpage",
+      "sha256": "4b2afd266b168c92f9c15c2740ba67bc26e23ec2dff5fd230f7c37e458fe3880",
+      "title": "DrissionPage",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/job-sharing.json",
+      "url": "https://cpython666.github.io/spider/collection/job-sharing",
+      "sha256": "a7acd1e30385574203a76bd36b483c5673043f0056a9fad38625b9b0b5f14f8e",
+      "title": "就业分享-谁的青春不迷茫",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/python-beginner-roadmap.json",
+      "url": "https://cpython666.github.io/spider/collection/python-beginner-roadmap",
+      "sha256": "e3bc8faa818d55465d6708d70ce83918104bc96409cabedd973500f4ba9c1771",
+      "title": "python小白学习路线，必会知识点详细解析，资源推荐",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/scrapy.json",
+      "url": "https://cpython666.github.io/spider/collection/scrapy",
+      "sha256": "618bf5c11b5b290b016c093e1d9e7cb2f2402101b430954be039be37d993dddf",
+      "title": "Scrapy简介-快速开始-项目实战-注意事项-踩坑之路",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/traffic-crawler-warning.json",
+      "url": "https://cpython666.github.io/spider/collection/traffic-crawler-warning",
+      "sha256": "afeced3093e7fc8ccd840048fd688ab3953eb2c2e572ab671f1ec4e34def0e9e",
+      "title": "现在的引流爬虫太猖狂了，兄弟们注意点别进去了",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/collection/xpath-intro.json",
+      "url": "https://cpython666.github.io/spider/collection/xpath-intro",
+      "sha256": "59f2f0b2823d7c93b847a9bcb74454aedea2ea31a918d1f92a240c41a6b9c46b",
+      "title": "xpath简介及常用语法",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/learn-resource.json",
+      "url": "https://cpython666.github.io/spider/learn-resource",
+      "sha256": "bc362c7978259a867e67382cffc9a243d9c8172fb87779f044b7973566985622",
+      "title": "大佬博客",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/scrapy-series/p4-scrapy-framework-intro.json",
+      "url": "https://cpython666.github.io/spider/scrapy-series/p4-scrapy-framework-intro",
+      "sha256": "abe27e311ff4671c694fcee753c8c1b9807bb628b35799974f37cabb543a2d47",
+      "title": "P1-scrapy教程-scrapy框架简介",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/scrapy-series/p5-first-scrapy-project.json",
+      "url": "https://cpython666.github.io/spider/scrapy-series/p5-first-scrapy-project",
+      "sha256": "1b1c187be0f01d335a238cd9ce25dee54aeb3ccd351a0e728d0fd86f8fafca7d",
+      "title": "P2-第一个scrapy项目【scrapy教程】",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/source-code.json",
+      "url": "https://cpython666.github.io/spider/source-code",
+      "sha256": "1ea4416981e648b46d849832709fda0d0c58d25da073ff7576ccb94cf5ef465e",
+      "title": "一些视频的源码",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/买课指南.json",
+      "url": "https://cpython666.github.io/spider/%E4%B9%B0%E8%AF%BE%E6%8C%87%E5%8D%97",
+      "sha256": "7c836dbfdf5f591a5dbe7c787eefd4b66904e5aeceba355090827577cdf5c63e",
+      "title": "看到这样的爬虫课程可以直接划走，卖课不等于忽悠人",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/学习指南.json",
+      "url": "https://cpython666.github.io/spider/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97",
+      "sha256": "b32aadd1e7f75d3909f98b057019f0aa1db4c8d2dc6e27ac28021619a78f53d5",
+      "title": "【千字总结】爬虫学习指南-2024最新版",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/spider/练手网站.json",
+      "url": "https://cpython666.github.io/spider/%E7%BB%83%E6%89%8B%E7%BD%91%E7%AB%99",
+      "sha256": "bb20a5d71b1b81486604aabba936628c066e14e05ccaaff69a75a9bfef9375b8",
+      "title": "练手网站",
+      "category": "数据采集"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-16.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-16",
+      "sha256": "5afdd269a884711bd9ae2ba35ed8224df4d119448cbe0e8b4a02608966b9704b",
+      "title": "科技日报 001｜Roadster亮相，AI向本地走",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-17.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-17",
+      "sha256": "1637c7602e30a9830420cba7b82979c7b025db98aae3b76001509bc9c0f33bd4",
+      "title": "科技日报 002｜特斯拉FSD再进一国，AI走进实验室",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-19.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-19",
+      "sha256": "9a97f0dfc3f1e0e5b07f0249e6529449926b99dca79520d7d57a3ec7f2d8780e",
+      "title": "科技日报 004｜马斯克看重机器人，AI代码也要“答辩”",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-20.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-20",
+      "sha256": "ed5dfb63a13be201378f48eb11ef6b94b1d6b97cfe121eef017d810f92653e11",
+      "title": "科技日报 005｜MiniMax降价，安卓应用跑上Mac",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-21.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-21",
+      "sha256": "edd5e233623faddd8a26c66f6d57da042ec4f10669736ecfd6baa226fd48f5dc",
+      "title": "科技日报 006｜DeepSeek开源推理框架，Grok接工单",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-23.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-23",
+      "sha256": "7f929597817885deaf7e3aa36601f768b020b21583c1bff3bb25ffb6760bccc4",
+      "title": "科技日报 008｜AI开始给代码写证明，PHP漏洞披露前已遭试探",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/tech-daily/2026-10-25.json",
+      "url": "https://cpython666.github.io/tech-daily/2026-10-25",
+      "sha256": "8efc4d9679fd2d444a0857148dce05c81ff91e5e2fcd367a1e9c5a0ae0b0e4a9",
+      "title": "科技日报 010｜Java更新证书信任库，LiteLLM恢复发版",
+      "category": "科技日报"
+    },
+    {
+      "path": "blog/web/collection/vitepress博客搭建.json",
+      "url": "https://cpython666.github.io/web/collection/vitepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA",
+      "sha256": "d8f53672066c3a4db3d049e84f1fc35ad2400eec9e46dcee998d65320d82f078",
+      "title": "博客搭建记录",
+      "category": "前端"
+    },
+    {
+      "path": "blog/web/collection/vitepress环境差异记录.json",
+      "url": "https://cpython666.github.io/web/collection/vitepress%E7%8E%AF%E5%A2%83%E5%B7%AE%E5%BC%82%E8%AE%B0%E5%BD%95",
+      "sha256": "0c913769eafb308ac3275b26660fc4f76606e697a15ac970e14c5fe358346ed7",
+      "title": "VitePress 环境差异排查记录",
+      "category": "前端"
+    },
+    {
+      "path": "blog/web/css.json",
+      "url": "https://cpython666.github.io/web/css",
+      "sha256": "d8f073d0d831a72a9a9d78a25fc39e069c02bd27daae8a37363f95b533646ad7",
+      "title": "CSS",
+      "category": "前端"
+    },
+    {
+      "path": "blog/web/html.json",
+      "url": "https://cpython666.github.io/web/html",
+      "sha256": "be972b9a9f9d9fd38dffa4c366ed0f003e0ff20b54405f6d1de5309d726b448a",
+      "title": "HTML",
+      "category": "前端"
+    },
+    {
+      "path": "blog/web/jquery.json",
+      "url": "https://cpython666.github.io/web/jquery",
+      "sha256": "585d04dca4e4754632ee8d02d7db0c8547466c5439455a3e2f5f9f82c8a95889",
+      "title": "JQuery",
+      "category": "前端"
+    },
+    {
+      "path": "blog/web/js.json",
+      "url": "https://cpython666.github.io/web/js",
+      "sha256": "609bad4513fe9c4f4c409a53ad96dba512ca64e0dbab8ba365fd805750e74705",
+      "title": "JS",
+      "category": "前端"
+    },
+    {
+      "path": "blog/web3/basics/bitcoin-jokes.json",
+      "url": "https://cpython666.github.io/web3/basics/bitcoin-jokes",
+      "sha256": "db0ea0eaf71b761e21ffbc157f3a6ae7fb123343bbe2be9e296ea0e3e9bd399c",
+      "title": "加密笑话",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/crypto-scams.json",
+      "url": "https://cpython666.github.io/web3/basics/crypto-scams",
+      "sha256": "ae3b35610b7be601bd6b387065be6d38e2071fb850f455b4aae71c7e8a891384",
+      "title": "币圈骗局合集鉴赏",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/high-quality-materials.json",
+      "url": "https://cpython666.github.io/web3/basics/high-quality-materials",
+      "sha256": "44f1fc6f27c948d93b428e0735f145e646edaf516fe028c87da342cf20a6b1ae",
+      "title": "优质资源收录",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/insights.json",
+      "url": "https://cpython666.github.io/web3/basics/insights",
+      "sha256": "10f044faaeac1d4d619d5ea4b5cc9dbd0e01165760c4296fa2aafa722c5797e4",
+      "title": "感悟灵感",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/lesson.json",
+      "url": "https://cpython666.github.io/web3/basics/lesson",
+      "sha256": "8321324432cba72244b857ad5153c2e5688a3220b780192319c5bdcc0520d908",
+      "title": "合约教训",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/rules.json",
+      "url": "https://cpython666.github.io/web3/basics/rules",
+      "sha256": "1386fabbc6d96e8347b7272effa02b61e34d27413708f15cbdf9a858ced0bf73",
+      "title": "规则",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/statement.json",
+      "url": "https://cpython666.github.io/web3/basics/statement",
+      "sha256": "0f2e5f00eb5cb8a1b2f58778136c2d608b89f4d7c79a7a400faacd43538c35ec",
+      "title": "声明",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/stay-tuned.json",
+      "url": "https://cpython666.github.io/web3/basics/stay-tuned",
+      "sha256": "448bbc03f43c1f2d037226ed98b27f9bb2fdf1bcc173a42b62c649346f24c779",
+      "title": "敬请期待～",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/web3-qas.json",
+      "url": "https://cpython666.github.io/web3/basics/web3-qas",
+      "sha256": "3724de6ba23a0ff4c55edbd89868d91392ae0e52d3d1fef4a42b3988fb31586e",
+      "title": "Web3 常见问题解答",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/web3forever.json",
+      "url": "https://cpython666.github.io/web3/basics/web3forever",
+      "sha256": "94ed63c2dc341a1ffc52605b81642ae1ac8d50be2c59d91d7bd476dbd3403a03",
+      "title": "币圈入圈指南",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/basics/why-can’t-we-touch-the-contract.json",
+      "url": "https://cpython666.github.io/web3/basics/why-can%E2%80%99t-we-touch-the-contract",
+      "sha256": "a0599da4d4498d94bd9a722dcaa548a6582901b12691f61983c3fb2316564969",
+      "title": "为什么不能碰合约",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/a-big-brother-with-tens-of-millions-of-assets.json",
+      "url": "https://cpython666.github.io/web3/block-walk/a-big-brother-with-tens-of-millions-of-assets",
+      "sha256": "61c63a2fab6fc4a669cb128b9f8f869c2a3c49639a94451e91426d6b943b7c8b",
+      "title": "P9-资产千万的大哥分享给我的全部心得",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/beating-the-dog-on-the-chain-and-unlimited-money-printing.json",
+      "url": "https://cpython666.github.io/web3/block-walk/beating-the-dog-on-the-chain-and-unlimited-money-printing",
+      "sha256": "e66ac2308d638c9052ffd36722756acf7bb0649add2cf1f9e08d94bf6ea00a5d",
+      "title": "P7-链上打狗，无限印钞？",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/don’t-repeat-my-mistakes.json",
+      "url": "https://cpython666.github.io/web3/block-walk/don%E2%80%99t-repeat-my-mistakes",
+      "sha256": "4845a776d8bad04933a62d8f774424ab287770857c6b54725bf38ce637a3d591",
+      "title": "P1-一个散户的醒悟：我走过的弯路，希望你不再重蹈",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/forex-gold-trading-basics.json",
+      "url": "https://cpython666.github.io/web3/block-walk/forex-gold-trading-basics",
+      "sha256": "1bc15501d98abe696d3b1ab410c4a4438ffd8851d038b3bd090cdc9b149e73da",
+      "title": "P10-做外汇黄金的常识，算了下我交易过几个小目标的黄金",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/hedging-strategies.json",
+      "url": "https://cpython666.github.io/web3/block-walk/hedging-strategies",
+      "sha256": "6dd21549fea166c92278b5038be31b2ec52590af239b0edf57325dac7b752b86",
+      "title": "P8-分享一组对冲策略，做多龙头做空山寨的可行性分析🧐",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/how-to-enter-the-market-as-a-newbie.json",
+      "url": "https://cpython666.github.io/web3/block-walk/how-to-enter-the-market-as-a-newbie",
+      "sha256": "530f914938b6e1736b3ee70e8b404db9f398f2caea67b67256a771528063b098",
+      "title": "小白入场怎么做？",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/information-gap-vs-cognitive-gap.json",
+      "url": "https://cpython666.github.io/web3/block-walk/information-gap-vs-cognitive-gap",
+      "sha256": "e413dbc534aa6dba76846d7dd99dfee377e4e1d245146ce147e752a78f0f5916",
+      "title": "P3-信息差只是借口，认知差才是改变命运的分水岭",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/newcomers-keep-in-mind.json",
+      "url": "https://cpython666.github.io/web3/block-walk/newcomers-keep-in-mind",
+      "sha256": "fcb7b13c5485def9d4a84507d66da02204a518f892008e309cd29f29fced86d4",
+      "title": "P10-避坑手册：新人进币圈必须牢记的黄金法则",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/risks-of-investing-in-bitcoin-and-ethereum.json",
+      "url": "https://cpython666.github.io/web3/block-walk/risks-of-investing-in-bitcoin-and-ethereum",
+      "sha256": "e9e3df43c8bc48255629aa2a94903aefd9062cd996535bd734a98e7df4cb809b",
+      "title": "P6-投资比特币和以太坊的风险",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/why-does-bitcoin-continue-to-rise.json",
+      "url": "https://cpython666.github.io/web3/block-walk/why-does-bitcoin-continue-to-rise",
+      "sha256": "7e52299655e61220483806fea2258275d34efcb7836ef6d0d7b4cf1300bd4d68",
+      "title": "P4-比特币为什么会不断上涨？",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/why-i-am-determined-to-invest-in-bitcoin-and-ethereum.json",
+      "url": "https://cpython666.github.io/web3/block-walk/why-i-am-determined-to-invest-in-bitcoin-and-ethereum",
+      "sha256": "32371d37a3f8d5dff0b5148e6ec684a6bf3f30d9686e98688f9c7c34b28c3272",
+      "title": "为什么我坚定投资比特币和以太坊？",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/block-walk/winning-investment-method.json",
+      "url": "https://cpython666.github.io/web3/block-walk/winning-investment-method",
+      "sha256": "f96959ef19b923463fc216d64e2e2dce29615875ac4986b60591e007d4f6528c",
+      "title": "P2-从爆仓中悟出的“必胜投资法”",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/blockchain-weekly-report/issue-1-09-01.json",
+      "url": "https://cpython666.github.io/web3/blockchain-weekly-report/issue-1-09-01",
+      "sha256": "23dab526badfd873efabbe8394811b94a4ba8e4fe65435b9f22751a00e8d0b3a",
+      "title": "「区块链周报第一期」沉睡七年比特币巨鲸高调换仓以太坊[09/01-09/07]",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/blockchain-weekly-report/issue-2-09-08.json",
+      "url": "https://cpython666.github.io/web3/blockchain-weekly-report/issue-2-09-08",
+      "sha256": "4b847730a5e32918ec9f8c6fc263edc3cec1ca8eabe50f0d23614e1795129541",
+      "title": "「区块链周报第二期」纳斯达克下场RWA，CEX自建链百花齐放[09/08-09/14]",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/blockchain-weekly-report/issue-3-09-15.json",
+      "url": "https://cpython666.github.io/web3/blockchain-weekly-report/issue-3-09-15",
+      "sha256": "c3f227aa5354e2be232c2ba121933ea2605d20a6195fbfcab73e56ce901d53bf",
+      "title": "「区块链周报第三期」DEX2.0大战一触即发，谁能撼动Hyperliquid王座？[09/15-09/21]",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/blockchain-weekly-report/issue-4-2026-05-31.json",
+      "url": "https://cpython666.github.io/web3/blockchain-weekly-report/issue-4-2026-05-31",
+      "sha256": "b5135abfe0afbb16372f4d2a36295b388789e901a71431f91a96fd7ea2680490",
+      "title": "「区块链周报第四期」稳定币买一切时代序章，链上美股天时地利[2026/05/31]",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/cctx.json",
+      "url": "https://cpython666.github.io/web3/cctx",
+      "sha256": "3a9203ebfb48958bfc61f09c97d5e01d652fef64429c740f863042703c581c56",
+      "title": "CCXT 加密货币交易库使用指南",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/high-quality-articles/black-swan-10-11.json",
+      "url": "https://cpython666.github.io/web3/high-quality-articles/black-swan-10-11",
+      "sha256": "6098a6a6feaf83a98cb40a1bfc54a49e4108728b57b699bad324c207de1dc86b",
+      "title": "黑天鹅给我撞上了-记录币圈10-11",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/high-quality-articles/do-we-really-need-bitcoin.json",
+      "url": "https://cpython666.github.io/web3/high-quality-articles/do-we-really-need-bitcoin",
+      "sha256": "76f351f2bf465008113825cf47f12acffb6742305b0e1c550e053d2f45da4c21",
+      "title": "我们真的需要比特币吗？",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/high-quality-articles/how-many-black-swan-events-have-you-experienced.json",
+      "url": "https://cpython666.github.io/web3/high-quality-articles/how-many-black-swan-events-have-you-experienced",
+      "sha256": "e25b47f62e06c9cb245daad510bbf6238a3767350649161c4cd40f0e4b53c838",
+      "title": "币圈几件黑天鹅事件，你经历了几件?",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/high-quality-articles/my-friend-chaozai.json",
+      "url": "https://cpython666.github.io/web3/high-quality-articles/my-friend-chaozai",
+      "sha256": "22d97a2ae1231364e7cfe968d06eaffd47f10c450e0d672ba62bd6e0aa369f2a",
+      "title": "我的朋友-超仔",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/smart-money-tracking/ai-not-omnipotent-hyperliquid-lessons.json",
+      "url": "https://cpython666.github.io/web3/smart-money-tracking/ai-not-omnipotent-hyperliquid-lessons",
+      "sha256": "10e984d72a315df6439d9222b660b321d5ec044090c478cf1ff372c3b6ae5f04",
+      "title": "AI不是万能的：做 Hyperliquid 聪明钱追踪，我走过的弯路",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/smart-money-tracking/data-analysis-charm.json",
+      "url": "https://cpython666.github.io/web3/smart-money-tracking/data-analysis-charm",
+      "sha256": "c7f2156b13285dc81f2f5c44890c763b2768a2c3763b1994e3e1a9cbb0c21350",
+      "title": "这就是数据分析的魅力！聪明钱追踪仍需要时间检验。",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/smart-money-tracking/hype-ada-smart-money-short.json",
+      "url": "https://cpython666.github.io/web3/smart-money-tracking/hype-ada-smart-money-short",
+      "sha256": "57eb1bfc045d07cc11d2ec8169055caf53d1c101fa5e68bdf029bc76b79cf4cd",
+      "title": "HYPE要回调了？聪明钱更多在做空。ADA还有未来吗？我仿佛看到了曙光「聪明钱追踪」",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/smart-money-tracking/institutions-whales-short.json",
+      "url": "https://cpython666.github.io/web3/smart-money-tracking/institutions-whales-short",
+      "sha256": "f9b6d5b6d90fb3be4262ce93bc66707a06a125cf047e159e37633deb81104ba9",
+      "title": "机构巨鲸都在做空，美股危险了",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/web3/tools.json",
+      "url": "https://cpython666.github.io/web3/tools",
+      "sha256": "707bf96ccbb87bfa3b6d5b5921da7293bfec20f0978cf23717810e7ca71159f7",
+      "title": "常用工具合集",
+      "category": "Web3"
+    },
+    {
+      "path": "blog/好文推荐/twqh.json",
+      "url": "https://cpython666.github.io/%E5%A5%BD%E6%96%87%E6%8E%A8%E8%8D%90/twqh",
+      "sha256": "e529944d805637dcc8582243c2febe300cfe8917aa1d873a1f2aec8cb823c088",
+      "title": "土味情话",
+      "category": "好文推荐"
+    },
+    {
+      "path": "blog/好文推荐/程序员脱单指南.json",
+      "url": "https://cpython666.github.io/%E5%A5%BD%E6%96%87%E6%8E%A8%E8%8D%90/%E7%A8%8B%E5%BA%8F%E5%91%98%E8%84%B1%E5%8D%95%E6%8C%87%E5%8D%97",
+      "sha256": "11cf893db31bd1cdd033f184d165d37a40fd7c4cdc2811e9656316256cdae023",
+      "title": "程序员脱单指南",
+      "category": "好文推荐"
+    },
+    {
+      "path": "blog/算法/bfs.json",
+      "url": "https://cpython666.github.io/%E7%AE%97%E6%B3%95/bfs",
+      "sha256": "4b003cfde5b44ae2c724bcd6ecb373cfe28e031a9d789a4352237329f0d60266",
+      "title": "探索广度优先搜索（BFS）：从概念到实践",
+      "category": "算法"
+    },
+    {
+      "path": "blog/算法/collection/一分钟学算法-递归-斐波那契数列递归解法及优化.json",
+      "url": "https://cpython666.github.io/%E7%AE%97%E6%B3%95/collection/%E4%B8%80%E5%88%86%E9%92%9F%E5%AD%A6%E7%AE%97%E6%B3%95-%E9%80%92%E5%BD%92-%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E9%80%92%E5%BD%92%E8%A7%A3%E6%B3%95%E5%8F%8A%E4%BC%98%E5%8C%96",
+      "sha256": "2496efec62051eeaa6589883f1322f6c1921b625ed9ad6d8ea8bb761d0f232eb",
+      "title": "一分钟学算法-递归-斐波那契数列递归解法及优化",
+      "category": "算法"
+    },
+    {
+      "path": "blog/算法/collection/蓝桥杯万字攻略：算法模板大放送！-c++.json",
+      "url": "https://cpython666.github.io/%E7%AE%97%E6%B3%95/collection/%E8%93%9D%E6%A1%A5%E6%9D%AF%E4%B8%87%E5%AD%97%E6%94%BB%E7%95%A5%EF%BC%9A%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF%E5%A4%A7%E6%94%BE%E9%80%81%EF%BC%81-c%2B%2B",
+      "sha256": "5297082419c11710374f909d65800eff3e95b66fe1b5b52ca0b187d6580eb673",
+      "title": "蓝桥杯万字攻略：算法模板大放送！-c++",
+      "category": "算法"
+    },
+    {
+      "path": "blog/算法/dfs.json",
+      "url": "https://cpython666.github.io/%E7%AE%97%E6%B3%95/dfs",
+      "sha256": "32ef0476a90ca4be5dd7d105b22af5023c6b8881459ce9e4a16e763dab9b8ff6",
+      "title": "深度优先搜索（DFS）：探索图的无尽可能性",
+      "category": "算法"
+    },
+    {
+      "path": "blog/算法/递归.json",
+      "url": "https://cpython666.github.io/%E7%AE%97%E6%B3%95/%E9%80%92%E5%BD%92",
+      "sha256": "00994168dc06c69032d584225ef33e90c82dd67b33123414d74eab8172c5bddf",
+      "title": "探索递归：从简单到复杂的迷人之旅",
+      "category": "算法"
+    },
+    {
+      "path": "x/wufantouzi/posts/2073074750444769476.json",
+      "url": "https://x.com/wufantouzi/status/2073074750444769476",
+      "sha256": "e1de9328054abe4c950dff93f8ce17b3a55a71a129eb390ee899ef181686d76a",
+      "title": "ousd这种“夸大虚假宣传”行为",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072948156266914085.json",
+      "url": "https://x.com/wufantouzi/status/2072948156266914085",
+      "sha256": "4af39a035f461a28e79c5d41e714d64ea17a1f2754056a3cbf4637a1489a734b",
+      "title": "稳定币赛道里",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072947864792170927.json",
+      "url": "https://x.com/wufantouzi/status/2072947864792170927",
+      "sha256": "7f43e40dadf252ee8670c9516ee96fec7605e91b1c45fed8a9b862486d71f893",
+      "title": "根据期望值公式",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072723227273752688.json",
+      "url": "https://x.com/wufantouzi/status/2072723227273752688",
+      "sha256": "9880a30e55978d6485e386f7ae5bfb5ae6a2ced162db43bbc753e136217adca4",
+      "title": "没有无缘无故的爱",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072658417018093687.json",
+      "url": "https://x.com/wufantouzi/status/2072658417018093687",
+      "sha256": "63ac5c54d39a06ef5aa083345a6c8bdae559a1edfe7ff5ee2a6414af48adf91b",
+      "title": "今天开车路上",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072274280558284888.json",
+      "url": "https://x.com/wufantouzi/status/2072274280558284888",
+      "sha256": "eb29a05bff52e0b903e4de5f248e4abc36c225d9f3c124f30634bb994b1fea1e",
+      "title": "我总是会这样思考",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072247225707639052.json",
+      "url": "https://x.com/wufantouzi/status/2072247225707639052",
+      "sha256": "3646062352dd8c950018413793c7f3897cf3c5b1f11d1884b9a84c9d1f9d2348",
+      "title": "你们crcl 的持仓成本是多少",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072189962976403633.json",
+      "url": "https://x.com/wufantouzi/status/2072189962976403633",
+      "sha256": "99f11b0c5b4e875c181ccc362f22fc6e7579cbd1740afc44952ac4b63043ba56",
+      "title": "今天这个市场",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072187214348353915.json",
+      "url": "https://x.com/wufantouzi/status/2072187214348353915",
+      "sha256": "ddcc1304b237ec82e846d8df29000344b097dc3b450a9337d29c50530dd3ebf5",
+      "title": "充电越来越快",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072064618961191190.json",
+      "url": "https://x.com/wufantouzi/status/2072064618961191190",
+      "sha256": "b9234b29162787dc4a3944b6194fbd1e737783492e89e06b7b7c6204aa8de590",
+      "title": "类似 OUSD 的 USDG",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072014548366680445.json",
+      "url": "https://x.com/wufantouzi/status/2072014548366680445",
+      "sha256": "70f19cda2c6f98d0a695c52233b64762af599732ac27d14fbf61daf15fec32ca",
+      "title": "btc： 它真的和我太像了",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2072000712993624197.json",
+      "url": "https://x.com/wufantouzi/status/2072000712993624197",
+      "sha256": "33165434590a5666c4997625809d8957dd43112a158d3c8387a2cf9f27aa6014",
+      "title": "市场的判断是稳定币赛道没问题",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2071351851388387639.json",
+      "url": "https://x.com/wufantouzi/status/2071351851388387639",
+      "sha256": "d56744a1c2825c6cc5c1dc86e097c50eaa092b53a8f91ae718863de9618d0567",
+      "title": "我女儿说",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2071265743086252205.json",
+      "url": "https://x.com/wufantouzi/status/2071265743086252205",
+      "sha256": "022d97607a08f87c0c04fda42f7ddfe149a5f229da5a13da5dc2244b937288fe",
+      "title": "2021年1月",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2071003640920465465.json",
+      "url": "https://x.com/wufantouzi/status/2071003640920465465",
+      "sha256": "e9d6f0e36f1f363deba12d4c24e2b714f8c3d90ec96bb20d85f72814ac5c29b2",
+      "title": "如果穿越回十年前",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070504282562941431.json",
+      "url": "https://x.com/wufantouzi/status/2070504282562941431",
+      "sha256": "459df361823de8a702045a47dcb3c0105f8da71d701166851c0b4e914d5e5c2f",
+      "title": "今天的策略进行对比",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070504197053677935.json",
+      "url": "https://x.com/wufantouzi/status/2070504197053677935",
+      "sha256": "6b61a93fd76ecc9a7e50e566cd8922cfcbbc20fce5bd33c75d6ee166fccd960f",
+      "title": "低风险理财策略年化20%+优化版",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070203148539416916.json",
+      "url": "https://x.com/wufantouzi/status/2070203148539416916",
+      "sha256": "42454bf376c1d93201b2e3ff1040ae6a908679c03ea2791878a81eaa80e339b4",
+      "title": "今日crcl最低跌到了67u/股",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070195839805391243.json",
+      "url": "https://x.com/wufantouzi/status/2070195839805391243",
+      "sha256": "9e4b0ae7ccaac7e27d09f7b2745b665b4edd2fad9276bf699994a34a781b6491",
+      "title": "我没有看懂defi",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070195247867441596.json",
+      "url": "https://x.com/wufantouzi/status/2070195247867441596",
+      "sha256": "d7bc29bc0767fd9011ab1d0cd3ea85db85adf31df9a445f0259bd2fb4ea3ad32",
+      "title": "btc大涨上美股etf的时候",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070194745377210376.json",
+      "url": "https://x.com/wufantouzi/status/2070194745377210376",
+      "sha256": "5fb8089a850a52bd8d255b7e24fdac234695765e8d72f2f1caa08f771631e616",
+      "title": "Ai赛道的公司",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2070557812212568524.json",
+      "url": "https://x.com/wufantouzi/status/2070557812212568524",
+      "sha256": "b8514b0cc4e9abfdb7fcd050f24f1ee081df8b56e104dad1b4ec9b6f4679a64f",
+      "title": "坚持自己的判断",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069689974778167640.json",
+      "url": "https://x.com/wufantouzi/status/2069689974778167640",
+      "sha256": "0ffb70fa9442cea7f7d8df1d55e125d6f92c598a3af0f3dbd98152c39d0382d1",
+      "title": "半个月前",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069689711162007609.json",
+      "url": "https://x.com/wufantouzi/status/2069689711162007609",
+      "sha256": "3b102a235130c396e503539036f058eca44679b7a272a3d41ee49225b5807813",
+      "title": "梁文峰的起步资金只有10万",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069681753149591584.json",
+      "url": "https://x.com/wufantouzi/status/2069681753149591584",
+      "sha256": "beb0ae488fe6837ab8d5f2828f9775372525a694cb81e6017dd1ecfa5e4afaac",
+      "title": "短线资金和短线资产比",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069541049593213298.json",
+      "url": "https://x.com/wufantouzi/status/2069541049593213298",
+      "sha256": "e3dca73826c2e8bf30ecc1dc293a4513e904cf9c00947107596b7c0c1ab4d86f",
+      "title": "市场上现在质疑我持仓crcl",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069537584439509239.json",
+      "url": "https://x.com/wufantouzi/status/2069537584439509239",
+      "sha256": "d8710c4e6cd7a59312f5c8f4f7ade8312c2d2dac908c1ef9a3946a1f3ec34d3e",
+      "title": "标普道琼斯指数：",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069495727374422441.json",
+      "url": "https://x.com/wufantouzi/status/2069495727374422441",
+      "sha256": "58456702d2522ea620732b4f8facb7423ef5a8e9aab2a3c82ad2bbce115b1d84",
+      "title": "继续买入了crcl",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069495557739999354.json",
+      "url": "https://x.com/wufantouzi/status/2069495557739999354",
+      "sha256": "df0c43f8ecd4296316564ddc1c72cc00afdb20a966693f9be5aca46eac481c21",
+      "title": "我也有那种一时冲动买进去的标的",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069495467965133136.json",
+      "url": "https://x.com/wufantouzi/status/2069495467965133136",
+      "sha256": "2bda2310e10e9a39ae4a4c1ed237fe04b9092034db565fb724627d71875d6e1b",
+      "title": "只要你有观点",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069495255146041621.json",
+      "url": "https://x.com/wufantouzi/status/2069495255146041621",
+      "sha256": "6b232583d1bc9ff7b68f56893599f2f761b96ff3acc996067e94fa59a2b24a85",
+      "title": "想知道怎么稳定亏钱",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069543369219449169.json",
+      "url": "https://x.com/wufantouzi/status/2069543369219449169",
+      "sha256": "2ec324686fe4fa5c2ce98a37eee4330f332c8a2938d07dd9756fc4e05b379519",
+      "title": "什么原因",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069283758759399492.json",
+      "url": "https://x.com/wufantouzi/status/2069283758759399492",
+      "sha256": "a929262b1dde9e7f10e45172d84982a7970cd5cb76ff65d1edf96266aae946a0",
+      "title": "虽然每个人都想在市场里赚钱",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069277121399161293.json",
+      "url": "https://x.com/wufantouzi/status/2069277121399161293",
+      "sha256": "67fad941b5129e0f34e66e40386521a5f996194678564f809d595169f015c5e8",
+      "title": "不需要欺骗自己",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2069079990734381524.json",
+      "url": "https://x.com/wufantouzi/status/2069079990734381524",
+      "sha256": "a9a0037c92d5a25397c9ef2e73a50c5fa68f64058cc408f6924457ccb0724ada",
+      "title": "两个科学家出走",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068684253102055448.json",
+      "url": "https://x.com/wufantouzi/status/2068684253102055448",
+      "sha256": "a54e71e5d99067fae5cc224e44956b0c325c7c48362dbce4158b9d37189fc754",
+      "title": "关于qqq再补充几点",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068680664149328176.json",
+      "url": "https://x.com/wufantouzi/status/2068680664149328176",
+      "sha256": "d8188e6628882f8421a9b1e9b0adfba22a5636222e752991b0ad193886f73a72",
+      "title": "qqq短期应该还没到顶",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068573373966274574.json",
+      "url": "https://x.com/wufantouzi/status/2068573373966274574",
+      "sha256": "1c4c3153035c1dec52e56d1b920058ff15c9aa5c3f4b6bf55b4d3c1626f3f225",
+      "title": "以巴菲特为榜样",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068573208849035525.json",
+      "url": "https://x.com/wufantouzi/status/2068573208849035525",
+      "sha256": "fa3cc0c23fdeb75a8b9417beb28f4c40a80cb5e91a4b5a06aa6083759ca66202",
+      "title": "巴菲特在过去几十年里",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068573104574538127.json",
+      "url": "https://x.com/wufantouzi/status/2068573104574538127",
+      "sha256": "ed70e2aae0119307443a64a4c0930a6d977726b763656db6081068ac9e8c59db",
+      "title": "茅台1400-1500开始定投",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068573023913808376.json",
+      "url": "https://x.com/wufantouzi/status/2068573023913808376",
+      "sha256": "3eb67f3925a9367fb79f87d50af32a5b28031dfae0ea5866928700bf08263972",
+      "title": "巴菲特错过了比特币",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068345915660767674.json",
+      "url": "https://x.com/wufantouzi/status/2068345915660767674",
+      "sha256": "67ab5fffec18e2e9f5a158a3be76656d0df3269e54a23ea42df7f78dd3a2d436",
+      "title": "很多人对musk的身价没有概念",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068663492257685631.json",
+      "url": "https://x.com/wufantouzi/status/2068663492257685631",
+      "sha256": "2763adc69539cdf8edb3227d33c6859acfc15774b7d7c72203549508a783968b",
+      "title": "我不是说QQQ不好",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068241747558179260.json",
+      "url": "https://x.com/wufantouzi/status/2068241747558179260",
+      "sha256": "5852a237e7e502b4e03dd0ccba2563c53fe6ebe0a34351ed20ab083d3ea698e7",
+      "title": "crcl的中文名",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068241628205121895.json",
+      "url": "https://x.com/wufantouzi/status/2068241628205121895",
+      "sha256": "070dfb9de95b8c11fb3a7cc31c3243fec63451e4de93c75993f415647235d546",
+      "title": "从2025年开始",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068333708541665725.json",
+      "url": "https://x.com/wufantouzi/status/2068333708541665725",
+      "sha256": "9c65498c61c0eb136a1fee4c1ff6ebafb0d93b5c7365cc311268e622e23f347e",
+      "title": "投资QQQ过去20年",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2067954137069764722.json",
+      "url": "https://x.com/wufantouzi/status/2067954137069764722",
+      "sha256": "4b784dc5e6c7846f384542a680b326765cfadc4b63f91eeb803d7e9e2da8a930",
+      "title": "QQQ是万能盈利的？",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2068371481952768358.json",
+      "url": "https://x.com/wufantouzi/status/2068371481952768358",
+      "sha256": "ae0f949af897e9ba05a58fd14ab61caf6793e78a45c1dbbcb3b3b4e8fec256ea",
+      "title": "大招其实是以电力为主的基建",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2067675500747612385.json",
+      "url": "https://x.com/wufantouzi/status/2067675500747612385",
+      "sha256": "dee9892fb7f8f4ba0ae1ecfa7c5485f30c424d58bfaa5d9a9fcfb27fb48cc5d5",
+      "title": "Ai的概念太强了",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2066924346677817547.json",
+      "url": "https://x.com/wufantouzi/status/2066924346677817547",
+      "sha256": "5ce01a5892b865a3dd2a25eb51a5b96d04d25c0d0cf518bb1d6c494bd5f153f2",
+      "title": "终于解套了",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2066426511079444884.json",
+      "url": "https://x.com/wufantouzi/status/2066426511079444884",
+      "sha256": "c31c7c3589267247c9e1b0e9688c3dcc2b2aeaf3f4cbbaa43bae5b0174ce5afc",
+      "title": "一、纳斯达克100期货 NQ2609",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2066383847911031087.json",
+      "url": "https://x.com/wufantouzi/status/2066383847911031087",
+      "sha256": "eff49430e8ed281a1d757dd576be46e05dde35f22013883483fc45a52adff1cd",
+      "title": "以后的手机上都没有app",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2066250759864197621.json",
+      "url": "https://x.com/wufantouzi/status/2066250759864197621",
+      "sha256": "b0e64384adc9ba5faf56dc86b7329f9993bac1c138a498b660c05f8123b375f0",
+      "title": "musk改变了一个词",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2064416290861617463.json",
+      "url": "https://x.com/wufantouzi/status/2064416290861617463",
+      "sha256": "42756c7e9897ab5806c831ba809e0bd5af49d772cae78b348a22fa3bb52a709a",
+      "title": "高考怎么会没用呢",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2064400257711055207.json",
+      "url": "https://x.com/wufantouzi/status/2064400257711055207",
+      "sha256": "fca56f0766f4b27c50b6f4afee58bfd2a31bf036b6c9fb78de8c617226899483",
+      "title": "60天过去了",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2064368476395839712.json",
+      "url": "https://x.com/wufantouzi/status/2064368476395839712",
+      "sha256": "1e8723ede2a7793cd5e7a2c11df44c80236313af8f580b4fb6ba92742923c0bd",
+      "title": "一开始是川普开单然后发消息",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2063716589367619758.json",
+      "url": "https://x.com/wufantouzi/status/2063716589367619758",
+      "sha256": "aafdf4d70f1065643dc1e56db45afe9f29d0f5ec36474b5de79cad1e42deb18e",
+      "title": "翻身的故事很动人",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2063247659456950767.json",
+      "url": "https://x.com/wufantouzi/status/2063247659456950767",
+      "sha256": "ee92877190d1447d506791d97ccd3a12591e9cff557f7f3f5aea76f3dce70edd",
+      "title": "关于币圈、美股、A港股等最新的思考",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2063247079477068261.json",
+      "url": "https://x.com/wufantouzi/status/2063247079477068261",
+      "sha256": "827810555b9966d30cc9e30a9cac72699b695717edf27b698c2bbe475666fdce",
+      "title": "互联网时代",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2063246938602881322.json",
+      "url": "https://x.com/wufantouzi/status/2063246938602881322",
+      "sha256": "f9e015e3b815f72cd99d3eed3da5c153371fc7d21ca22665cf791ac99e057085",
+      "title": "在机器人的供应链中",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2063201946605912225.json",
+      "url": "https://x.com/wufantouzi/status/2063201946605912225",
+      "sha256": "9cbea34fb5655013b6dd5c1b661d6ced3e749d013f73c33c658deca7c4d66ff7",
+      "title": "关于币圈、美股、A港股等最新的思考",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062930594749653423.json",
+      "url": "https://x.com/wufantouzi/status/2062930594749653423",
+      "sha256": "7414ec66e9fa1670eb217698e5619c6d45eaf474b0a2622488d73ede74bdcdc7",
+      "title": "如果跌破 60000",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062629868395708435.json",
+      "url": "https://x.com/wufantouzi/status/2062629868395708435",
+      "sha256": "e3aa2e61c1324d0ce41d983a9baf6b4c8886c2279754125e1d58eb192ea326fe",
+      "title": "Ai 干掉脑力劳动者",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062609379723985033.json",
+      "url": "https://x.com/wufantouzi/status/2062609379723985033",
+      "sha256": "b6bcbc1140573c4826dedbee6ff9484721f7397240f4371a28ef4fe7fcc30b07",
+      "title": "crcl 未来会是万亿美金的公司",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062504693310353461.json",
+      "url": "https://x.com/wufantouzi/status/2062504693310353461",
+      "sha256": "55767b75e5dd2b13745a19dbd0b6cb52c70e553483a543a8de7e5a517b276529",
+      "title": "回到1958年12月，寒冷的华盛顿特区举行了一次电子会议——就在同一年，张忠谋、帕特·哈格蒂、韦尔登·沃德、杰伊·莱思罗普和杰克·基尔比都在TI工作。",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062608590641168477.json",
+      "url": "https://x.com/wufantouzi/status/2062608590641168477",
+      "sha256": "ecf994ad124488f993f7975f13a553b7526581193a91f3fc484ebb88886de9cd",
+      "title": "211 确实比 985 的笨很多",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062483799405982156.json",
+      "url": "https://x.com/wufantouzi/status/2062483799405982156",
+      "sha256": "ab5dbf343eda2163526be3138120204f48f7e6cce8210469dcaf288be3663794",
+      "title": "去年负债几百万",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062508397631521020.json",
+      "url": "https://x.com/wufantouzi/status/2062508397631521020",
+      "sha256": "2d69b18195f21cc744cfcf216c322079dd6acb0bba4d87a33b12c2ae7e525771",
+      "title": "碧桂园还投了星际荣耀",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062441998687011031.json",
+      "url": "https://x.com/wufantouzi/status/2062441998687011031",
+      "sha256": "2b8a917720f96ec021bc6aa675c1db989a2aea9f2c4a257fd30ded0bf097d0e5",
+      "title": "未来一年可能涨 1 倍的四家美股公司",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062373278996406669.json",
+      "url": "https://x.com/wufantouzi/status/2062373278996406669",
+      "sha256": "9c14e4037873a353e3a2f87e7d5d31f5836406743d4bc3d19062c55333f23560",
+      "title": "其实各种戏剧",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062489876679835745.json",
+      "url": "https://x.com/wufantouzi/status/2062489876679835745",
+      "sha256": "a01c3e98034e813c2fda5fb91dca15648e558e27eb41d5cb075496933ecf7d57",
+      "title": "每个人都有盲区",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062246692158685385.json",
+      "url": "https://x.com/wufantouzi/status/2062246692158685385",
+      "sha256": "0333ef9743a12226219275254df766c9009f501d702b0d2003ce3cdfa4ac9da8",
+      "title": "60年前",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062225014540128356.json",
+      "url": "https://x.com/wufantouzi/status/2062225014540128356",
+      "sha256": "68782a4c0592e78700be09bb5e052d948c1fec5fb2bc469d84eafc8d565251dd",
+      "title": "2025年全球名义GDP合计118.18万亿美元",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062194289849905662.json",
+      "url": "https://x.com/wufantouzi/status/2062194289849905662",
+      "sha256": "d73d17cb6c9ca087a738e089c5a78c2b9f411094af7fe34e5b6f490c547887e2",
+      "title": "持有crcl",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062080996833411218.json",
+      "url": "https://x.com/wufantouzi/status/2062080996833411218",
+      "sha256": "44bbafbe270641a06f9e3240386b91466782640818113c8b9b96ac77897db57d",
+      "title": "前几天把btc都取关",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062077755894690120.json",
+      "url": "https://x.com/wufantouzi/status/2062077755894690120",
+      "sha256": "a71530a910ac855594653ce23032e880021a9da8d15d61e57aa300523e8994dc",
+      "title": "那时候大家都在说区块连的科技革命",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062046649015230560.json",
+      "url": "https://x.com/wufantouzi/status/2062046649015230560",
+      "sha256": "bdb8d17d2e84b3368e46fc1d37030ce9fa907a3cf0be44f7699838583ed273b1",
+      "title": "看到老黄喊单",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062056187990802467.json",
+      "url": "https://x.com/wufantouzi/status/2062056187990802467",
+      "sha256": "2fb146c66cd90815a58a58b3e6021dd103fc7b13fc0a262f65820d7dceff4052",
+      "title": "写的太好了",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062218300482900366.json",
+      "url": "https://x.com/wufantouzi/status/2062218300482900366",
+      "sha256": "ea986695ded7cd92d8d90f412fa5e7eec40bd4bc231bd212fa45f41e5cdecbca",
+      "title": "皮克斯阶段",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061867263863521719.json",
+      "url": "https://x.com/wufantouzi/status/2061867263863521719",
+      "sha256": "250bb58cdbe9ac71dd9fdb1ca5b958fffbdee05d6d77500efc63f6d3020e132e",
+      "title": "美国这些大企业",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061865157425586589.json",
+      "url": "https://x.com/wufantouzi/status/2061865157425586589",
+      "sha256": "55f204584144c1bf12771ed06a62118146ee0aa892c5d7b974573443a3735e16",
+      "title": "Ai 带来了市场的巨变",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061853251654262892.json",
+      "url": "https://x.com/wufantouzi/status/2061853251654262892",
+      "sha256": "9bd7e10bbc80989e41831788e2d0bf26b9e91491730e05daa65fe6a1ca1189b1",
+      "title": "你们觉得哪些标的还能涨十倍",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061841142484725951.json",
+      "url": "https://x.com/wufantouzi/status/2061841142484725951",
+      "sha256": "7ec697bda3bb44c24c3759efe18d4fd59da0ba9cfdd080244c13626b6d0e03ec",
+      "title": "Ai 行业的一众小弟",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061824265092010181.json",
+      "url": "https://x.com/wufantouzi/status/2061824265092010181",
+      "sha256": "5c62f1e706bc2b7974028fc67c468fe80a9f48b5e91e9e6b4b5e503465dd98da",
+      "title": "币安上美股",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061785496016105485.json",
+      "url": "https://x.com/wufantouzi/status/2061785496016105485",
+      "sha256": "d5d70932a03800467c24e636bc0596d8dd380bed53326771adb1a340029ebad2",
+      "title": "今年高考 1400 万人呢（史上之最）",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062106588572234149.json",
+      "url": "https://x.com/wufantouzi/status/2062106588572234149",
+      "sha256": "3052f7d4d1a1101fff6c156c4f8b0b45e6b5f983425adaa9f49a925f7e9baac1",
+      "title": "也叫鱼call",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061733535489179898.json",
+      "url": "https://x.com/wufantouzi/status/2061733535489179898",
+      "sha256": "8aa59f9ba09a5879d9ff3dddd8b6ba1b5321314eb0e6b5b222faae3972b0ec5f",
+      "title": "相信自己的判断",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062088750277013968.json",
+      "url": "https://x.com/wufantouzi/status/2062088750277013968",
+      "sha256": "c6f033b71a34504246a4f8d823088785e81f54129f75fcfb1de8afd0f7eef20d",
+      "title": "解答一个困惑：",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2062056642544369878.json",
+      "url": "https://x.com/wufantouzi/status/2062056642544369878",
+      "sha256": "0a87d293782438db62fe29631e0df8f49e2893946cdd17865d5d6d0e03c91ba7",
+      "title": "你的道很润",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061677081210040658.json",
+      "url": "https://x.com/wufantouzi/status/2061677081210040658",
+      "sha256": "c2c0a0521acfb5755872e6e4fd2829ba891852a3fbbc2df7f1d7758983d631db",
+      "title": "今天还收到了腾讯的股息",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061675583252115717.json",
+      "url": "https://x.com/wufantouzi/status/2061675583252115717",
+      "sha256": "76b5496d1f32acf6ca02e2052ab98e2a1fd14bce0f9fbe25910bafe1e4acf75d",
+      "title": "茅台和腾讯",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061673541980836119.json",
+      "url": "https://x.com/wufantouzi/status/2061673541980836119",
+      "sha256": "ab1b31edb6971a55cad1d8ebcc2e43d67adad37f6804196463cb4e62020512d7",
+      "title": "最近买的盈利了",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061513084351717507.json",
+      "url": "https://x.com/wufantouzi/status/2061513084351717507",
+      "sha256": "b4113668536d3460aaea5d693684ea76b308d354352126735fc90cc38797242f",
+      "title": "整个社会",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061508659834962153.json",
+      "url": "https://x.com/wufantouzi/status/2061508659834962153",
+      "sha256": "8bf693b951ffad38203a32c36e131a9951abded138b39ee130aa2caf062316c2",
+      "title": "hype 到底应该怎么估值",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061499452787995121.json",
+      "url": "https://x.com/wufantouzi/status/2061499452787995121",
+      "sha256": "c56ee87032abd81c00cf40a2cb26442b17629b4c6b9fcd379d5e9f3545b7efdf",
+      "title": "以小博大的机会",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061499240438718729.json",
+      "url": "https://x.com/wufantouzi/status/2061499240438718729",
+      "sha256": "b8f96052c94483c08cdbe2e9548ae2580045ec160da92dd0cc36f438698a847f",
+      "title": "不要觉得我买了 hype 吹捧它",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061493079492706707.json",
+      "url": "https://x.com/wufantouzi/status/2061493079492706707",
+      "sha256": "bf299e31aa6112debf6370d25783aa89f9454a41b901cf688f17ed617b23039f",
+      "title": "总结过去半年多的 btc 行情",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061678078292619616.json",
+      "url": "https://x.com/wufantouzi/status/2061678078292619616",
+      "sha256": "0b9035a3af770e569df244dee65973bc15a380a00e0b36e97aa6693b84b5de55",
+      "title": "币股不是伪命题",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061393576957772184.json",
+      "url": "https://x.com/wufantouzi/status/2061393576957772184",
+      "sha256": "772ca831e4d836125c97c6d9fc907d05d563b76536ff29dadade0e52bbe0deed",
+      "title": "这不是来了吗",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061373251301888413.json",
+      "url": "https://x.com/wufantouzi/status/2061373251301888413",
+      "sha256": "a9f1b16595c8feb27b9d3060b04a5a45229a42ad085bd47258b9b6df516846aa",
+      "title": "科创板需要真正的一哥 DeepSeek",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061500540845003149.json",
+      "url": "https://x.com/wufantouzi/status/2061500540845003149",
+      "sha256": "2ab0b0077b0d7eb50c03fb70b47a0e44103ac88c7a06762f382d19aa1cb62594",
+      "title": "我最近也因为茅台被喷的不少",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061176747781923018.json",
+      "url": "https://x.com/wufantouzi/status/2061176747781923018",
+      "sha256": "bae8ac5ce5c9c6b71a4c594f1b45cefae1a6344d1b54472f5e2c736ddd770e9f",
+      "title": "日文区翻译过来的 oo 是啥意思",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2061148220839895422.json",
+      "url": "https://x.com/wufantouzi/status/2061148220839895422",
+      "sha256": "c4bd5e704499bcba8e495a03e48f9cf2a893cb9b271d187d5724a81337f822e4",
+      "title": "2023 年江湖大师给我洗脑",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2021908786861007111.json",
+      "url": "https://x.com/wufantouzi/status/2021908786861007111",
+      "sha256": "9842a1ac4e90d69cfdc08611ba6e7f75acb97179612e693fca070f4dfa2af20d",
+      "title": "富可敌国的google",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2111422673272308171.json",
+      "url": "https://x.com/wufantouzi/status/2111422673272308171",
+      "sha256": "271d65c910d2ca349c54846c8933681d0d19ca9aee48f083743e16e46d358446",
+      "title": "上次 7 月底 8 月初",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2111399271962689730.json",
+      "url": "https://x.com/wufantouzi/status/2111399271962689730",
+      "sha256": "115c90ed1540f2a0b4edfce85cfd4dd99c8197e295879578097ebdce8ae43643",
+      "title": "忽然反应过来一件事",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2111384667878478127.json",
+      "url": "https://x.com/wufantouzi/status/2111384667878478127",
+      "sha256": "14a81b9fae6e3d4b0ef8d48c9cfcdac445e4e1b2aec13999debfe3f707e63672",
+      "title": "澳門百家乐",
+      "category": "社交帖子"
+    },
+    {
+      "path": "x/wufantouzi/posts/2111229020784431441.json",
+      "url": "https://x.com/wufantouzi/status/2111229020784431441",
+      "sha256": "ccf0ff54b62640395e1af9a0c4e9780d5ebf6b606ab0e28f1775bdeb43d87968",
+      "title": "加杠杆的过程固然爽",
+      "category": "社交帖子"
+    }
+  ],
+  "media": {
+    "https://cpython666.github.io/imgs/ads/lky.png": "283164ba2f5bfa67f471a57f22ef3ff4bf063290cb598c565a15fa82b20054c5.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/unlock.png": "e1953c9e2716a461eee0352d285b22bedc7bb93cfdd743d435e23458ff080d99.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/plugins-choose.png": "a0f4f84a7a061278cbdff744d9fee20d39cc42120dc039e177d38849fcb0128d.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/plugins-installing.png": "8cc6bd93ac825263badf3cc157803cb6edd203544772d818a36c98203b75c6c4.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/admin-user.png": "8aced852c7913600a9c3c5e15f8a12ef4f743ef56bb6790e1be002d89a18e2fe.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/instance-url.png": "939001099f044f4fe5b86f2558d0839803d2e12009af9ca6672d1de07c5abb93.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/dashboard.png": "d93c98f149d43f97396aabe898ff9ca286e94ce47932af32f0263176ee3a2768.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/new-item.png": "0eb279fd5eb200a17a1385301f4e4589c38b432750a54261142418bbb3882fd5.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/config-general.png": "99b1608b0005a1a742e2892ac90a07f2ce5d9c7a15ffb5d66f58cf4a85a8e793.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/config-scm.png": "71baa86c56819ca6aae2f21f3bcab10e26e0ce7ae6a71a18af02929e3a75f0fa.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/config-triggers.png": "a3e2968a719d9203b5243548a91f88093ad517d56e7d0c083fdb2f33611ea457.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/config-steps.png": "d0a4e60cd24f6feef4dd2837126d329d666200a5c6aa7e2c5ca77aa73eebd874.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/job-page.png": "060139a1e6a3b796522f0de1b18c3eb8a53951e82f2502faba51f8d75ac1920b.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/build-params.png": "490d4ee45a2fb0058f1cffa51179af7fd6f57bbd541e3b73dc5f9e323b965117.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/console.png": "28e81014a75fdb6ab7dfaa020e7dd754ad82f9e6838e8257f2758f8c27f7675d.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/pipeline-script.png": "308f3a810cfcab2ab40fe6b00dec054a216a9915739183fa43de64715af56865.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/pipeline-overview.png": "66eb7954cdda6e4d292f5aec908c8199784d4c0fcc078f6c31bc1cff72ef7f7d.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/pipeline-stages.png": "1b1b16ffd4505995115a17800f4a1b4fcca3c7411c1955737760d886df60a522.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/credential-type.png": "ccc4cb6fa9276754e07ecf3128005d286222502937dd63aec973f34afb99c33e.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/credential-form.png": "d452286673e99680e39fa8b31b38184d90cb97518302ba96c2189834d893e635.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/plugins.png": "8c787203011a7bf7269e6a97486d2462a41a8fdb777a14bcb0d45bcd2babca0d.png",
+    "https://cpython666.github.io/imgs/backend/jenkins/manage.png": "b383b3ea9945ce31864f0813e39a41aafc5fc3d10c40aeadc6ff2be63af8cf41.png",
+    "https://cpython666.github.io/imgs/backend/bloom-filter-complexity.png": "984229597f780be44077964502a85e48895b070462ed320e04ce0d3316ea615a.png",
+    "https://cpython666.github.io/imgs/life/ai-browser-plugin-learning.png": "cf2b1ef2e7a9a5ba9a7a989fb056c63cb9ced032b5b5a3a6ad5101615d6ecc90.png",
+    "https://cpython666.github.io/imgs/life/bad-code-review.png": "0f39e9ea454cf870fd930736c74930659d6d7409213a871d442d2c3a9af58d11.png",
+    "https://cpython666.github.io/imgs/life/codex-dream-skin/cover.png": "d2cb71cdf00d98dbe1047a60f3d4281d44017bb9a9bd5eca19df4f2e7d7e7c2c.png",
+    "https://cpython666.github.io/imgs/life/codex-dream-skin/preview-1.png": "0ae904613f89da7ed23879b3e351559061c6ca4a220b6dc7741022a3a184b5ce.png",
+    "https://cpython666.github.io/imgs/life/codex-dream-skin/preview-2.png": "0818d1acfe5e01095ff5bc31c2c0fe9f9f2f759875c0e2975fa05de65ca1f84b.png",
+    "https://cpython666.github.io/imgs/life/codex-dream-skin/preview-3.png": "a5be9a2decd2117fedadc110d5f875343ffae0f1a7b567b39152c99d2f31cb56.png",
+    "https://cpython666.github.io/imgs/life/codex-dream-skin/preview-4.png": "fdea7db86c5413839ee008e10072c783ac81c15b09ff766d491c7ac206b8357a.png",
+    "https://cpython666.github.io/imgs/life/follower-milestones/bilibili-one-year-income.png": "ac3af77777dab164a59265033623798d5a2f65173ded24cae652fec1160b48dd.png",
+    "https://cpython666.github.io/imgs/life/follower-milestones/bilibili-total-income.png": "5ff7f7d86f4715db682756f9542203d660a3dbd8cd59d0a7f489d1311abc8138.png",
+    "https://cpython666.github.io/imgs/yuque/1784907441896-2744b491-f077-4f79-b553-e55cb106ba16.png": "ab384807e92c299b0b4dc00925b4b61383cbc6ac38e4ad6ea72d1e7879d691ff.png",
+    "https://cpython666.github.io/imgs/yuque/1784907442837-f81db17d-f916-4f68-b8d7-002181bc57d8.png": "26649c8853a5aba07cfb1ab6942e972ef001657ffaa61b44d66428d400f7323b.png",
+    "https://cpython666.github.io/imgs/yuque/1784907441744-e7af5f9f-0d17-4248-88e8-12ecc862a78d.jpeg": "440911a41a2387dbb1cf1c3421fcfee1311e391f8e8761a60f2aafe0a4e670f5.jpg",
+    "https://cpython666.github.io/imgs/yuque/1784907443253-cac17fbf-fb6f-46f2-b920-614281e90bff.png": "7240547c0247269d45fffa22d8861b07df860ceaba330f347776e858b854f88f.png",
+    "https://cpython666.github.io/imgs/yuque/1784907441608-a33d9539-15de-470f-9cca-34b0d0f665a5.webp": "b7ce4b609e0414d156fc6b6c1144973af90c00872facc1ee9af5cc4a26bc7294.webp",
+    "https://cpython666.github.io/imgs/yuque/1784907442797-29c68d09-1c85-43bb-8070-b7434472f7b5.png": "f1fb1650d55db38a5fe18e87af480320f099896283a9d907f16fcf3ef07c7c67.png",
+    "https://cpython666.github.io/imgs/yuque/1784907445229-0c6b3c9f-d2b7-4961-be75-eb60bc191075.png": "0f1d44d39cc0e4ebcca9873dd8bc104b29538f4b6e3bc2cfeff7aaf7a8df7ef7.png",
+    "https://cpython666.github.io/imgs/yuque/1784907446818-c9d09f3c-b347-4387-b6cc-df34a1a56c51.png": "2d11b8f80d4f8f9b4d94ab7c05c637689522c6d640049794f7177db1d8ad0fa2.png",
+    "https://cpython666.github.io/imgs/yuque/1784907445044-659eee9f-83f8-483d-b4e1-9eb0c7cd0b94.png": "b2d00c5721124bbfba5bdac298d485957626d4eb85472766e3d149576e2db259.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-1.png": "8a8bfa1c74ccead1367900f8fd3047d6c88226d46e34d9cb6c468871c24f6d94.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-2.png": "7aa5b26bd16d8d45121ea0f31973c0d83628180a41224fc257bb1512b84bc06f.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-3.png": "1f6d7b5cf5d49ae7c6315ab4ec2cd77d1b0d291f0478e1d466fa67b785c52ced.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-4.png": "bccb7d5c0cd375accdfa9778f81d9c7d8793d764034ca6ef6b6c9a13856ce5e3.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-5.png": "c6478e43383dacc171021511d05c1c9bd81e95338d337b1f41755fbae3b6002a.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-6.png": "3464525e814ddc1e84e4fc0c54af1454ece6e73a54a3741ec2b116aa7d9c331f.png",
+    "https://cpython666.github.io/imgs/life/geo-system-built-in-one-day/image-7.png": "00730cd803a6b2587c8d78967cc8974ba19aa6ab4a6d8462de049c9212071885.png",
+    "https://cpython666.github.io/imgs/life/birthday-memory.png": "ccfe831b7c2264963aa609f318f8d84a0d42752d504c917eab9cc403ca126b80.png",
+    "https://cpython666.github.io/imgs/life/ponytail-ai-coding-skill/cover.png": "dcae14a04801a80430451a541f7139734200850f1e34e2768f47b1ec70585bda.png",
+    "https://cpython666.github.io/imgs/life/dating-chat-screenshot.png": "1ffe75249714a8df7251750cc97b4b57ff96acc32e8f6e83b534c4e8fbc9bba5.png",
+    "https://cpython666.github.io/imgs/life/yearly-flags/flag-review-overview.png": "2bc02411445fbfa1d3713a74bfc7b02784e5b2b010f2a5a226755716ad95d91a.png",
+    "https://cpython666.github.io/imgs/life/yearly-flags/flag-review-progress.png": "95e32516d593ec322407332c26a0d819931dbb2b9c1a876a6f369b3731109a50.png",
+    "https://cpython666.github.io/imgs/life/yearly-flags/iphone-usage-note.png": "77df4013c02c6b0c7d73c59408c843d9cbab9a73f1fde799abb940f0780fbe3f.png",
+    "https://cpython666.github.io/imgs/python/design-patterns/mediator-pattern.webp": "6daf385e5012489bc567514e8658545dbf1533db7fc6ea66cd336d557237e9bd.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/flyweight-pattern.webp": "2423e8636b51b1b2bd62bea4f4dfd335344e7631569f11b7bd0a8809f8d6b99f.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/proxy-pattern.webp": "5966c704feeb9a82dde7ac264505115e4d7f60254e954d38e067c023d2caad48.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/prototype-pattern.webp": "cb45f9c6cee825f6aabb0b418fc6ac5b8c646c21b92eacf3dfe5ac00c56b84df.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/command-pattern.webp": "f3ac824939f13006d0e5314a88c10385648a63883793531e4b0312d65d0476a2.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/memento-pattern.webp": "a1272f42678a9cd3f9936f123482eef4319da7f4e165dcd0e4f57f77864dbbec.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/facade-pattern.webp": "cf9eb50f559b2e4cd69f08c7869f712d8f15ee49bd894e7d8285a3776303cc89.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/factory-method-pattern.webp": "abe65667ba9dcdee807426b8cc286c24065ccaac36c55be3220e681040c1b73a.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/builder-pattern.webp": "5103382ae486025e1fa523b5475dca7138355591b8e9d3086cce24786c6b3604.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/abstract-factory-pattern.webp": "7a03b64543de6277ef1b360f639c9c49e57cdbca48d1df1f87069956f7369d2a.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/bridge-pattern.webp": "c1e1debfe48f615257962ed4b20a41e93c298dedf60c7421930d944f55d17518.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/template-method-pattern.webp": "3ee6a0e8e146da837ea90d5f7109507f618b1e99ab42ee58cae25faf72c393ca.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/state-pattern.webp": "3c95d00b9505ffdacd8cfaf0a92284bb42283de09c9c283b34c4700073373171.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/singleton-pattern.webp": "b4eacfdbecbd3d78c88c8fc87ac2c824b7668649aac564ff6f953de6468788e2.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/strategy-pattern.webp": "347b46bd6c5a992b10291e488acc633fc0359bdd035715241f81b164b95dbff4.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/composite-pattern.webp": "bf7e80803c6ecfe18a99c55851bd375363ad682d6045fac624885a48c5f6e5ae.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/decorator-pattern.webp": "3e252c526cb55a484a0f7c5eca4cc9aa801f31edf243e7e738ca199c94626be2.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/observer-pattern.webp": "797c8803d59cec4e60a0e92c25d0d5d1b11afbd97a639e112cc288d90e4ac9c1.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/interpreter-pattern.webp": "c26484f1d5b0d26425fa15757608d3a5a9d288dcd879e0220881691c3280d5f1.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/visitor-pattern.webp": "be04b63af27d87773a193a007fed2a4bc62da95d02662ff7eb32d9f61aa629b1.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/chain-of-responsibility-pattern.webp": "9baca592e1d508b894f20ceb09c7a65d229e2ba497f58ad7d9811b30f12b3c3f.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/iterator-pattern.webp": "51e96706c8ee48987d3abeb499bdd0bcf5bd0c2dc28c8f0c52c0eef60da86157.webp",
+    "https://cpython666.github.io/imgs/python/design-patterns/adapter-pattern.webp": "5c73f16c09158383cae39f6519bacc75b9d5814e5ba50e12aefca31f22a0ad35.webp",
+    "https://cpython666.github.io/imgs/python/collection/pyqt6-series-cover.png": "94bd0115643b742bf1c7ab03964a5feb6832e7c0d839f469722f0652b5e66354.png",
+    "https://cpython666.github.io/imgs/python/collection/frosted-background-preview.jpeg": "3fd37d466241ae26530fb2f9ff36bb796da843887d9ecef73ff793e08556c82a.jpg",
+    "https://cpython666.github.io/imgs/python/collection/frosted-background-type-options.png": "5eba5331b379403cd728f1fb15458d67b9ab68f651d2030a1740f9a85ec7fe04.png",
+    "https://cpython666.github.io/imgs/python/pygame-series/pygame-docs-demo.gif": "5a9648e4cdff4383dddba9e376b30a619acba902401572a41b25a7358420aef5.gif",
+    "https://cpython666.github.io/imgs/python/pyqt6-series/frosted-background-preview.jpeg": "3fd37d466241ae26530fb2f9ff36bb796da843887d9ecef73ff793e08556c82a.jpg",
+    "https://cpython666.github.io/imgs/python/pyqt6-series/frosted-background-type-options.png": "5eba5331b379403cd728f1fb15458d67b9ab68f651d2030a1740f9a85ec7fe04.png",
+    "https://cpython666.github.io/imgs/spider/clash/import-subscription.png": "0eceeed1b67f4de7a26881014dfdf54a5baf1dc0bb52484fd2dc38af5657e2d2.png",
+    "https://cpython666.github.io/imgs/spider/clash/home.png": "b894b153497cf703c6a8fbfc01dfb30557185c24edc3ac8a4cf9664890e78764.png",
+    "https://cpython666.github.io/imgs/spider/clash/global-mode.png": "7597562f4f1f68e1294b846e27ff3073922c3b3fc1b97814146807968c1393bc.png",
+    "https://cpython666.github.io/imgs/spider/clash/rule-mode-groups.png": "05568f09bd52d74a65c44dc73c416e0a9b10bdfda4fee12ed73770d6982e1c3b.png",
+    "https://cpython666.github.io/imgs/spider/clash/rules.png": "5b20d826e13d1f30535e444cad68373594a007fe3778373f5d610ad2f2cd6071.png",
+    "https://cpython666.github.io/imgs/spider/clash/rule-editor-menu.png": "f302216b39c67bcbc066aa107beac231ad22d0c3c9dc5a4dfa1d3e8fa178b758.png",
+    "https://cpython666.github.io/imgs/spider/clash/rule-editor-visual.png": "0be1b91517be6970383af8e7b88fcdd871120e33199257a3722d1302b84d9db3.png",
+    "https://cpython666.github.io/imgs/spider/clash/rule-editor-advanced.png": "a4d1a9d1fa7a1b098ea036943cf11235725387126030910e7fa10c4ae8bbbd20.png",
+    "https://cpython666.github.io/imgs/spider/clash/settings.png": "2cdb51fb1776be92e106bbb72e8f2afd30cf4e294933e81f2b70ce75366c0629.png",
+    "https://cpython666.github.io/imgs/spider/collection/job-sharing-backend-roadmap.png": "72edd6c664f494b5d06f6b91ca905272e7e47699346c1c5ef78f95fa6630a9cd.png",
+    "https://cpython666.github.io/imgs/spider/collection/job-sharing-interview-review.png": "7d289b72911fc0e164ef875542f62406e55a68f396ff83827b25a7712f351171.png",
+    "https://cpython666.github.io/imgs/spider/collection/job-sharing-market-demand.png": "31d514ba588a20ab48f8e1e21ffe94cd91bc6fd6405f86959b1161f85fda96f2.png",
+    "https://cpython666.github.io/imgs/spider/collection/job-sharing-career-choice.png": "509f665199be6237801604ef8cb4415f9d000fb3517d1011c0f65a0dd8a6c202.png",
+    "https://cpython666.github.io/imgs/spider/scrapy-series/scrapy-architecture.png": "cce134beef0ecd888b3dc3e5d9fd3f3bf0b89cb895aded4852fb267891beacb4.png",
+    "https://cpython666.github.io/imgs/spider/course-buying-guide.jpeg": "4856b5698b9f50aa0603426d12ac4b1cdb42b66c31d243facf830fac8884a384.jpg",
+    "https://cpython666.github.io/imgs/spider/crawler-study-guide.png": "eba322de84deabe0d8adc679e8ad21aaa8b5b2b0ee3d2a687e66389b1ed30bce.png",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-16/cover.jpg": "3bc5aa9d36a318a4769e0a295cce61d062abf15012e479bb6b5e81199e0a3d9a.jpg",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-17/cover.jpg": "fa5a1d40fd154ac362475884e343be4e142a50973e99fb29e4a6d9f4ab3ccf3a.jpg",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-19/cover.jpg": "11142f0b0bc46a6bade6cf4c89b2398f430b31afbd13de4a4e9d22474ceaf08b.jpg",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-20/cover.jpg": "6eb3956ee489646387b9949cd5b1156c5804ead9a7a85b9724c2e4d709115330.jpg",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-21/cover.jpg": "4d7e44f1dbbb0f18cf6a82c8573fd4a3730329533dd2ed5e52e8847aa0dd0d74.jpg",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-23/cover.jpg": "d0889bd14f60a34cbed0891fb7a2f227aab4cb7c70dfd924b1796e58664cad1d.jpg",
+    "https://cpython666.github.io/imgs/tech-daily/2026-10-25/cover.jpg": "eb8da8e0340af2ea6003e7adfc2ef2b48a5b473c75446a98978c1dc0a2c84a60.jpg",
+    "https://cpython666.github.io/imgs/web/vitepress-env-difference.png": "85e4d394ecc3199d80c469e39f02b72b0e490d31e9ce686a23e86f86b86c5a4f.png",
+    "https://cpython666.github.io/imgs/web3/btc-crash.jpeg": "f3583bd4e91ca2cc66c5ae6b9bb65e58632d30dc61255c60f7e7cd4f288356da.jpg",
+    "https://cpython666.github.io/imgs/web3/btc-800.png": "006c8bf59562ca4affa1685c5b81018adf84a565c25936ea02a2815fd016d585.png",
+    "https://cpython666.github.io/imgs/web3/btc-800-comment.png": "0536d67b8d2381fa94c442527e23b5af6e7906b012d66f0a81eff88deeec1194.png",
+    "https://cpython666.github.io/public/imgs/web3/four-trader.png": "242795e35d132a02e3c6929cc1f5b7a005f925233e0d6aa4acfb7818b22d79bd.png",
+    "https://cpython666.github.io/public/imgs/web3/four-trader-ending.png": "787f2ea3a2fe428289b7849b4ec278c9b89ebfbda9b2e860d51fabdb5e74ebb5.png",
+    "https://cpython666.github.io/imgs/web3/baby-mother.jpeg": "cb30666075a2aecd44b244cd3bc6baed04bcfec6b70762794369c2c101105132.jpg",
+    "https://cpython666.github.io/imgs/web3/basics/xiahai-1.png": "fc0311ac43c4eed7954b69fe05e40220e3c8269acdb8c78d989389b8a418cac7.png",
+    "https://cpython666.github.io/imgs/web3/basics/xiahai-2.png": "17331e8222f4ba1a73b4e17c65b0fcbcbb7b35168c6871728ff833093b5d96bf.png",
+    "https://cpython666.github.io/imgs/web3/basics/xiahai-3.png": "56d574474255cbf4acf39b6b6d46e159fdeb50696931cd0c22558b44ada2bfdc.png",
+    "https://cpython666.github.io/imgs/web3/log-btc-short-alts.jpg": "1e27dbc085d6d94154f58a82d05813dcadf1c69094c1e0ec3fd63b5593268981.jpg",
+    "https://cpython666.github.io/imgs/web3/statement.png": "25d79be6361eea3add07ced51eb4e20fb045ae16c5f9e9e3afe4225b7fee4a0a.png",
+    "https://cpython666.github.io/imgs/web3/beat-dog-1.png": "20b7670b222565e604bdbd20b1d01dcacb8aea57693ad7237d420adf2201fac7.png",
+    "https://cpython666.github.io/imgs/web3/beat-dog-2.png": "5e7120aa5a24732b2efa0ec7fba5386e22c89243ff842313fa1003e088fb1252.png",
+    "https://cpython666.github.io/imgs/web3/block-walk/forex-gold-trading-record-overview.png": "a4c04fdba2b5564aa03cd2eac0abedf38df12182a0f2fb5cdea376a417ac0342.png",
+    "https://cpython666.github.io/imgs/web3/block-walk/forex-gold-trading-history.jpeg": "292555946ed494f730905f0e0296043ce493e28564dfa2683e742d3d16474b82.jpg",
+    "https://cpython666.github.io/imgs/web3/block-walk/forex-gold-trading-volume.png": "f932eacc75db566b4551e2efb3522b8ee35ed8f348dcfe9487c25bb25ac92e05.png",
+    "https://cpython666.github.io/imgs/web3/block-walk/forex-gold-rebate-record.png": "32fef9bd8fa4646eac4439b726b9e0fed68d99af33627f6018690b07e2ca8af9.png",
+    "https://cpython666.github.io/imgs/web3/long-eth-short-alts-1.png": "99737c348bfa4f2d5ea86f00daa0919008c15dabbdbce675fec62b05217fc83c.png",
+    "https://cpython666.github.io/imgs/web3/long-eth-short-alts-2.png": "f6bd8bb8295ba9a75ff7fd56d21246f7035f8249b7f620edc3e468f5f7f7693d.png",
+    "https://cpython666.github.io/imgs/web3/long-eth-short-alts-3.png": "fc4a57a88cd8349dabd298fff974e90155f2e020b3667bc76623d70caa336b5c.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/btc-0901-0907.png": "419c624c5d9f343e9258a22c4a908113b95313fbfd357c91173b37613a3568da.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/eth-0901-0907.png": "8588c6262ab3c605102bb80fe62ceb01f228b1059d278e98a596584d82b1563a.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/ada-0901-0907.png": "04a11365fc294780a639338795833b012878dfcbfe149af8c8cfe3dabfcf3a75.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/wlfi-price-k.png": "27634e834b9192d3522cfdedf683ab68d29e73a0e2fb03e22964e49939008a6b.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/my-wlfi.png": "9d40fb646e65ef2365fa62a6e2fe152c523939c262b46fcb5b349bf7c0cc3980.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/my-wlfi-1.png": "8901bc7d6578dbff33f726714899a74d7321fd7865f8105cc283b1cc0a57055b.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/ETH-valid-queue.png": "0f32fc346a9f72fdbb874fb5d7f9364ea373dbb254d33e58db3ea12243135d6e.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/ETH-top-74790.png": "69f4b34b9245f68e93e7d29695b15b1d2450414a818673bd0b9f32901b3127a0.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/feinong-09-05.png": "dcd2c34dbb5962cc1f3e9be6b1f0d24a5d8043543bf7b1853f982a9b74f74337.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/eth-09-05.png": "513e37fb7c79da1d56154e0148b65f80737029621953fa98a46e3ae2cb2a460d.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/xau-3600.png": "99356fbd107990f4088759d985d7afef4509e6bfe9551e0d5763adf08a760c2d.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-01/polymarket.png": "f4f164537097a1ae067361a2c52283841df8a73dadb874a9f73c04e4d6d6b6c5.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/btc.png": "eb8b223bbb589cae8e1ff745364d2b10e74d55c611d2b65a33632c90bf1ccadc.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/eth.png": "6dcda5ee3538333e2dd3d7733a3826027547d186f1aee0431dacf4acb454459f.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/ada.png": "1b10b8b6359f303a978c5cf398e7a408bf6b82c5b7473a70d2e9b80186da008b.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/nasdaq.png": "ffddc7e7ed1bef45da12cba8319113951ecd55fbca781ec3ec9dacdfabf050da.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/blockbeat.png": "b101c61686c4507434548d366480e6133540458654587ecbe0c2730a1c03e2b3.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/aster-funs.png": "e047d3ff3e33e1b851d3ee3e3c5ef3454a8dedcafb79c41cc6ecbc984deb5bce.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/aster-2.png": "0a6d962f91474e116f14dacc87d0a2c5af98ead09c94a20dff7c57edd3e31f6c.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/cz-aster.png": "7cead22715fd616619a62333d8adaa7fb90a5cd73ba39a25991c080f63404e85.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/chains.png": "0a5db9af2305c089101e7d4c7b60014f6dc224e42412f2646b9d5a5b1d8d6daa.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/list-of-chains-owned-by-cexs.png": "e3935d96f472b5f2f8e9b7ebe4affd2cdf8e66b80cf0504305e54d1c0340e908.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/hype.png": "a23adb476485d0c5029f3368ba62bf5257c5b34a5bda9622f5c6bd5724866b91.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/usdh.png": "e50be51b48fdc354142bdf32cf77714a8250e46ebfafbd9e87b96fa52a0f412b.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/bitcoin-hashrate-price-comparison.png": "858590fdb8d20408a1cbf1354022b521fe6f6fc75a475ca420d66b8e4a61f6f9.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/btc-pool-list.png": "c3f2e9f2037cea7b3d88494cd1b70151c71ffd7d4f11c4a6dfad6a8c7e822b7c.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/eth-pow-to-pos.png": "387dc9c06a5c0f2bd878becacfafc7cea9e682f2fd4693d31be5e66b4962f97f.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/btc-and-m2.png": "2d6ed4afe5e9980a4f9a28b5383cf5f5c24a6bc8c76a9c1810fe53a33c855dae.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-08/fish.png": "d5d73db67fac25ab5ba08a6b829d2bc756a2fa295cce82a6a0ccecb36d2e6ada.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/btc.png": "5ccdec5a2541a941f05c79b445143f1dec0e39ff44ec0bf5b5660140ac101798.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/eth.png": "a454b5d2aa6e26f80d94a01328d3c83720827a0db5e92e0a0a3d84f553d7d8aa.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/ada.png": "6a9cec70f87f7fc8c98f79c30139cec23149f2cddb7889578cfa1fca44f72988.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/bnb.png": "534252ccf393579b05d61236ed69e8325157867bc73bf2992f682681a8aa76fb.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/cz-bnb-1000.png": "8f943af574af48b9c73b80ebb73f835911e2cd3940350aa67a263bea36853b57.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/bnb-1-to-1000.png": "30675ac4f8d77c2d0b1146ebda9aea271e710517dd96530e0b1ae0dc72d7ce98.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/hold-and-rich.png": "14a44593796ba4e942c481fc469b6b329b8141c8a490ecf822f67fa6b64e199a.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/cz-risk.png": "98d022b636cc8b3a9e6c3fead4a255872abd7aded0c3eb0de8e1de26bd720258.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/aster.png": "c5c263d1aec93837c0dab5944625a0eca65817beb95a0e1e68ec5bdfd1a8bc00.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/cz-aster.png": "3fbada661b61358be67074cdaa557aeab249cb768eda1c9a581d2676be8c2367.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/aster-me.jpg": "be4aa57b6533f617309496278829a00ccca1d355bb950611c3c26f2c2ef06ad8.jpg",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/okx-star.png": "84b3498e145d0f435caf13804237f00f757bacd7697f9a6214f9fbe76e6fc318.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/tom-lee.png": "991e5fa3ff532c8b949131519a591dc5e96042eea4bd610c3ecaaccdb901bf15.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/fomc-eth.png": "c4ee76f8bc94d688ce1df373068e9a83b78fbde130668a5dfd2eace4305d5dc3.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2025-09-15/october.png": "2ce41420b3d5684a5d863c7dd0a738314afe61b04dde8df21ed6bee3cc55b523.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2026-05-31/aster-info.png": "45e1c94c255a0e7c78e55d97d0c2feebe862cf400f0232ee4c7849abee9eac05.png",
+    "https://cpython666.github.io/imgs/web3/blockchain-weekly-report/2026-05-31/bnb-and-hype.png": "6ca2d87d77b3965b908747c86171fac3dc1d32c98662b76dec3db195f75f5ae1.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/aoying.png": "3cc312a89852f9035a66356abe77d8842d68a75fddcd421ac637c461beb5a51a.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/huangjin-2.jpg": "2e6c30da6210e7666e94a490b7ead6c7c6a5f08edb76419fb563a83166e52c04.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/cangwei-1.jpg": "257c8be791c3598916134fdfb12d65184c5809ca4cfdf105df59b3cf1514e397.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/huangjin-3.jpg": "8daeb3c265681b2ee82d95aee8605b6bc69ad1480569a9a5f306ffd7d83f1a1c.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/huangjin-1.png": "1482aa75d56bc0de1df813af9b1c4473d94f85e331530ba4e24afb6553fba4ff.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/usde.jpg": "5ee762dcf8f6a9fdfaa1801f8d2c1088d02f91a6a078015222bc97408ff0614a.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/jujing.png": "9057c84ccda1f032401e660d3afd649ae79ccffa386892d9424b05d83468cf80.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/vida.png": "760baf90bdd42507bdd28aad57545892ad23a67f832deeca6a37305a7ce3681b.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/caomei.jpg": "d5a34cd77a3300b0a54371064925611013681ff52f25302b26f6fe1a6d7d774d.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/ziqi.png": "3a78eac1c4a2f3f77f9012365f815e26426120864f41a2aa889464decc1ed923.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/pudate.png": "70082b5514a22a079842ab8567be088e4f3aae48a9251c300dcb76224d9dd813.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/laoyu.png": "7afe609f529ae669340d7ef2e1339894887963b928dfa645b22bc1c8d4fd915b.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/ab-1.png": "4f83b83df3e642b50453a04d5557c5b142d7ea65187e65f40e10ed94703cfe31.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/dachui.png": "cf706813762925a81747b568fc88ecbc0202599fde1a0b4c38bf2d4fec16b407.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/tinghu.png": "6eeefedf3a42771f2736e576770ea3f91891cb3d899b3fad91ae2d4f58d621d3.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/xiyu.png": "221608b4eb8d6557e5fa307de3e655817667e758c0aebd456791945dd49a701d.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/bill-paxg.png": "5d0b70a6376f85459fbc90b7f7732dabca25088ce165fdf5f55a258e270eea35.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/result.png": "7dc4263f6570457310ed4ef9af16c27aba7ebbc390c9d3d6719b905bbeeda152.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/aoying-1.png": "7c7875716955abede34d7137b20bf963d3d93851faf841bda4d7a056ce1db641.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/liuge-paxg.png": "8944f3e2299441fde73b6b9269d4c0171a826b83278e80c204743f068e7d12ae.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/bn-us.png": "400f28bf5670e261a422f00418fe75ac1a72a6a4e5c5268146693a17a08bc494.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/zhainan.png": "c357b87018d3f3577dc63c8b394bfdfb6a3f76f57f81cd12edf87a7bca61e5fc.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/beijiang.png": "156ad9002373c4c690c691e9d44284acc43a71ba65562747a3d2e400a7b4d6a9.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/bawangxian.png": "922f3962f5deeb06d536e7918ebb040a0db56823dee06d6b2773312a1217bbfc.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/heshang.png": "c97db52ea18db804ff2553122ae7af04f8c6f29de0fed20cddcb4af7c5aacd3e.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/xingmeng.png": "0c62d7c493f93d73c0156bf56c9a63bacedb330b2683ce8e496d31e99a2df1fa.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/jieju.png": "9fa4f92fab464c4db4453193e46ca4171b2e2d601f30cd786c1a5d93defba8a3.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/aoyin.jpg": "e31cfb698ac88e124948b397ec5750b575ba8b039e9861c67572bbba3daf9796.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/ab-1.jpg": "707188a17b1c1650506ecd6a5223a590be10a6e1a1f6d463784d290c2294ff49.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/ab-2.jpg": "3b88cd550adb17389ff24f126cc8a4d84a23ed285b7413e32591809426477691.jpg",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/10-11/aiyi.png": "d626088ab0b50ae5e52833112670883d62247df2d4aa85b05420cd2ba0e182e8.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/black-swan.png": "1bc044dd3e7c23cd7b0d978eceb6c15b3cd180866e20bca534f2de4c26dc099c.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/my-friend-chaozai/1.png": "5fc1f51c70abd450fb32e2d807679c8d37ddeb2f7bece8002a5257326f084918.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/my-friend-chaozai/2.png": "7ac6e59e98c2bb169c18d05f5d4c9f121d19343b03464b8bf6c22db1d2398b6e.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/my-friend-chaozai/3.png": "ea44c4d454140af4afe7a62a712c1e61819cd36d0bb9b662a68b5b3ed0a9febb.png",
+    "https://cpython666.github.io/imgs/web3/high-quality-articles/my-friend-chaozai/4.png": "931cdc5897bceed3dec14e5a264e8c81c3f1df40ad67df25be20cec34d92a06a.png",
+    "https://cpython666.github.io/imgs/web3/smart-money-tracking/ai-not-omnipotent-hyperliquid-lessons.webp": "c126b79a210b097c25f4b045dc92fbf9b3fb1dd9f25091579b36ad0742bb46e7.webp",
+    "https://cpython666.github.io/imgs/yuque/1784628579894-d259d508-c169-4351-8428-6d9f5e596b12.png": "bb01d33c6206fe0d0894016a43c9a5b465cd952c7fca7fe741735b88f1ae18b9.png",
+    "https://cpython666.github.io/imgs/yuque/1784628625425-ee44db96-047a-4d44-a1cf-6ae643e7d88d.png": "897fb9584ad6f03774c68f49631cb7233d0704d9cc37c3ae97b229286ea3010d.png",
+    "https://cpython666.github.io/imgs/yuque/1784630098247-3cbfd45c-7c7b-4634-a1d5-f0498abce497.png": "3c975a83edcb322ee856bfb37a57bb1159aa2904e0a140a05e38b86574350d2a.png",
+    "https://cpython666.github.io/imgs/yuque/1784630115638-791c4a97-fd2c-4118-ab77-f345fe67a9ed.png": "b1624cbc84f9334282a44f0ec9a831299c67edb5fed11909acf7a43655c75912.png",
+    "https://cpython666.github.io/imgs/web3/smart-money-tracking/hype-ada-long-short-ratio.png": "5cf4812cb5a8a50b070da520a4b2e605153690b87086b044267c79fee4e8b628.png",
+    "https://cpython666.github.io/imgs/yuque/1784876773957-6fa3f447-73af-45c4-912f-2549929e5119.jpeg": "1530566340c1d28eb551654718d41b32904bd262d39059fa654ee141dfeace39.jpg",
+    "https://cpython666.github.io/imgs/yuque/1784877795023-9f09bb50-c586-4b02-be6c-074bfd3fa086.png": "7ee6cb24413e216968f3f99c40ba9a191d64eb3a68e0ec43977499c7fb0898ce.png",
+    "https://cpython666.github.io/imgs/algorithm/fibonacci-recursion.png": "1faa2561247d9bf7b0285376974848ca64793547457bab249195e57abe085cc0.png",
+    "https://pbs.twimg.com/media/HMNh96ZbQAAXZ9-?format=jpg&name=large": "dea2fe647a681f53ba94e72192d4470285c262d76265fc0b6a3e16c977305f2a.jpg",
+    "https://pbs.twimg.com/media/HMOP1tTW8AEf7Lr?format=jpg&name=large": "a5df58250ee43d021b6d14cd8db5449fe60f420800b98638f8ad311ebb0c494b.jpg",
+    "https://pbs.twimg.com/media/HMKzW6XWcAALNAh?format=jpg&name=large": "73fe5df632c4c2a7022637dbd65faab0fdee56ea77506dfc5bdf419b53470e13.jpg",
+    "https://pbs.twimg.com/media/HMI0wJibMAAB8_3?format=jpg&name=large": "9d6cf425f0df019e57207f8585ab496d640a7fb807390286aeb7640d59e162d9.jpg",
+    "https://pbs.twimg.com/media/HMI03bPbsAAUCFV?format=jpg&name=large": "4ffe9351eb9ebcee154505877675b7672f5f64aa39fb50ec6b348bd69cbd16b3.jpg",
+    "https://pbs.twimg.com/media/HMI08U2a8AAq7S5?format=jpg&name=large": "0d0356828126f30475e079abe5131a4272c8ea51624a55a773e75c1d6157aabd.jpg",
+    "https://pbs.twimg.com/media/HMIxcBfbQAAq35d?format=jpg&name=large": "50561905395a6ae7d654c8312aeea5653bb39c2417ee90aa9a84ed5de69d6069.jpg",
+    "https://pbs.twimg.com/media/HMHt1xfawAEVStU?format=jpg&name=large": "bd6a29bfd59ef93b5d5f362826ab59115f0bf7da24cf57551a6a834b76721b98.jpg",
+    "https://pbs.twimg.com/media/HMFGPXNWwAAAprK?format=jpg&name=large": "90990c15bce2b6ee81d69bd6aa32ba91c5cd460b025e1e2c50d3003e52300a59.jpg",
+    "https://pbs.twimg.com/media/HMVnh7MbQAA7ra5?format=png&name=large": "ba62257ec13bf0b66c75395b27fea0e61c06f6d98ccbaae091f804192ac7c26f.png",
+    "https://pbs.twimg.com/media/HMYUAWYbYAA3-zg?format=jpg&name=large": "c5484a2fc090928d3158375858d702d585edf3127f34bf2377c97e989318e830.jpg",
+    "https://pbs.twimg.com/media/HMYUAWybQAAnRk2?format=jpg&name=large": "387cadd8d6ccbdd48eae3b4ffc61c9b823e91b378871c4ece1ba9aac14f121dc.jpg",
+    "https://pbs.twimg.com/media/HL6dNH1XIAAYMS_?format=jpg&name=large": "28227ebf431ae1f8ec842544e08f5c73131009a842a6fd5729a32269f39c25a1.jpg",
+    "https://pbs.twimg.com/media/HL8oWuSaQAAQImJ?format=jpg&name=large": "7783416c82a705d7232814be4a2c2866c22e526aa2ff5c1cc0101012005b0dc2.jpg",
+    "https://pbs.twimg.com/media/HL8oWt4bMAAokYp?format=jpg&name=large": "27e0d9903dbc44e3d0e5f8389ec3326d0e674b7cd948703e015e5c2e1f62815e.jpg",
+    "https://pbs.twimg.com/media/HL8oWuAaEAARx3Q?format=jpg&name=large": "dac791be96e2781df30eabf990f962162fb1e3cbb334b71cd85b0dead29f1075.jpg",
+    "https://pbs.twimg.com/media/HL8oWt3aYAAU8Ep?format=jpg&name=large": "d84f5b21575e8231da78ac342fba960b38a86c6ca0dbbf43efd6310a56834799.jpg",
+    "https://pbs.twimg.com/media/HLvoqEIWIAAGF3O?format=jpg&name=large": "d9db300726eff1f2859a24afe44620a9ba27b4e876137cd8fa001c82c4ee5f6f.jpg",
+    "https://pbs.twimg.com/media/HLvolkIXUAAFFpC?format=jpg&name=large": "b4f42021de43e95c6b51bc4d94baea12c0a2b6dfced826215c363e43b87efb75.jpg",
+    "https://pbs.twimg.com/media/HLylCrHaMAE3gyd?format=jpg&name=large": "d5b5ab195bf492dd97f1a51883c1574438df8fe741d3ac72bcd181f7a6ed3bcc.jpg",
+    "https://pbs.twimg.com/media/HLrWxrhW8AE97_a?format=jpg&name=large": "336a19f7a9b29f38cd8d18964a522a28ea271027dcdcf94c501b620f3ecbefe4.jpg",
+    "https://pbs.twimg.com/media/HLrbmP9agAAvtWJ?format=jpg&name=large": "5e5abd5503fb654e7a17678e48326e55f5bb0a0de474ec9f3890fe3854bda666.jpg",
+    "https://pbs.twimg.com/media/HLuF1V5XIAAqAM1?format=jpg&name=large": "bfcbf5e57e5fb64909a2dad5b58f54d23b2714b5868febb63912e49bb1caa8e4.jpg",
+    "https://pbs.twimg.com/media/HLt6-4xWcAAAjLK?format=png&name=large": "49d3a70c17e461afa55ee0e65ab69a26d5d0bdf20a13e3b3d93f9b6167eb6a39.png",
+    "https://pbs.twimg.com/media/HLrQIZmX0AAYSdZ?format=jpg&name=large": "b197a7ec79ff476903faf6162275ecfc1dacb33763b1ad2f87ccc8c99f601c6b.jpg",
+    "https://pbs.twimg.com/media/HMV7929bMAAF3Tp?format=jpg&name=large": "6caaea26c156bb048aa70d8247c53223422aab9c728f3750b5a52810618c88ff.jpg",
+    "https://pbs.twimg.com/media/HMEXEboXUAEC7NH?format=jpg&name=120x120": "19907adae3e77f1081bf4cc85bcfb07cc739a2001219941dfbfdd290f8c5b0e4.jpg",
+    "https://pbs.twimg.com/media/HMEXG1SWoAE8BHN?format=jpg&name=120x120": "9015de4792d5bab5a3a45d05f31a35befdf121cd69b63ab4eec4830ac61d083e.jpg",
+    "https://pbs.twimg.com/media/HMXZHRZXEAAL2OU?format=jpg&name=large": "f2728455299eac45ff4c44a4831a7b0d993fd2522a941d647e2d3aaaf4edbacd.jpg",
+    "https://pbs.twimg.com/media/HL-ujhGWQAAyIkX?format=jpg&name=large": "1cf0e28b18c7ba67e918f6c19d9c8d6782ff605bd1fd2f70f151cef8f5702ac5.jpg",
+    "https://pbs.twimg.com/media/HLj8ktUWQAA4KTj?format=jpg&name=large": "4172ad8e5649f4531dce6e6f0e463e87dec8ab8e0252047fadc9373efc848378.jpg",
+    "https://pbs.twimg.com/media/HLhTZFCXYAA3jju?format=jpg&name=large": "ca61d5a8681394e1a05138a261ed4652c0e41baf06dd4d42e3ac78a3bdb5e2ba.jpg",
+    "https://pbs.twimg.com/media/HLhpv3ZWcAEGv6S?format=png&name=large": "0ae2eb8532aec031160fbd4053da3baca0a9b0a29ddc6fe21ab0dff02db23358.png",
+    "https://pbs.twimg.com/media/HMWuSQVa8AAffS6?format=jpg&name=large": "d2b57f7f2d152009446bb672306a2920cc8be70f682aa0dceee1eec26d50b725.jpg",
+    "https://pbs.twimg.com/media/HMWxYYlWMAAkE2V?format=jpg&name=large": "9777755a55f1524b63539d71a1e092a7b2d2493b0e1d87af089c52a171ab732c.jpg",
+    "https://pbs.twimg.com/media/HMWxYaAXAAA9m8Y?format=jpg&name=large": "8eaae483a078decf56ad18702e2c809208681efe45d393199bf6571c38e6d832.jpg",
+    "https://pbs.twimg.com/media/HMWsLs9bsAA09oY?format=jpg&name=large": "836ef2f7350cfce7924980f07b66c85a299d056be0f52a70c5176ef94eb18d4d.jpg",
+    "https://pbs.twimg.com/media/HL8k4qOa4AAl2AY?format=png&name=240x240": "551e96c117eb85889bd447f624458a4557439ee85ba5f46dcce7523c71f577e7.png",
+    "https://pbs.twimg.com/media/HL8lnX6bUAAyX2C?format=jpg&name=120x120": "ea889816e9edd29f688654231ee78b57c1a2a6d71fc3d20a973d4397f5a8e305.jpg",
+    "https://pbs.twimg.com/media/HL8lySRa4AAyaWl?format=jpg&name=120x120": "7fcc70a2c7e40b43557a654f292ad3b1cbdf8db689daeb8843db28b42d970edc.jpg",
+    "https://pbs.twimg.com/media/HLhS9cbXEAAy9Pv?format=jpg&name=large": "0b17e795a86e104dbe3cf45e18d215445053cfad1d2850f26b919e6a248d6947.jpg",
+    "https://pbs.twimg.com/media/HLeSQOnaoAIL7Qu?format=png&name=large": "01f4a803d44757e86d8fb464c52137399e1a7c31168277a85e0199412d974452.png",
+    "https://pbs.twimg.com/media/HMTul-eboAEVItb?format=jpg&name=large": "00e55edfc87536570e7bdd5eef39a083e2e152b52347603b8a28bf67545df7cd.jpg",
+    "https://pbs.twimg.com/media/HMXED8UaEAA7nWf?format=jpg&name=large": "9f7fd7c680f0cf6d03e5e152c681f80bdbc1145f1e57cea6290f8b5c57df9627.jpg",
+    "https://pbs.twimg.com/media/HMXED8DbAAAKWZJ?format=jpg&name=large": "9aaafa1145b7ca8980c9648caff5f443ccd06557621cbe17b86ec901b028e07e.jpg",
+    "https://pbs.twimg.com/media/HLbZRwVXsAAktXe?format=jpg&name=large": "0edf98eb32076fb5577cc65f4d15839f84e02c572fae78b89c8da51b87263af5.jpg",
+    "https://pbs.twimg.com/media/HLbl3v1bQAA-wys?format=jpg&name=large": "17e092a807c80accfb274f657eea92db8d97a7f8b345f9d1142d402a9aabbc35.jpg",
+    "https://pbs.twimg.com/media/HLVeeXrXkAEv3J4?format=jpg&name=large": "f832e5f01e62d8ac9f54bd09bb4e1943c6a70af5d53527656c842c850b8fdc9b.jpg",
+    "https://pbs.twimg.com/media/HMWE7fiaQAAtyDW?format=jpg&name=large": "cad24b28210ef38359243d13fab9b595915caf54b4370b1d004ba85e3818201d.jpg",
+    "https://pbs.twimg.com/media/HMWE7fZaYAATh3C?format=jpg&name=large": "ea5226ee18529f8c3beb76e831b88cd9c930ea0d9ae2f61aff2c0072672cb31c.jpg",
+    "https://pbs.twimg.com/media/HMVcHipagAArVRK?format=jpg&name=large": "d63611ea7ba36234009fbcc946e12658bb09670798fa14873d99395c4978a3cf.jpg",
+    "https://pbs.twimg.com/media/HMVcM7QacAAYemt?format=jpg&name=large": "fa6184540ca715aa81c994c8269b5c39322583d1264d1952175d5a10098969b7.jpg",
+    "https://pbs.twimg.com/media/HMVcZMOagAAQEVx?format=jpg&name=large": "93fbb4a3018299e4538b58018a30940c2b6d70b2ee899886c167df6de1601d77.jpg",
+    "https://pbs.twimg.com/media/HLP4X4JaAAEBlKO?format=jpg&name=large": "04890d7199bf9c88aae6318c2e417f49c41524d6062869cd11d319d5b87da95d.jpg",
+    "https://pbs.twimg.com/media/HK8wuCZXoAAQ4R5?format=jpg&name=large": "c80d4659969a222acae2e5a8029bead263375b99601ee1887c33fdf042f8fe1e.jpg",
+    "https://pbs.twimg.com/media/HK1r1u5WsAAKR93?format=jpg&name=large": "630909336fa3978ffeb472e007a1f54e5158839a75878d49fdb912eb19e67898.jpg",
+    "https://pbs.twimg.com/media/HK1r1u5WcAAn4PX?format=jpg&name=large": "b94a0132802b008f3b3c8b51be8bcc4fb28a594c250f3f55ade6a34ba350cbee.jpg",
+    "https://pbs.twimg.com/media/HMT_PpfagAEL1cV?format=png&name=large": "ed8fbdb95ce93dd24cb6265d829c845fbe529844f6ec3c605fb7cc6aac3188d6.png",
+    "https://pbs.twimg.com/media/HMT_f_7acAACXbi?format=png&name=large": "80ef5966304a474844ba4aef0b5e85dca4b0f9c7b94199b6f21fcb7d0a89938d.png",
+    "https://pbs.twimg.com/media/HKbcaA_aoAAMDtZ?format=jpg&name=large": "8ed2cb906be8c223c66f4b85105db4e6e25796f829dbbad1efaef5b24c0739f2.jpg",
+    "https://pbs.twimg.com/media/HKY5FflX0AAVzVZ?format=jpg&name=large": "aa57ef6f4faefd642f49c434b27cf47f596b336e2e122a6287a22bf78530cb00.jpg",
+    "https://pbs.twimg.com/media/HKPLS2TXwAA7tjs?format=jpg&name=large": "1a0a2d746196d142762027d2353524542ccb84a99484eaa8ebf0f2733fb81131.jpg",
+    "https://pbs.twimg.com/media/HKH3OofXcAAMYQ1?format=jpg&name=large": "9c262711b8e2d2c378ca0af7a4cf519d135defc0eea886fe3e8cc3f1a27e11f7.jpg",
+    "https://pbs.twimg.com/media/HJ9qE-7WoAAq-T_?format=jpg&name=large": "ba0975bc274fbf970b29991b6caccacf2c5db472fe0b94c7a991c3227afd7ea8.jpg",
+    "https://pbs.twimg.com/media/HJ5pMxFaoAAuPJJ?format=jpg&name=large": "8b497577208a315ad3c44975ce114ada352d757a9175ff73a862eb5f3269e89e.jpg",
+    "https://pbs.twimg.com/media/HJ7iIxDbcAAlQSb?format=jpg&name=large": "aa826a7f2b014d39d94f09c26b2c77c78c8e69a942e4ef4e0e81554ce12fa6d0.jpg",
+    "https://pbs.twimg.com/media/HJy_t8qXkAApRey?format=jpg&name=large": "fdb461ea23d23fc69d91da917393e29b98aa69199b366178190d386e3d71f019.jpg",
+    "https://pbs.twimg.com/media/HJyN9kVaQAE2WdZ?format=jpg&name=large": "c2a4d5d2449c88fa311a1846b2227344751397e9e9f37e075fb4025519f45c20.jpg",
+    "https://pbs.twimg.com/media/HJvsei9bkAA3SxN?format=jpg&name=large": "ef9806df94244fadbb1ee1a41331a7d915a786b33f42b679a04ed4ce0406f6df.jpg",
+    "https://pbs.twimg.com/media/HJqrXiAXAAUoTpR?format=jpg&name=large": "a5fa081869136b49d0969543d74ae69a0cd0173b31c329be710f283bdc25722f.jpg",
+    "https://pbs.twimg.com/media/HG1w-cuboAADERS?format=jpg&name=large": "d6778a25f7c76bf267919fd965b96388beba7bcc92608d0cb8af432d24626bda.jpg",
+    "https://pbs.twimg.com/media/HMI1AnNbIAAt6CV?format=jpg&name=large": "ceb4e64c6c69251f605663815ca53bcec46f906cb42f9d5c3c4dcfafa9e260bc.jpg",
+    "https://pbs.twimg.com/media/HMGp-I1bgAA2XKl?format=jpg&name=large": "8d9b91dd08877fe063df4a1c3bedd6406ddb74b28ce9870bd5135cc4ae350f3f.jpg",
+    "https://pbs.twimg.com/media/HLsvhb4bYAAgIN9?format=png&name=large": "1ec8fab1161ca399fbfb71641cbdb82585eb798ff5d6a91faabb5aef487dbb6c.png",
+    "https://pbs.twimg.com/media/HLrQIZcXEAE9rGA?format=jpg&name=large": "a7b6f321cf6ff78f1411e6eb02c2b39c6240bc326d40072331030093b4bf4779.jpg",
+    "https://pbs.twimg.com/media/HMWiDjVaQAAdg3N?format=jpg&name=large": "8accd64cf2bac4e1cd6c85d9514feeb5bdce0ea3d0574deef704bfd5e49f3e19.jpg",
+    "https://pbs.twimg.com/media/HMXZVx9XoAAVoUJ?format=jpg&name=large": "360e6713de743a21f553cddb13631dd1eb0a2a72d9d629acc7f3cf7d797590f3.jpg",
+    "https://pbs.twimg.com/media/HLpum8QbcAI8L-H?format=jpg&name=large": "5e5abd5503fb654e7a17678e48326e55f5bb0a0de474ec9f3890fe3854bda666.jpg",
+    "https://pbs.twimg.com/media/HMTuOTNaMAApwCJ?format=jpg&name=large": "f24ac56911795f1038a366e031a17f873c79c7c6ebbe0703e279c3d93a530119.jpg",
+    "https://pbs.twimg.com/media/HLUj557a0AAyL1Y?format=png&name=large": "bb8038a0f5a4b25a1eccb809675bd6823d7f1da90b9dc10cdf1b28e4e3317e62.png",
+    "https://pbs.twimg.com/media/HLPe41gXsAEuJd2?format=jpg&name=large": "135b4dbe778248ec9046658adf6bf6944327a0aac68749629fbcb19b69d96dcc.jpg",
+    "https://pbs.twimg.com/media/HLPeyvZWoAAlmQ5?format=jpg&name=large": "fd2fc259787744d0fb8d774c3b1e83b831286778dd149f45ee95ab4a321be62b.jpg",
+    "https://pbs.twimg.com/media/HLU3b7qa0AAZa0U?format=jpg&name=large": "105d8ddad8c03498deb4dbc696ee3ca55b28dc94c1ac4cb786ea9af374eb18dc.jpg",
+    "https://pbs.twimg.com/media/HMT_Ppea0AAdouJ?format=png&name=large": "6ee726c72b861807af4bb392ae0fd39c674f259df904bb3dd31658e199314bf1.png",
+    "https://pbs.twimg.com/media/HKZHqm0XgAAhb-z?format=jpg&name=large": "d732fbebdcf72519d3a3552e2904bb4f0d675fe6381158fef2caf05d4c0c0240.jpg",
+    "https://pbs.twimg.com/media/HJ9sYElWsAAWnsP?format=jpg&name=large": "e595b7a6b0d71145fddfb73baa7380d3ee4a2ec485450f567db428eb916b9c54.jpg",
+    "https://pbs.twimg.com/media/HJ-zYx0bgAARFk9?format=jpg&name=large": "4863fea3f964851d4723388c6db51dcf18e17b62c8bf1bc3f0897c058190c541.jpg",
+    "https://pbs.twimg.com/media/HJ3cfepXoAAMAbA?format=jpg&name=large": "1478e4ebb6cfba658cbebf58f2b601cf56eb91620bf24939d63b30bbac97bfa3.jpg",
+    "https://pbs.twimg.com/media/HJ4XUtKaYAAy1_h?format=jpg&name=large": "a8bb7e186234cf868db37208fb263f9a82c92434cd6d3b45a5c847626e737ef0.jpg",
+    "https://pbs.twimg.com/media/HJyJJuPXwAAj6nv?format=jpg&name=large": "091fe99c70f6daa9e2f54e3e2e40d2241724d550f3283c51e9226518bce3a48d.jpg",
+    "https://pbs.twimg.com/media/HJvzMarWYAA4L12?format=jpg&name=large": "93bf9f1ed32ad5f2fa7ba8f49d8f9f42bd625f71a02ddf91633ff44fd4efcd2d.jpg",
+    "https://pbs.twimg.com/media/HJuKhwiWUAMS3s_?format=jpg&name=large": "98d9104df1c91def2920cc1a6f8da2a1b312089eeefbb3def0d3bec4789cd93d.jpg",
+    "https://pbs.twimg.com/media/HJt4BacXoAAh1jx?format=jpg&name=large": "b80a9a7addbf6cfd39e8314be52cf5dd672641cb8d3c3f15c56ee9b7acb68fc6.jpg"
+  },
+  "missingMedia": [
+    "https://cpython666.github.io/imgs/life/self-media-start-fear.png",
+    "https://cpython666.github.io/imgs/life/easy-money-demand.png",
+    "https://cpython666.github.io/imgs/python/subtitle-extractor/video-copy-extractor-cover.png",
+    "https://cpython666.github.io/imgs/spider/collection/traffic-crawler-warning.png",
+    "https://cpython666.github.io/imgs/web/jquery-dollar-conflict-formula.png",
+    "https://pbs.twimg.com/media/HME2eQbaUAU1Pf0?format=jpg&name=large",
+    "https://pbs.twimg.com/media/HJ3Fh2FaoAAZVD2?format=jpg&name=large"
+  ]
+}

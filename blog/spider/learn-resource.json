@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/spider/learn-resource",
+  "title": "大佬博客",
+  "category": "数据采集",
+  "html": "<p><a href=\"https://www.lcayun.com/aff/DECEDOZS\"><img alt=\"\" src=\"https://cpython666.github.io/imgs/ads/lky.png\"/></a></p>\n<h1>大佬博客</h1>\n<p>https://blog.csdn.net/qq523176585?type=blog</p>\n<p>https://space.bilibili.com/484059022</p>",
+  "sourcePath": "docs/spider/learn-resource.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2025-03-13T00:10:16+08:00",
+  "modified": "2026-08-05T12:10:57+08:00"
+}

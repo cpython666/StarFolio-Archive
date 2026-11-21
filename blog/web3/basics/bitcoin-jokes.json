@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/web3/basics/bitcoin-jokes",
+  "title": "加密笑话",
+  "category": "Web3",
+  "html": "<h1>加密笑话</h1>\n<blockquote>\n<p>比特币meme图，反讽图</p>\n</blockquote>\n<h2>比特币暴雷</h2>\n<p><img alt=\"\" src=\"https://cpython666.github.io/imgs/web3/btc-crash.jpeg\"/></p>\n<h2>比特币800元每个庞氏骗局</h2>\n<blockquote>\n<p>2013年5月5日——“揭秘疯狂的比特币：每个800元，新的庞氏骗局？”</p>\n<p>2022年6月26日——“虚拟货币终究是黄粱一梦、庞氏骗局？”</p>\n<p>2024年3月18日——“比特币的终局：价值为零的电子遗迹”</p>\n<p>不得不说这十多年来除了比特币的价格不断创新高外，媒体记者们的起标题水平也在不断跃进\n<img alt=\"\" src=\"https://cpython666.github.io/imgs/web3/btc-800.png\"/>\n<img alt=\"\" src=\"https://cpython666.github.io/imgs/web3/btc-800-comment.png\"/></p>\n</blockquote>",
+  "sourcePath": "docs/web3/basics/bitcoin-jokes.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2025-08-17T01:18:30+08:00",
+  "modified": "2026-08-05T12:12:59+08:00"
+}

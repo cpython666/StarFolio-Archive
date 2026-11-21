@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p33-antialiasing",
+  "title": "P33-防锯齿选项",
+  "category": "Python",
+  "html": "<h1>P33-防锯齿选项</h1>\n<p>这段代码定义了一个枚举类 <code>RenderHint</code>，它是一个标志（flag）枚举，用于表示图形渲染的一些选项。这里使用了Python的<code>enum</code>模块。</p>\n<p>每个枚举成员都对应一个图形渲染选项，其实际值是<code>QPainter.RenderHint</code>类型，这是PyQt中用于指定绘制选项的一种枚举类型。这些选项用于设置 QPainter 的渲染行为，以影响如何处理图形的绘制和呈现。</p>\n<p>以下是对每个成员的简要解释：</p>\n<ul>\n<li><code>Antialiasing</code>: 启用抗锯齿，使图形边缘更加平滑。</li>\n<li><code>TextAntialiasing</code>: 启用文本抗锯齿，使文本边缘更加平滑。</li>\n<li><code>SmoothPixmapTransform</code>: 启用平滑的 pixmap 变换，可以提高 pixmap 的绘制质量。</li>\n<li><code>LosslessImageRendering</code>: 在图像渲染时尽量保持无损。</li>\n<li><code>VerticalSubpixelPositioning</code>: 启用垂直子像素定位，提高垂直方向的文本渲染精度。</li>\n<li><code>NonCosmeticBrushPatterns</code>: 禁用化妆品级别的笔刷模式，即使在缩放时，图案也不会被调整。</li>\n</ul>\n<p>这些选项可以通过设置 <code>QPainter.setRenderHint</code> 方法来应用到绘图上下文中，从而影响后续的绘图操作。例如：</p>\n<pre><code>painter = QPainter()\npainter.setRenderHint(RenderHint.Antialiasing)\npainter.drawEllipse(10, 10, 50, 50)\n</code></pre>\n<p>这会启用抗锯齿效果，使绘制的椭圆边缘更加平滑。</p>",
+  "sourcePath": "docs/python/pyqt6-series/p33-antialiasing.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:46:38",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

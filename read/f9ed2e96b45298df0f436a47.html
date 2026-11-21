@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>Django最常用命令合集</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>Django最常用命令合集</h1><p><a href="https://cpython666.github.io/python/django-series/django-common-commands">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.293899+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/python/django-series/django-common-commands">#1</a> · 未署名 · <time>2024-12-20 23:35:32</time></p><div class="body"><h1>Django最常用命令合集</h1>
+<h1>django常用命令</h1>
+<pre><code>pip freeze &gt; requirements.txt
+pip install django
+pip install djangorestframework
+pip install mysqlclient
+pip install django-simpleui
+pip install djongo
+pip install djangorestframework-simplejwt
+
+django-admin startproject djangoproname
+
+
+python manage.py runserver
+
+
+python manage.py startapp polls
+python manage.py startapp api apps/api
+
+python manage.py sqlmigrate 应用名 文件名
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations appname
+python manage.py migrate appname
+
+python manage.py createsuperuser
+
+
+pip install celery
+pip install django-allauth
+pip install django-imagekit
+pip install django-debug-toolbar
+pip install django-mptt
+pip install django-crispy-forms
+pip install django-celery-email
+
+pip install django-ckeditor
+</code></pre>
+<h2>静态文件</h2>
+<p>你的工程可能包含未与任何应用绑定的静态资源。除了在 apps 中使用 <code>**static/**</code> 目录，你可以在配置文件中定义一个目录列表 (<a href="https://docs.djangoproject.com/zh-hans/5.0/ref/settings/" rel="noreferrer noopener">STATICFILES_DIRS</a>) ，Django 会从中寻找静态文件。例子:</p>
+<pre><code>STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    "/var/www/static/",
+]
+</code></pre>
+<h2>管理模型</h2>
+<pre><code>from django.contrib import admin
+
+from .models import Question
+
+admin.site.register(Question)
+</code></pre>
+<h2>settings常用配置</h2>
+<h2>语言，时区，数据库</h2>
+<pre><code># settings
+# 多语言配置更改语言为中文
+LANGUAGE_CODE = "zh-hans"
+# 时区
+TIME_ZONE = 'Asia/Shanghai'
+USE_TZ = True
+
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        # "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": BASE_DIR + "/db.sqlite3",
+    }
+}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  # 默认
+        'NAME': 'homeservice',  # 连接的数据库  #一定要存在的数据库名
+        'HOST': '127.0.0.1',  # mysql的ip地址
+        'PORT': 3306,  # mysql的端口
+        'USER': 'root', # mysql的用户名
+        'PASSWORD': '1234'  # mysql的密码
+        }
+}
+
+DATABASES = {
+   'default': {
+      'ENGINE': 'djongo',
+      'ENFORCE_SCHEMA': True,
+      'NAME': 'your-db-name',
+      'HOST': 'host-name or ip address',
+      'PORT': 27017,
+      'USER': 'db-username',
+      'PASSWORD': 'password',
+      'AUTH_SOURCE': 'db-name',
+      'AUTH_MECHANISM': 'SCRAM-SHA-1',
+      'REPLICASET': 'replicaset',
+      'SSL': 'ssl',
+      'SSL_CERTFILE': 'ssl_certfile',
+      'SSL_CA_CERTS': 'ssl_ca_certs',
+      'READ_PREFERENCE': 'read_preference'
+   }
+}
+   'default': {
+      'ENGINE': 'djongo',
+      'ENFORCE_SCHEMA': True,
+      'NAME': 'django2024',
+      'HOST': 'localhost',
+      'PORT': 27017,
+      # 'USER': 'db-username',
+      # 'PASSWORD': 'password',
+      # 'AUTH_SOURCE': 'db-name',
+      'AUTH_MECHANISM': 'SCRAM-SHA-1',
+      'REPLICASET': 'replicaset',
+      'SSL': 'ssl',
+      'SSL_CERTFILE': 'ssl_certfile',
+      'SSL_CA_CERTS': 'ssl_ca_certs',
+      'READ_PREFERENCE': 'read_preference'
+   }
+</code></pre>
+<h2>django的command脚本一个文件中能写多个命令吗</h2>
+<p>在 Django 中，每个管理命令通常对应一个文件，并放置在应用的 <code>management/commands/</code> 目录下。每个命令的入口类继承自 <code>BaseCommand</code> 或其子类。这种设计是为了让 Django 的命令能够独立运行，且文件名与命令名称一一对应。</p>
+<p>因此，<strong>一个文件中只能定义一个 Django 命令</strong>。文件名就是命令的名称。</p>
+<hr/>
+<h3><strong>正确的实现方式</strong></h3>
+<p>如果需要定义多个命令，应为每个命令单独创建一个文件。例如：</p>
+<ol>
+<li>假设有一个应用名为 <code>myapp</code>。</li>
+<li>创建管理命令目录结构：</li>
+</ol>
+<pre><code>myapp/
+    management/
+        commands/
+            command_one.py
+            command_two.py
+</code></pre>
+<ol>
+<li>每个文件定义一个命令：<code>command_one.py</code></li>
+</ol>
+<pre><code>from django.core.management.base import BaseCommand
+
+class Command(BaseCommand):
+    help = 'Command one description'
+
+    def handle(self, *args, **kwargs):
+        self.stdout.write('Executing command one')
+</code></pre>
+<p><code>command_two.py</code></p>
+<pre><code>from django.core.management.base import BaseCommand
+
+class Command(BaseCommand):
+    help = 'Command two description'
+
+    def handle(self, *args, **kwargs):
+        self.stdout.write('Executing command two')
+</code></pre>
+<hr/>
+<h3><strong>调用方式</strong></h3>
+<p>运行命令时，命令名与文件名对应：</p>
+<pre><code>python manage.py command_one
+python manage.py command_two
+</code></pre>
+<hr/>
+<h3><strong>特殊需求：一个文件包含多个功能</strong></h3>
+<p>如果你希望一个命令文件中包含多个逻辑功能，可以通过命令的 <strong>参数</strong> 来实现。例如：</p>
+<p><code>multi_command.py</code></p>
+<pre><code>from django.core.management.base import BaseCommand
+
+class Command(BaseCommand):
+    help = 'A multi-functional command'
+
+    def add_arguments(self, parser):
+        parser.add_argument(
+            'operation',
+            type=str,
+            choices=['task1', 'task2'],
+            help='Choose the operation to execute: task1 or task2'
+        )
+
+    def handle(self, *args, **kwargs):
+        operation = kwargs['operation']
+        if operation == 'task1':
+            self.stdout.write('Executing Task 1...')
+            # Task 1 logic here
+        elif operation == 'task2':
+            self.stdout.write('Executing Task 2...')
+            # Task 2 logic here
+</code></pre>
+<p>运行时：</p>
+<pre><code>python manage.py multi_command task1
+python manage.py multi_command task2
+</code></pre>
+<h3>总结</h3>
+<ul>
+<li><strong>一个文件只能对应一个 Django 命令名称</strong>，如果需要多个命令，请使用多个文件。</li>
+<li>如果需要一个命令文件中实现多个功能，可以通过命令参数来区分。</li>
+</ul></div></article></main></html>

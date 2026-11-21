@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>P18-窗口自定义拖拽功能</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>P18-窗口自定义拖拽功能</h1><p><a href="https://cpython666.github.io/python/pyqt6-series/p18-custom-window-drag">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.432891+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/python/pyqt6-series/p18-custom-window-drag">#1</a> · 未署名 · <time>2024-12-20 21:40:24</time></p><div class="body"><h1>P18-窗口自定义拖拽功能</h1>
+<pre><code>def mousePressEvent(self, event):
+        # 鼠标按压，判断是否是鼠标左键并且点击点在窗口内
+        if event.button() == Qt.MouseButton.LeftButton and self.geometry().contains(self.mapToGlobal(event.pos())):
+            self.dis = self.mapToGlobal(event.pos()) - self.pos()
+            print(self.mapToGlobal(event.pos()),event.pos(),self.pos(),self.dis)
+            self.dragging = True
+            self.setCursor(Qt.CursorShape.ClosedHandCursor)
+def mouseMoveEvent(self, event):
+    # 鼠标移动的时候判断是否是拖拽状态，如果是的话就移动窗口
+    if self.dragging:
+        # self.move(event.pos()-self.dis)
+        self.move(self.mapToGlobal(event.pos()) - self.dis)
+def mouseReleaseEvent(self, event):
+    # 鼠标释放的时候接触拖拽状态并且改变鼠标样式
+    if event.button() == Qt.MouseButton.LeftButton and self.dragging:
+        self.dragging = False
+        self.setCursor(Qt.CursorShape.OpenHandCursor)
+</code></pre>
+<pre><code>import sys
+from PyQt6.QtWidgets import QApplication, QWidget
+from PyQt6.QtGui import QScreen, QGuiApplication,QIcon
+from PyQt6.QtCore import Qt, QRect, QPropertyAnimation, QParallelAnimationGroup,QSize
+class MyApplication(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.initUI()
+    def mousePressEvent(self, event):
+        # 鼠标按压，判断是否是鼠标左键并且点击点在窗口内
+        if event.button() == Qt.MouseButton.LeftButton and self.geometry().contains(self.mapToGlobal(event.pos())):
+            self.dis = self.mapToGlobal(event.pos()) - self.pos()
+            print(self.mapToGlobal(event.pos()),event.pos(),self.pos(),self.dis)
+            self.dragging = True
+            self.setCursor(Qt.CursorShape.ClosedHandCursor)
+    def mouseMoveEvent(self, event):
+        # 鼠标移动的时候判断是否是拖拽状态，如果是的话就移动窗口
+        if self.dragging:
+            # self.move(event.pos()-self.dis)
+            self.move(self.mapToGlobal(event.pos()) - self.dis)
+    def mouseReleaseEvent(self, event):
+        # 鼠标释放的时候接触拖拽状态并且改变鼠标样式
+        if event.button() == Qt.MouseButton.LeftButton and self.dragging:
+            self.dragging = False
+            self.setCursor(Qt.CursorShape.OpenHandCursor)
+
+    def initUI(self):
+        self.setGeometry(0, 0, 300, 200)  # Set window size
+        self.setWindowTitle('派森斗罗')
+        self.setWindowIcon(QIcon('logo.png'))
+
+        self.center()  # Center the window on the screen
+    def center(self):
+        qr=self.frameGeometry()
+        cp=QGuiApplication.primaryScreen().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = MyApplication()
+    ex.show()
+    sys.exit(app.exec())
+</code></pre></div></article></main></html>

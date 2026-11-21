@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>CCXT 加密货币交易库使用指南</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>CCXT 加密货币交易库使用指南</h1><p><a href="https://cpython666.github.io/web3/cctx">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:58.085645+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/web3/cctx">#1</a> · 未署名 · <time>2025-05-06T00:25:04+08:00</time></p><div class="body"><p>CCXT（CryptoCurrency eXchange Trading Library）是一个开源的加密货币交易库，支持 JavaScript、Python 和 PHP 等多种编程语言。它为开发者提供了统一的接口，方便地连接和操作全球众多的加密货币交易所。(<a href="https://learnku.com/articles/20449?utm_source=chatgpt.com" rel="noreferrer noopener">learnku.com</a>, <a href="https://blog.csdn.net/zaqygv/article/details/78732104?utm_source=chatgpt.com" rel="noreferrer noopener">CSDN 博客</a>)</p>
+<hr/>
+<h2>🔧 CCXT 的主要功能</h2>
+<ol>
+<li>
+<p><strong>多交易所支持</strong>：CCXT 支持超过 130 个加密货币交易所，如 Binance、Bitfinex、Coinbase 等，涵盖了主流和部分小众交易所。</p>
+</li>
+<li>
+<p><strong>统一的 API 接口</strong>：无论交易所的原始 API 如何不同，CCXT 提供了统一的方法名称和数据结构，简化了多交易所的开发工作。</p>
+</li>
+<li>
+<p><strong>行情数据获取</strong>：可以方便地获取市场数据，如订单簿、K 线图、成交记录、价格行情等。(<a href="https://www.cnblogs.com/sljsz/p/17566779.html?utm_source=chatgpt.com" rel="noreferrer noopener">博客园</a>)</p>
+</li>
+<li>
+<p><strong>交易操作</strong>：支持下单、撤单、查询订单、获取账户余额等交易相关操作。(<a href="https://cloud.baidu.com/article/2960441?utm_source=chatgpt.com" rel="noreferrer noopener">百度智能云</a>)</p>
+</li>
+<li>
+<p><strong>账户管理</strong>：可以查询账户余额、交易记录等信息，方便进行账户管理。(<a href="https://cloud.baidu.com/article/2960441?utm_source=chatgpt.com" rel="noreferrer noopener">百度智能云</a>)</p>
+</li>
+</ol>
+<hr/>
+<h2>🛠️ 安装与基本使用</h2>
+<h3>安装 CCXT</h3>
+<p>使用 pip 安装 CCXT：(<a href="https://cloud.baidu.com/article/2960441?utm_source=chatgpt.com" rel="noreferrer noopener">百度智能云</a>)</p>
+<pre><code>pip install ccxt
+</code></pre>
+<h3>初始化交易所</h3>
+<p>以 Binance 为例，初始化交易所对象：(<a href="https://www.cnblogs.com/sljsz/p/17566779.html?utm_source=chatgpt.com" rel="noreferrer noopener">博客园</a>)</p>
+<pre><code>import ccxt
+
+# 初始化 Binance 交易所对象
+exchange = ccxt.binance()
+</code></pre>
+<h3>获取市场数据</h3>
+<p>加载交易所支持的市场信息：</p>
+<pre><code>markets = exchange.load_markets()
+</code></pre>
+<p>获取某个交易对的行情数据，例如 BTC/USDT：(<a href="https://cloud.baidu.com/article/2960441?utm_source=chatgpt.com" rel="noreferrer noopener">百度智能云</a>)</p>
+<pre><code>ticker = exchange.fetch_ticker('BTC/USDT')
+print(ticker)
+</code></pre>
+<h3>进行交易操作</h3>
+<p>在进行交易操作前，需要设置 API 密钥和私钥：</p>
+<pre><code>exchange.apiKey = 'YOUR_API_KEY'
+exchange.secret = 'YOUR_SECRET_KEY'
+</code></pre>
+<p>然后，可以创建订单、查询订单等：</p>
+<pre><code># 创建限价买单
+order = exchange.create_order(
+    symbol='BTC/USDT',
+    type='limit',
+    side='buy',
+    amount=0.01,
+    price=30000
+)
+print(order)
+</code></pre>
+<hr/>
+<h2>📚 学习资源</h2>
+<p>以下是一些关于 CCXT 的学习资源：</p>
+<ul>
+<li><a href="https://www.wuzao.com/document/ccxt/index.html" rel="noreferrer noopener">CCXT 中文文档</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/369471079" rel="noreferrer noopener">CCXT 开源框架快速入门 - 知乎专栏</a></li>
+<li><a href="https://www.cnblogs.com/sljsz/p/17566779.html" rel="noreferrer noopener">如何使用 CCXT 交易数字货币现货 - 博客园</a></li>
+</ul>
+<hr/>
+<p>如果您有特定的使用场景或需要进一步的示例代码，欢迎继续提问！</p></div></article></main></html>

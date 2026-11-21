@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>xpath简介及常用语法</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>xpath简介及常用语法</h1><p><a href="https://cpython666.github.io/spider/collection/xpath-intro">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.680326+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/spider/collection/xpath-intro">#1</a> · 未署名 · <time>2024-11-10 16:15:02</time></p><div class="body"><h1>xpath简介及常用语法</h1>
+<p>最开始学数据采集的时候，网页解析经常会卡很久，原因就是xpath不熟练，经常解析不到内容</p>
+<p>平时我在工作的时候也经常会使用到xpath，有时候会有些生疏的去问gpt或者是翻自己记的笔记，因为最开始的笔记比较乱，还是影响效率，所以我准备再整理一下，然后顺便分享出来，如果有我没有讲到的大家也可以做补充。</p>
+<h2>基础了解</h2>
+<p>XPath（XML Path Language）是一种在 XML 文档中查找节点的语言，常用于 XML 数据解析比如说网页解析。以下是一些常用的 XPath 定位方法和示例：</p>
+<h3>示例使用</h3>
+<pre><code>html_text = '''
+&lt;title&gt;标题&lt;/title&gt;
+'''
+
+from lxml import html
+
+tree = html.fromstring(html_text)
+print(tree.xpath('//title/text()'))
+</code></pre>
+<h3>1. **基本节点定位**</h3>
+<ul>
+<li>
+<p><code>/</code> 表示从根节点开始。</p>
+</li>
+<li>
+<p><code>//</code> 表示从文档的任意位置查找符合条件的节点。</p>
+</li>
+<li>
+<p>./ 从当前节点开始寻找</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>/html/body/div</code>：定位到根节点下的 <code>div</code> 标签。</p>
+</li>
+<li>
+<p><code>//div</code>：查找文档中所有的 <code>div</code> 节点。</p>
+</li>
+</ul>
+<h3>2. **通过标签定位**</h3>
+<ul>
+<li>
+<p><code>//tag_name</code>：定位到所有指定的标签名节点。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//a</code>：定位到文档中的所有 <code>a</code> 标签。</p>
+</li>
+</ul>
+<h3>3. **通过属性定位**</h3>
+<ul>
+<li>
+<p><code>[@attribute='value']</code>：根据属性及其值进行定位。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//input[@type='text']</code>：定位所有 <code>type="text"</code> 的 <code>input</code> 标签。</p>
+</li>
+<li>
+<p><code>//div[@class='container']</code>：定位 <code>class="container"</code> 的 <code>div</code> 标签。</p>
+</li>
+</ul>
+<h3>4. **通过文本内容定位**</h3>
+<ul>
+<li>
+<p><code>//tag_name[text()='content']</code>：查找指定标签中包含精确文本的节点。</p>
+</li>
+<li>
+<p><code>contains(text(),'部分内容')</code>：模糊匹配文本内容。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//p[text()='Hello World']</code>：找到所有文本为“Hello World”的 <code>p</code> 标签。</p>
+</li>
+<li>
+<p><code>//span[contains(text(),'部分内容')]</code>：找到包含“部分内容”字符串的 <code>span</code> 标签。</p>
+</li>
+</ul>
+<h3>5. **通过层级关系定位**</h3>
+<ul>
+<li>
+<p><code>/</code> 表示直接子节点关系。</p>
+</li>
+<li>
+<p><code>//</code> 表示不论层级的后代节点。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//div/span</code>：查找所有在 <code>div</code> 标签下的 <code>span</code> 标签。</p>
+</li>
+<li>
+<p><code>//ul/li/a</code>：查找 <code>ul</code> 标签下的 <code>li</code> 的所有 <code>a</code> 标签。</p>
+</li>
+</ul>
+<h3>6. **位置索引**</h3>
+<ul>
+<li>
+<p><code>[index]</code>：使用索引进行精确定位，索引从 <code>1</code> 开始。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//div[1]</code>：定位第一个 <code>div</code> 标签。</p>
+</li>
+<li>
+<p><code>//ul/li[2]</code>：定位 <code>ul</code> 标签下的第二个 <code>li</code> 标签。</p>
+</li>
+</ul>
+<h3>7. **通过多个条件组合定位**</h3>
+<ul>
+<li>
+<p>使用 <code>and</code> 和 <code>or</code> 组合多个条件。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//a[@class='link' and @href='#']</code>：查找 <code>class="link"</code> 且 <code>href="#"</code> 的 <code>a</code> 标签。</p>
+</li>
+</ul>
+<h3>8. **通配符**</h3>
+<ul>
+<li>
+<p><code>*</code>：表示任意节点。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//div/*</code>：查找 <code>div</code> 标签下的所有直接子节点。</p>
+</li>
+<li>
+<p><code>//*[@id='unique']</code>：定位 <code>id="unique"</code> 的任意标签。</p>
+</li>
+</ul>
+<p>掌握这些基本的 XPath 定位语法，你可以更加高效地查找并获取目标数据。</p>
+<h2>常用语法</h2>
+<pre><code>子级：/
+子级及所有后代：//
+
+根据文本查找
+含有Hello的a链接
+response.xpath('//a[contains(text(), "Hello")]')
+response.css('a:contains("Hello")')
+
+根据属性查找
+类名精确查找
+response.xpath('//li[@class="tab__nav__item"]')
+类名包含
+response.xpath('//ul[contains(@class, "rlist")]/li[@class="tab__nav__item"]')
+
+第几个
+倒数第一个
+//ul/li[last()]
+#倒数第二个
+//span/ul//li[last()-1]
+
+以什么开始：starts-with
+//iframe[starts-with(@src,"/abcd/efg/ivrflow/page/ivrFlow.jsp")]
+以什么结束：ends-with
+f、部分属性值匹配
+//input[starts-with(@id,'fuck')]"));//匹配id以fuck开头的元素，id='fuckyou'
+//input[ends-with(@id,'fuck')]"));//匹配id以fuck结尾的元素，id='youfuck'
+//input[contains(@id,'fuck')]"));//匹配id中含有fuck的元素，id='youfuckyou'
+    
+运算符and，or，not，!=
+//标签名[@元素名称='元素值' and @元素名称='元素值']
+//input[@id='kw' and @class='s_ipt']
+// 标签名[@元素名称='元素值' or @元素名称='元素值']
+//input[@id='kw' or @class='s_t']
+//标签名称[@元素名称 != '元素值']
+//input[@class!='1111']
+
+这里没有找到合适的场景，意思就是查找year内容不为2005的内容 注：“.”就等于text()
+//标签名[not(.='元素值')
+//year[not(.=2005)]
+
+模糊匹配
+//div[not(@id="tab-AndroidVersions")]
+//标签名[contains(text(), "内容"]
+//div[contains(text(), "更新")]
+
+精准匹配
+//标签名[(text()='内容')]
+//div[(text()='更新文案')]
+
+由某个td元素找到最近祖先table元素
+//td[text()='表格数据文本']/ancestor::table
+# 使用XPath查找包含“您好”的所有节点的父亲节点
+parent_nodes = tree.xpath("//*[contains(text(), '您好')]/..")
+
+
+rows = tree.xpath("//table//tr[position()&gt;1]")
+
+target_tr = response.xpath('//tr[td[contains(text(), "水果排名")]]')
+# 获取target_tr之前的tr节点
+previous_tr = target_tr.xpath('preceding-sibling::tr[1]')
+# 获取target_tr之后的tr节点
+next_tr = target_tr.xpath('following-sibling::tr[1]')
+
+查找包含“您好”的所有节点的父亲节点
+//*[contains(text(), '啦啦')]/..
+
+#选择 ID 为 myDiv 的 &lt;div&gt; 后面的第一个 &lt;h3&gt; 兄弟节点。
+//div[@id='myDiv']/following-sibling::h3[1]
+选择 ID 为 myDiv 的 &lt;div&gt; 的所有后续兄弟节点。
+//div[@id='myDiv']/following-sibling::*
+
+# 提取链接
+//div[@class="td-wrap"]/a/@href
+# 提取名称
+//div[@class="td-wrap"]/a/text()
+
+创建节点
+new_td = etree.Element("td")
+new_td.set("align", "left")
+new_td.text = td_text
+next_tr.insert(j, new_td)
+detail_rows = detail_table_lxml.xpath('.//td[@align="left"]')
+print(len(detail_rows), detail_rows)
+modified_html = etree.tostring(detail_table_lxml, pretty_print=True, encoding='unicode')
+print(modified_html)
+# 设置
+root = etree.Element('root', language='中文')  # 创建节点时创建属性
+root.set('hello', 'python')  # 使用set方法为root节点添加属性
+# 获取属性
+print(root.get('language'))  # 使用get方法获取属性
+print(root['language'])
+print(root.keys())
+print(root.values())
+print(root.items())
+# 修改属性
+root['language'] = 'English'
+</code></pre>
+<h2>更多进阶</h2>
+<p>你的XPath语法总结得非常完整了！下面是一些其他的高级用法和少见的定位技巧，或许可以帮助你进一步掌握XPath。</p>
+<h3>1. **基于轴定位**</h3>
+<p>轴（Axis）用于从当前节点出发定位相关节点。常用轴包括：</p>
+<ul>
+<li>
+<p><code>ancestor</code>：所有祖先节点（父节点、祖父节点等）。</p>
+</li>
+<li>
+<p><code>ancestor-or-self</code>：包含当前节点及所有祖先节点。</p>
+</li>
+<li>
+<p><code>descendant</code>：当前节点的所有后代节点（子节点、孙子节点等）。</p>
+</li>
+<li>
+<p><code>descendant-or-self</code>：包含当前节点及所有后代节点。</p>
+</li>
+<li>
+<p><code>preceding-sibling</code>：当前节点之前的兄弟节点。</p>
+</li>
+<li>
+<p><code>following-sibling</code>：当前节点之后的兄弟节点。</p>
+</li>
+<li>
+<p><code>child</code>：当前节点的直接子节点。</p>
+</li>
+<li>
+<p><code>parent</code>：直接父节点。</p>
+<p><strong>示例：</strong></p>
+</li>
+<li>
+<p><code>//span/ancestor::div</code>：查找包含 <code>span</code> 的所有祖先 <code>div</code> 节点。</p>
+</li>
+<li>
+<p><code>//table//tr[td[contains(text(), '关键字')]]/following-sibling::tr[1]</code>：找到包含“关键字”的 <code>tr</code> 节点，并选择其后第一个 <code>tr</code> 兄弟节点。</p>
+</li>
+</ul>
+<h3>2. **位置过滤**</h3>
+<p>你可以使用位置表达式 <code>position()</code> 进行更多的定位：</p>
+<ul>
+<li><code>//ul/li[position() mod 2 = 1]</code>：查找 <code>ul</code> 列表中的所有奇数位置的 <code>li</code> 节点。</li>
+<li><code>//ul/li[position() mod 2 = 0]</code>：查找 <code>ul</code> 列表中的所有偶数位置的 <code>li</code> 节点。</li>
+<li><code>//table//tr[position()&gt;2 and position()&lt;5]</code>：查找第3到第4个 <code>tr</code> 节点。</li>
+</ul>
+<h3>3. **复合条件筛选**</h3>
+<p>使用 <code>and</code> 和 <code>or</code> 组合多个属性条件：</p>
+<ul>
+<li><code>//input[@type='text' and contains(@class, 'required')]</code>：选择 <code>type="text"</code> 且 <code>class</code> 中包含 <code>required</code> 的 <code>input</code> 元素。</li>
+<li><code>//img[@alt or @title]</code>：查找 <code>alt</code> 或 <code>title</code> 属性存在的 <code>img</code> 标签。</li>
+</ul>
+<h3>4. **选择多个元素**</h3>
+<p>XPath支持同时选择多个标签类型：</p>
+<ul>
+<li><code>//div | //span</code>：选择所有的 <code>div</code> 和 <code>span</code> 标签。</li>
+<li><code>//ul/li[1] | //ol/li[1]</code>：选择所有 <code>ul</code> 和 <code>ol</code> 列表中的第一个 <code>li</code> 元素。</li>
+</ul>
+<h3>5. **条件逻辑和反向选择**</h3>
+<p>使用 <code>not()</code> 逻辑函数进行反向选择：</p>
+<ul>
+<li><code>//div[not(@class='exclude')]</code>：查找所有 <code>class</code> 属性不是 <code>exclude</code> 的 <code>div</code> 节点。</li>
+<li><code>//input[not(@disabled)]</code>：选择未被禁用的 <code>input</code> 元素。</li>
+</ul>
+<h3>6. **高级祖先和兄弟节点选择**</h3>
+<p>查找某节点的最近祖先或后续兄弟节点：</p>
+<ul>
+<li><code>//span[contains(text(), '查找')]/ancestor::div[1]</code>：找到包含“查找”的 <code>span</code> 节点的最近父级 <code>div</code>。</li>
+<li><code>//p[contains(text(), '内容')]/preceding-sibling::*[1]</code>：查找包含“内容”的 <code>p</code> 元素的最近上一个兄弟节点。</li>
+</ul>
+<h3>7. **提取属性值**</h3>
+<p>可以直接提取属性值，例如：</p>
+<ul>
+<li><code>//a[contains(@href, 'example')]/@href</code>：提取 <code>href</code> 属性包含 <code>example</code> 的所有 <code>a</code> 标签的链接。</li>
+<li><code>//img[@src]/@src</code>：提取所有含 <code>src</code> 属性的 <code>img</code> 标签的链接。</li>
+</ul>
+<h3>8. **条件嵌套**</h3>
+<p>当有多个条件时，可以嵌套使用 <code>[</code> <code>]</code> 表示：</p>
+<ul>
+<li><code>//ul/li[span[contains(@class, 'selected')] and @data-active='true']</code>：查找包含 <code>span</code> 且 <code>class</code> 中包含 <code>selected</code> 的 <code>li</code> 节点，并且 <code>li</code> 的 <code>data-active</code> 属性为 <code>true</code>。</li>
+</ul>
+<h3>9. **结合正则表达式（部分XPath库支持）**</h3>
+<p>某些库（如 lxml）支持 <code>matches()</code> 函数，可以结合正则表达式使用。比如，匹配以 <code>abc</code> 开头的 <code>id</code>：</p>
+<pre><code>//div[matches(@id, '^abc')]
+</code></pre>
+<p>这些补充技巧和灵活运用能帮你在数据提取和定位时更加准确和高效。希望对你有帮助！</p></div></article></main></html>

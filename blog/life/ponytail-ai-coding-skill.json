@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/life/ponytail-ai-coding-skill",
+  "title": "一个让 AI 编程更“懒”、更少写废代码的 skill",
+  "category": "生活随笔",
+  "html": "<h1>一个让 AI 编程更“懒”、更少写废代码的 skill</h1>\n<p><img alt=\"\" src=\"https://cpython666.github.io/imgs/life/ponytail-ai-coding-skill/cover.png\"/></p>\n<p>这期视频给大家推荐一个让 AI 编程更“懒”、更少写废代码的 skill。</p>\n<p>不知道大家有没有发现，现在很多 AI 编程工具有个毛病：</p>\n<p>你只是想修一个小 bug，加一个小优化。</p>\n<p>你可能只是简简单单一句话，想着简单实现一下，结果 AI 大刀阔斧地往你的项目里注入一大坨代码，给你加一堆抽象层，大改你的代码，加一堆封装函数，你想检查一遍都看不过来。</p>\n<p>今天介绍一个有意思的项目，叫 <strong>Ponytail</strong>。</p>\n<p>它的核心思路很简单：让 AI 编程时变懒。</p>\n<p>但这个“懒”不是偷懒，而是像一个见过太多烂代码的资深工程师一样，先问一句：</p>\n<p>这东西真的需要写吗？</p>\n<p>Ponytail 会强制 AI 按一个顺序思考：</p>\n<ul>\n<li>能不做就不做。</li>\n<li>代码库里已有的就复用。</li>\n<li>标准库能解决就别造轮子。</li>\n<li>浏览器、数据库、系统原生能力能解决，就别加依赖。</li>\n<li>实在要写，也写最少能工作的版本。</li>\n</ul>\n<p>它还有几个模式。</p>\n<p><code>lite</code> 是轻度模式，AI 会照做，但提醒你有没有更简单方案。</p>\n<p><code>full</code> 是默认模式，优先最小实现。</p>\n<p><code>ultra</code> 就比较狠了，它会直接挑战需求：这个功能现在真的值得做吗？</p>\n<p>我觉得它最有价值的地方，不是让 AI 少写几行代码，而是改变 AI 的默认倾向。</p>\n<p>以前 AI 很容易把简单问题复杂化。</p>\n<p>Ponytail 则会不断把它拉回来：</p>\n<ul>\n<li>别预留未来。</li>\n<li>别为了一个实现写接口。</li>\n<li>别为了一个场景加配置。</li>\n<li>别为了三行逻辑引入一个包。</li>\n</ul>\n<p>如果你经常用 Codex、Claude Code 或 OpenCode 写项目，这个 skill 还挺值得试试。</p>\n<p>一句话总结：</p>\n<p>Ponytail 不是让 AI 更会写代码，而是让 AI 更懂什么时候不该写代码。</p>\n<p>最近使用了一个星期，体验还是不错的，所以推荐给大家。更多的使用方式大家可以去问下 AI。</p>\n<h2>如何安装</h2>\n<p>直接告诉 Codex 安装这个 skill：</p>\n<p><a href=\"https://github.com/DietrichGebert/ponytail\">https://github.com/DietrichGebert/ponytail</a></p>\n<p>然后输入指令指定模式：</p>\n<pre><code>@ponytail ultra\n</code></pre>",
+  "sourcePath": "docs/life/ponytail-ai-coding-skill.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2026-07-10 00:00:00",
+  "modified": "2026-07-10T18:36:45+08:00"
+}

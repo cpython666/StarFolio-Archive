@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>P4-居中显示窗口</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>P4-居中显示窗口</h1><p><a href="https://cpython666.github.io/python/pyqt6-series/p4-center-window">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.519830+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/python/pyqt6-series/p4-center-window">#1</a> · 未署名 · <time>2024-12-20 21:32:41</time></p><div class="body"><h1>P4-居中显示窗口</h1>
+<ul>
+<li>self.frameGeometry() 返回一个 QRect 对象，该对象表示小组件相对于其父级的几何图形，包括任何窗口框架。</li>
+<li>QGuiApplication.primaryScreen().availableGeometry().center() 返回一个 QPoint 对象，该对象表示主屏幕的可用几何图形的中心点。</li>
+<li>此线移动矩形 （ qr ） 的左上角，使其中心位于指定的中心点 （ cp ）。</li>
+<li>rectangle.self.move(qr.topLeft()) ：此行将小组件移动到矩形 （ qr ） 的左上角。 qr.topLeft() 返回表示矩形左上角的 A QPoint 。</li>
+</ul>
+<pre><code>import sys
+from PyQt6.QtWidgets import QApplication, QWidget
+from PyQt6.QtGui import QScreen, QGuiApplication
+from PyQt6.QtGui import QIcon
+
+class MyApplication(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.initUI()
+
+    def initUI(self):
+        self.setGeometry(0, 0, 300, 200)  # Set window size
+        self.setWindowTitle('派森斗罗')
+        self.setWindowIcon(QIcon('logo.png'))
+
+        self.center()  # Center the window on the screen
+    def center(self):
+        qr=self.frameGeometry()
+        cp=QGuiApplication.primaryScreen().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = MyApplication()
+    ex.show()
+    sys.exit(app.exec())
+</code></pre></div></article></main></html>

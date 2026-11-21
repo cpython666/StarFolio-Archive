@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>数据采集使用自动化真的慢吗？实测速度震惊！</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>数据采集使用自动化真的慢吗？实测速度震惊！</h1><p><a href="https://cpython666.github.io/spider/collection/automation-data-collection-speed-test">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.612966+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/spider/collection/automation-data-collection-speed-test">#1</a> · 未署名 · <time>2024-11-03 23:56:01</time></p><div class="body"><h1>数据采集使用自动化真的慢吗？实测速度震惊！</h1>
+<p>我们首先看一下大致的速度，然后再详细介绍下。以我之前做的一个网页为例，因为运行在本地，所以速度会比你真正在浏览器请求网页速度会快一点，而你在浏览器请求网页的速度就取决于目标网站的服务器和你的网速了。</p>
+<p>这里我们示例请求五十次这个网页。并发就设置成32，虽然实际数量好像是10个，但是无伤大雅。</p>
+<p>可以看到已经很快了，如果还想再快，那就我们前面说的取决于目标网站的服务器和你的网速了，但是有时候太快不见得是好事，别把人家网站搞崩了到时候就吃不了兜着走了，慢慢爬着就可以了。</p>
+<p>相信很多对于爬虫有些许了解的朋友，爬虫其实主要分为两种，协议（就是直接走接口）和自动化（操作浏览器模拟人的操作）。</p>
+<p>然后两种方法各有千秋，走接口速度快但是需要逆向前端代码，有的不是很好逆向。自动化简单好操作，但是性能就有点慢。</p>
+<p>尤其是一些刚接触数据采集的同学，可能就会觉得自动化慢就想学逆向，说实话我是比较不建议的，因为自动化真的是太香了。我一般采集的网页，如果接口做了反爬有一些加密参数，大致搜一下看看，一旦搜不到，那我就直接使用自动化。</p>
+<p>而且我们很多的场景数据量其实没有那么大，使用自动化完全可以轻松快速应对。</p>
+<p>然后数据采集框架我们一般使用的是scrapy，scrapy这个框架它的异步架构使得它能够快速、并发地进行采集，搭配上各种强大的中间件，可以轻松实现 IP 轮换、请求重试等功能，避免被网站反爬。</p>
+<p>自动化的话我们一般都是使用selenium，selenium通过一个webdriver驱动与浏览器通信而实现自动化控制浏览器，不过这个方式具有一些特征，会被一些网站做检测，如果在针对检测做一些伪装的话也可以，但是麻烦并且也会影响点性能。不过最近有个自动化框架非常流行，轻量并且快速，DP。</p>
+<p>所以就可以考虑实现一个Scrapy的DrissionPage中间件。</p>
+<p>总结来说：自动化真的不慢。</p></div></article></main></html>

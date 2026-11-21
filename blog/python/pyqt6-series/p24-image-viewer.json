@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p24-image-viewer",
+  "title": "P24-图片浏览，可以放大缩小拖拽",
+  "category": "Python",
+  "html": "<h1>P24-图片浏览，可以放大缩小拖拽</h1>\n<pre><code>import sys\nfrom PyQt6.QtWidgets import QApplication, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QMainWindow\nfrom PyQt6.QtCore import Qt, QPointF\nfrom PyQt6.QtGui import QPixmap, QWheelEvent, QPainter\n\n\nclass ImageViewer(QMainWindow):\n    def __init__(self):\n        super().__init__()\n\n        self.initUI()\n\n    def initUI(self):\n        self.setGeometry(100, 100, 800, 600)\n        self.setWindowTitle('Image Viewer')\n\n        self.scene = QGraphicsScene(self)\n        self.view = GraphicsView(self.scene, self)\n        self.setCentralWidget(self.view)\n\n        # Load an example image\n        image_path = 'letter.png'  # Replace with the actual path to your image\n        pixmap = QPixmap(image_path)\n        item = QGraphicsPixmapItem(pixmap)\n        self.scene.addItem(item)\n\n        self.show()\n\n\nclass GraphicsView(QGraphicsView):\n    def __init__(self, scene, parent):\n        super().__init__(scene, parent)\n        self.setRenderHint(QPainter.RenderHint.Antialiasing, True)\n        self.setStyleSheet('GraphicsView{background-color:#FDF6E3;}')\n\n        self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)  # Enable hand-drag mode\n\n    def wheelEvent(self, event: QWheelEvent):\n        modifiers = event.modifiers()\n        if modifiers == Qt.KeyboardModifier.ControlModifier:\n            # Zoom only if Ctrl key is pressed\n            factor = 1.2  # Zoom factor\n            if event.angleDelta().y() &lt; 0:\n                factor = 1.0 / factor  # Zoom out for a negative wheel event\n\n            self.scale(factor, factor)\n\ndef main():\n    app = QApplication(sys.argv)\n    viewer = ImageViewer()\n    sys.exit(app.exec())\n\n\nif __name__ == '__main__':\n    main()\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p24-image-viewer.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:42:18",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

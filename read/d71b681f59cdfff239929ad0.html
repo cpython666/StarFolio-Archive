@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>Pydantic 详解</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>Pydantic 详解</h1><p><a href="https://cpython666.github.io/python/web/pydantic">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.571491+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/python/web/pydantic">#1</a> · 未署名 · <time>2025-03-13T00:10:16+08:00</time></p><div class="body"><p><a href="https://www.lcayun.com/aff/DECEDOZS" rel="noreferrer noopener"><img alt="" class="illustration" loading="lazy" src="../media/283164ba2f5bfa67f471a57f22ef3ff4bf063290cb598c565a15fa82b20054c5.png"/></a></p>
+<p>Pydantic 是一个流行的 Python 库，主要用于数据验证和序列化。它基于 Python 的类型注解（<code>typing</code> 模块），提供了一种优雅的方式来定义数据模型、验证输入数据，并在必要时将其转换为指定类型。Pydantic 被广泛应用于 Web 开发（例如 FastAPI）、配置文件解析以及任何需要处理结构化数据的场景。</p>
+<p>以下是对 Pydantic 的详细介绍：</p>
+<hr/>
+<h3>1. <strong>基本概念</strong></h3>
+<p>Pydantic 的核心是 <code>BaseModel</code> 类，通过继承它，你可以定义一个数据模型。模型中的字段使用类型注解来声明，Pydantic 会根据这些注解自动验证和转换数据。</p>
+<p>安装 Pydantic：</p>
+<pre><code>pip install pydantic
+</code></pre>
+<p>简单示例：</p>
+<pre><code>from pydantic import BaseModel
+
+class User(BaseModel):
+    id: int
+    name: str
+    age: int
+
+# 创建实例
+user = User(id=1, name="Alice", age=25)
+print(user)  # 输出: id=1 name='Alice' age=25
+
+# 数据验证
+invalid_user = User(id="not_an_int", name="Bob", age=30)  # 抛出 ValidationError
+</code></pre>
+<p>在这个例子中：</p>
+<ul>
+<li>如果 <code>id</code> 不是整数，Pydantic 会抛出 <code>ValidationError</code>。</li>
+<li>Pydantic 会自动将输入数据解析为指定类型（例如，字符串 <code>"1"</code> 可以转换为整数 <code>1</code>）。</li>
+</ul>
+<hr/>
+<h3>2. <strong>核心特性</strong></h3>
+<h4>数据验证</h4>
+<p>Pydantic 会检查字段是否符合声明的类型，并支持复杂的验证规则。例如：</p>
+<pre><code>from pydantic import BaseModel, EmailStr, PositiveInt
+
+class Person(BaseModel):
+    name: str
+    email: EmailStr  # 验证邮箱格式
+    age: PositiveInt  # 必须是正整数
+
+person = Person(name="Alice", email="alice@example.com", age=25)
+print(person)  # 输出: name='Alice' email='alice@example.com' age=25
+
+# 无效数据会报错
+person = Person(name="Bob", email="invalid-email", age=-5)  # 抛出 ValidationError
+</code></pre>
+<h4>数据转换</h4>
+<p>Pydantic 不仅验证数据，还会尝试将输入转换为目标类型：</p>
+<pre><code>user = User(id="1", name="Alice", age="25")  # 字符串会被转换为 int
+print(user.id, type(user.id))  # 输出: 1 &lt;class 'int'&gt;
+</code></pre>
+<h4>嵌套模型</h4>
+<p>支持定义嵌套的数据结构：</p>
+<pre><code>from pydantic import BaseModel
+
+class Address(BaseModel):
+    city: str
+    country: str
+
+class User(BaseModel):
+    name: str
+    address: Address
+
+user = User(name="Alice", address={"city": "Beijing", "country": "China"})
+print(user)  # 输出: name='Alice' address=Address(city='Beijing', country='China')
+</code></pre>
+<h4>默认值和可选字段</h4>
+<p>可以使用 <code>Optional</code> 或默认值：</p>
+<pre><code>from typing import Optional
+from pydantic import BaseModel
+
+class User(BaseModel):
+    id: int
+    name: str = "Anonymous"  # 默认值
+    email: Optional[str] = None  # 可选字段
+
+user = User(id=1)
+print(user)  # 输出: id=1 name='Anonymous' email=None
+</code></pre>
+<h4>序列化</h4>
+<p>Pydantic 模型可以轻松转换为 JSON 或字典：</p>
+<pre><code>print(user.dict())  # 输出: {'id': 1, 'name': 'Anonymous', 'email': None}
+print(user.json())  # 输出: {"id": 1, "name": "Anonymous", "email": null}
+</code></pre>
+<hr/>
+<h3>3. <strong>高级功能</strong></h3>
+<h4>自定义验证</h4>
+<p>通过 <code>@validator</code> 装饰器，可以为字段添加自定义验证逻辑：</p>
+<pre><code>from pydantic import BaseModel, validator
+
+class User(BaseModel):
+    username: str
+    password: str
+
+    @validator("password")
+    def password_must_be_strong(cls, v):
+        if len(v) &lt; 8:
+            raise ValueError("Password must be at least 8 characters")
+        return v
+
+user = User(username="alice", password="12345678")  # 通过
+invalid = User(username="bob", password="weak")  # 抛出 ValidationError
+</code></pre>
+<h4>配置类</h4>
+<p>通过 <code>Config</code> 类调整模型行为，例如字段别名、忽略额外字段等：</p>
+<pre><code>class User(BaseModel):
+    id: int
+    full_name: str
+
+    class Config:
+        fields = {"full_name": "name"}  # 别名映射
+
+user = User(id=1, name="Alice")  # 使用别名 "name" 传入数据
+print(user.full_name)  # 输出: Alice
+</code></pre>
+<h4>环境变量和 Settings</h4>
+<p>Pydantic 提供 <code>BaseSettings</code> 来管理配置，例如从环境变量加载数据：</p>
+<pre><code>from pydantic import BaseSettings
+
+class Settings(BaseSettings):
+    api_key: str
+    database_url: str
+
+    class Config:
+        env_prefix = "MYAPP_"  # 环境变量前缀
+
+settings = Settings()  # 自动从环境变量 MYAPP_API_KEY 和 MYAPP_DATABASE_URL 加载
+</code></pre>
+<hr/>
+<h3>4. <strong>与 FastAPI 的结合</strong></h3>
+<p>Pydantic 是 FastAPI 的核心组件，用于定义 API 的请求和响应模型。例如：</p>
+<pre><code>from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class Item(BaseModel):
+    name: str
+    price: float
+
+@app.post("/items/")
+async def create_item(item: Item):
+    return item
+</code></pre>
+<ul>
+<li>FastAPI 会自动验证请求体的数据，并返回符合 <code>Item</code> 模型的响应。</li>
+<li>如果数据不合法，会返回详细的错误信息。</li>
+</ul>
+<hr/>
+<h3>5. <strong>优势</strong></h3>
+<ul>
+<li><strong>类型安全</strong>: 结合类型注解，确保数据符合预期。</li>
+<li><strong>开发效率</strong>: 自动验证和转换减少了手动检查代码。</li>
+<li><strong>可读性</strong>: 数据模型定义清晰，易于理解。</li>
+<li><strong>生态支持</strong>: 与 FastAPI、SQLAlchemy 等库无缝集成。</li>
+</ul>
+<hr/>
+<h3>6. <strong>局限性</strong></h3>
+<ul>
+<li><strong>性能开销</strong>: 验证和转换会带来少量运行时开销，不适合极高性能场景。</li>
+<li><strong>学习曲线</strong>: 对于新手来说，自定义验证和复杂嵌套模型可能需要时间适应。</li>
+</ul>
+<hr/>
+<h3>7. <strong>版本演进</strong></h3>
+<ul>
+<li><strong>Pydantic V1</strong>: 稳定版本，广泛使用。</li>
+<li><strong>Pydantic V2</strong>（2023 年发布）：性能大幅提升，支持更多功能（如更快的 JSON 序列化），但 API 有部分变化。建议查看官方文档以了解迁移指南。</li>
+</ul>
+<p>安装 V2：</p>
+<pre><code>pip install pydantic&gt;=2.0
+</code></pre>
+<hr/>
+<h3>总结</h3>
+<p>Pydantic 是一个强大而灵活的工具，特别适合需要处理外部输入数据（如 API 请求、配置文件）的场景。它通过类型注解和验证机制，将 Python 的动态特性与静态类型检查的优势结合在一起。</p></div></article></main></html>

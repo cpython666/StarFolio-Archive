@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p16-minimize-to-tray",
+  "title": "P16-最小化窗口到托盘，右键菜单，窗口恢复",
+  "category": "Python",
+  "html": "<h1>P16-最小化窗口到托盘，右键菜单，窗口恢复</h1>\n<pre><code>import sys\nfrom PyQt6.QtWidgets import QApplication, QMainWindow, QSystemTrayIcon, QMenu\nfrom PyQt6.QtGui import QIcon, QAction\n\nclass MyWindow(QMainWindow):\n    def __init__(self):\n        super().__init__()\n\n        self.initUI()\n\n    def initUI(self):\n        self.setWindowTitle('PyQt6 托盘示例')\n        self.setWindowIcon(QIcon('logo.png'))\n        self.setGeometry(300, 300, 300, 200)\n\n        # 创建系统托盘图标\n        self.tray_icon = QSystemTrayIcon(self)\n        self.tray_icon.setIcon(QIcon('logo.png'))\n        # 创建托盘图标菜单\n        tray_menu = QMenu(self)\n        action1 = tray_menu.addAction('设置一')\n        action2 = tray_menu.addAction('设置二')\n        tray_menu.addSeparator()\n        action3 = tray_menu.addAction('打开主面板(未实现)')\n        tray_menu.addSeparator()\n        restore_action = QAction(QIcon('./assets/imgs/icons/recover.svg'),'还原', self)\n        restore_action.triggered.connect(self.showNormal)\n        exit_action = QAction(QIcon('./assets/imgs/icons/quit.svg'),'退出', self)\n        exit_action.triggered.connect(app.quit)\n\n        tray_menu.addAction(restore_action)\n        tray_menu.addAction(exit_action)\n\n        self.tray_icon.setContextMenu(tray_menu)\n        # 托盘图标点击事件\n        self.tray_icon.activated.connect(self.tray_icon_activated)\n        self.tray_icon.show()\n        \n        # self.tray_icon.showMessage(\"托盘图标示例\", \"程序已最小化到托盘\")\n\n\n    def tray_icon_activated(self, reason):\n        if reason == QSystemTrayIcon.ActivationReason.Trigger:\n            if self.isHidden():\n                self.showNormal()\n                self.raise_()\n\n\n    def closeEvent(self, event):\n        # 重写窗口关闭事件，实现最小化到托盘\n        event.ignore()\n        self.hide()\n\nif __name__ == '__main__':\n    app = QApplication(sys.argv)\n    window = MyWindow()\n    window.show()\n    sys.exit(app.exec())\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p16-minimize-to-tray.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:39:17",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

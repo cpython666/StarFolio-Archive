@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>Clash 使用教程：导入订阅、开启代理、全局模式与规则模式</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>Clash 使用教程：导入订阅、开启代理、全局模式与规则模式</h1><p><a href="https://cpython666.github.io/spider/collection/clash">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.617372+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/spider/collection/clash">#1</a> · 未署名 · <time>2025-11-16T16:22:37+08:00</time></p><div class="body"><h1>Clash 使用教程：导入订阅、开启代理、全局模式与规则模式</h1>
+<p>大部分人用 Clash，其实只需要会三件事：<strong>导入订阅、打开代理、选节点</strong>。会了这三步就能正常用了，再进阶一点就是「规则模式」。</p>
+<p>下面以 Clash Verge 为例，Windows 和 macOS 界面基本一样。</p>
+<blockquote>
+<p>文中截图里的机场名称、订阅链接都是演示数据。截图上的红色编号和方框，对应正文里的操作步骤。</p>
+</blockquote>
+<h2>第一步：导入订阅</h2>
+<p>买了机场（代理服务）之后，后台一般会给你一个 <strong>订阅链接</strong>，复制它。</p>
+<p>打开 Clash，进入左侧「订阅」页面：</p>
+<ol>
+<li>把订阅链接粘贴到顶部的「订阅文件链接」输入框</li>
+<li>点「导入」</li>
+<li>导入成功后下方会多出一张订阅卡片，<strong>点一下这张卡片</strong> 让它变成选中状态（蓝色边框），表示当前使用这份订阅</li>
+</ol>
+<p><img alt="在订阅页面粘贴链接并导入" class="illustration" loading="lazy" src="../media/0eceeed1b67f4de7a26881014dfdf54a5baf1dc0bb52484fd2dc38af5657e2d2.png"/></p>
+<p>卡片上能看到已用流量、总流量和到期时间。卡片右上角的刷新按钮可以手动更新订阅，机场换了节点时点一下就行。</p>
+<h2>第二步：打开系统代理</h2>
+<p>导入订阅只是拿到了节点，还要 <strong>打开代理开关</strong> 才会真正生效。</p>
+<p>回到「首页」，在「网络设置」里打开「系统代理」开关：</p>
+<p><img alt="首页打开系统代理并选择代理模式" class="illustration" loading="lazy" src="../media/b894b153497cf703c6a8fbfc01dfb30557185c24edc3ac8a4cf9664890e78764.png"/></p>
+<p>打开后，浏览器等支持系统代理的软件就会走 Clash 了。首页还能看到当前订阅、当前节点和代理模式，平时看这一页就够了。</p>
+<blockquote>
+<p>有些软件不认系统代理（比如部分命令行工具、游戏），这时可以打开旁边的「虚拟网卡模式」，也就是 TUN 模式，下文有详细讲解。</p>
+</blockquote>
+<h2>第三步：全局模式 + 选节点</h2>
+<p>新手最省心的用法是 <strong>全局模式</strong>：所有流量都走你选的节点，不用操心规则。</p>
+<p>进入「代理」页面，右上角点「全局」，下面会列出所有节点，点一个就是切换到这个节点：</p>
+<p><img alt="全局模式下选择节点" class="illustration" loading="lazy" src="../media/7597562f4f1f68e1294b846e27ff3073922c3b3fc1b97814146807968c1393bc.png"/></p>
+<ul>
+<li>节点右边的数字是延迟（毫秒），越小越快，可以点上方的测速按钮刷新</li>
+<li>打不开网页时，先换个延迟低的节点试试</li>
+</ul>
+<p>到这里，Clash 的基础用法就全部完成了：<strong>导入订阅 → 打开系统代理 → 全局模式选节点</strong>。</p>
+<h2>进阶：规则模式</h2>
+<p>全局模式有个问题：国内网站也会绕到国外节点，访问 B 站、淘宝反而变慢，有的国内网站还会因为 IP 在国外不让用。</p>
+<p><strong>规则模式</strong> 就是解决这个问题的：按规则自动判断，<strong>国外网站走代理，国内网站直连</strong>。</p>
+<p>在「代理」页面右上角点「规则」，看到的就不再是一个节点列表，而是一个个「代理组」：</p>
+<p><img alt="规则模式下的代理组" class="illustration" loading="lazy" src="../media/05568f09bd52d74a65c44dc73c416e0a9b10bdfda4fee12ed73770d6982e1c3b.png"/></p>
+<p>可以这样理解：</p>
+<ul>
+<li><strong>代理组</strong>：一类流量用哪个节点。比如「YouTube」组决定看 YouTube 用哪个节点，「AI」组决定访问 ChatGPT 这类网站用哪个节点</li>
+<li><strong>节点选择</strong>：大部分代理组默认跟着「节点选择」走，所以平时只要在「节点选择」里选好节点就行</li>
+<li>想让某类网站单独用某个节点，就展开对应的代理组单独选</li>
+</ul>
+<p>那规则长什么样？左侧「规则」页面可以看到当前订阅里的所有规则，从上往下匹配，命中第一条就按它处理：</p>
+<p><img alt="规则列表示例" class="illustration" loading="lazy" src="../media/5b20d826e13d1f30535e444cad68373594a007fe3778373f5d610ad2f2cd6071.png"/></p>
+<p>每条规则就三部分：<strong>匹配什么、怎么匹配、交给谁</strong>。比如：</p>
+<table>
+<thead>
+<tr>
+<th>规则</th>
+<th>意思</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DOMAIN-SUFFIX,google.com,节点选择</code></td>
+<td>以 google.com 结尾的网站，走「节点选择」里的节点</td>
+</tr>
+<tr>
+<td><code>DOMAIN-SUFFIX,bilibili.com,DIRECT</code></td>
+<td>B 站直连，不走代理</td>
+</tr>
+<tr>
+<td><code>IP-CIDR,192.168.0.0/16,DIRECT</code></td>
+<td>局域网地址直连</td>
+</tr>
+<tr>
+<td><code>GEOIP,CN,DIRECT</code></td>
+<td>IP 在国内的，直连</td>
+</tr>
+<tr>
+<td><code>MATCH,节点选择</code></td>
+<td>上面都没匹配到的，兜底走代理</td>
+</tr>
+</tbody>
+</table>
+<p>机场的订阅一般已经写好了几百上千条规则，<strong>普通用户直接用就行，不需要自己写</strong>。</p>
+<p>如果遇到更复杂的需求，比如某个网站一定要走某个节点、给某个软件单独分流、写覆写脚本这类不常用的配置，不用死记规则语法，直接把需求和你的配置丢给 AI，让它帮你写规则就行。</p>
+<h3>自己添加一条规则</h3>
+<p>订阅自带的规则不满足需求时，比如想让某个网站直连，或者让某个网站固定走代理，可以自己加规则。Clash Verge 提供了「可视化」和「高级」两种编辑方式。</p>
+<p><strong>第一步：打开规则编辑器</strong>。在「订阅」页面，对 <strong>正在使用的那个订阅</strong> 点右键，选「编辑规则」：</p>
+<p><img alt="右键订阅卡片，选择编辑规则" class="illustration" loading="lazy" src="../media/f302216b39c67bcbc066aa107beac231ad22d0c3c9dc5a4dfa1d3e8fa178b758.png"/></p>
+<p><strong>第二步：可视化编辑</strong>。左边填一条规则，右边是已有的规则列表：</p>
+<p><img alt="可视化编辑规则" class="illustration" loading="lazy" src="../media/0be1b91517be6970383af8e7b88fcdd871120e33199257a3722d1302b84d9db3.png"/></p>
+<ol>
+<li><strong>规则类型</strong>：怎么匹配。常用的有「匹配完整域名 DOMAIN」「匹配域名后缀 DOMAIN-SUFFIX」「匹配域名关键字 DOMAIN-KEYWORD」「匹配 IP 段 IP-CIDR」</li>
+<li><strong>规则内容</strong>：填域名或 IP，比如 <code>www.bilibili.com</code></li>
+<li><strong>代理策略</strong>：命中后交给谁。选「直接连接 DIRECT」就是直连，选「节点选择」或其他代理组就是走代理</li>
+<li>点「添加前置规则」，这条规则会插到最前面，比订阅自带的规则先匹配；「添加后置规则」则放到最后</li>
+<li>改完点「保存」，规则马上生效</li>
+</ol>
+<p>上面这个例子的意思是：访问 <code>www.bilibili.com</code> 时直连，不走代理。</p>
+<p><strong>也可以用「高级」模式直接改文本</strong>。点右上角「高级」，就能看到规则的 YAML 文本，适合一次加很多条：</p>
+<p><img alt="高级模式编辑规则文本" class="illustration" loading="lazy" src="../media/a4d1a9d1fa7a1b098ea036943cf11235725387126030910e7fa10c4ae8bbbd20.png"/></p>
+<pre><code>prepend:   # 插到最前面，优先匹配
+  - 'DOMAIN,www.bilibili.com,DIRECT'
+  - 'DOMAIN-SUFFIX,github.com,节点选择'
+  - 'DOMAIN-KEYWORD,openai,AI'
+  - 'IP-CIDR,192.168.0.0/16,DIRECT'
+  - 'PROCESS-NAME,WeChat,DIRECT'   # 按进程名匹配：微信直连
+append:    # 放到最后面
+  - 'DOMAIN-SUFFIX,example.com,DIRECT'
+delete: [] # 要删掉的订阅自带规则
+</code></pre>
+<p>每一行都是 <code>类型,内容,策略</code> 三段，策略写的名字要和「代理」页面里的代理组名称一致（比如 <code>节点选择</code>、<code>AI</code>），名字里带表情符号的也要原样写上，不然规则不生效。</p>
+<blockquote>
+<p>小提示：这里加的规则是保存在本地的「增强配置」里，订阅更新时不会被覆盖。</p>
+</blockquote>
+<h3>全局、规则、直连怎么选？</h3>
+<ul>
+<li><strong>规则</strong>：日常推荐，国内国外自动分流</li>
+<li><strong>全局</strong>：某个国外网站在规则模式下打不开时，临时切到全局试试</li>
+<li><strong>直连</strong>：相当于临时关掉代理</li>
+</ul>
+<h2>可选配置</h2>
+<p>在「设置」页面还有几个常用开关：</p>
+<p><img alt="Clash 设置页面" class="illustration" loading="lazy" src="../media/2cdb51fb1776be92e106bbb72e8f2afd30cf4e294933e81f2b70ce75366c0629.png"/></p>
+<ul>
+<li><strong>开机自启</strong>：建议打开。打开系统代理后，如果开机没启动 Clash，会出现没有网络的情况</li>
+<li><strong>端口设置</strong>：默认 7890，自己写程序调用代理时用，比如 <code>http://127.0.0.1:7890</code></li>
+<li><strong>外部控制</strong>：程序自动化控制 Clash 用，可以搜索「Clash API」了解</li>
+</ul>
+<blockquote>
+<p>写爬虫想让程序轮流使用订阅里的多个节点？看这篇进阶用法：<a href="https://cpython666.github.io/spider/collection/clash-nodes-for-crawler" rel="noreferrer noopener">Clash 进阶：把订阅节点提取出来，部署成爬虫可用的代理池</a></p>
+</blockquote>
+<h2>TUN模式</h2>
+<h1>🧠 <strong>什么是 Clash 的 TUN 模式？</strong></h1>
+<p>一句话解释：</p>
+<blockquote>
+<p><strong>TUN 模式 = 让 Clash 接管你的整个网络流量，就像“虚拟网卡代理所有请求”。</strong></p>
+</blockquote>
+<p>不需要软件自己支持代理、不需要配置系统代理，
+<strong>任何程序的流量都会被自动接管、自动分流</strong>。</p>
+<p>这和 Windows 的“系统代理”、浏览器代理完全不是一个级别。</p>
+<hr/>
+<h1>🧩 先理解什么是 <em>TUN</em>？</h1>
+<p>“TUN” 是 Linux/Windows/Mac 的一种虚拟网卡类型，全称：</p>
+<p><strong>TUN = network TUNnel interface</strong></p>
+<p>特点是：</p>
+<ul>
+<li>是一个虚拟的网络接口（虚拟网卡）</li>
+<li>所有 IP 层数据都可以重定向到用户态程序</li>
+<li>Clash 可以通过它截获、处理、转发你的网络流量</li>
+</ul>
+<p>形象理解：</p>
+<blockquote>
+<p><strong>TUN = 把你的电脑网线拔了 → 接到 Clash 上 → Clash 再帮你接出去。</strong></p>
+</blockquote>
+<hr/>
+<h1>🚀 <strong>TUN 模式有什么用？</strong></h1>
+<h2>1. <strong>让所有软件自动走代理（最强功能）</strong></h2>
+<p>普通系统代理，只会代理支持 HTTP/SOCKS5 的软件，例如：</p>
+<ul>
+<li>浏览器</li>
+<li>Python requests（你得自己写 proxies）</li>
+<li>curl（你得带 <code>--proxy</code>）</li>
+</ul>
+<p>但是很多软件不支持代理，例如：</p>
+<ul>
+<li>游戏</li>
+<li>APP 客户端</li>
+<li>内置浏览器</li>
+<li>某些桌面软件</li>
+<li>一些自写脚本，甚至你忘记给代理参数</li>
+</ul>
+<p>这些软件 <strong>系统代理根本接管不了</strong>。</p>
+<p>但 TUN 模式可以：</p>
+<p>✔ 强制所有软件的流量都经过 Clash
+✔ 包括 TCP、UDP
+✔ 包括不支持代理的程序</p>
+<p><strong>这就是为什么 Clash+TUN 模式能让“所有流量自动代理”。</strong></p>
+<hr/>
+<h2>2. <strong>对爬虫程序来说的好处</strong></h2>
+<p>你的 Python 代码可以：</p>
+<ul>
+<li>不写 proxies 参数</li>
+<li>不设置 HTTP/SOCKS</li>
+<li>不改代码任何地方</li>
+</ul>
+<p>也能自动走你当前 Clash 节点。</p>
+<p>例如你的 requests 写成这样：</p>
+<pre><code>import requests
+requests.get("https://www.google.com")
+</code></pre>
+<p><strong>依然会走 Clash。</strong></p>
+<p>这就是为什么很多爬虫开发者特别喜欢开 TUN 模式。</p>
+<hr/>
+<h2>3. <strong>更强的分流能力（系统代理做不到）</strong></h2>
+<p>TUN 能做到：</p>
+<ul>
+<li>Google 走节点 A</li>
+<li>GitHub 走节点 B</li>
+<li>国内网站直连</li>
+<li>某些游戏走游戏线路</li>
+<li>某些 IP 走黑名单线路</li>
+<li>自定义复杂规则</li>
+</ul>
+<p>这些是普通系统代理完全无法做到的。</p>
+<hr/>
+<h1>⚒️ <strong>TUN 模式内部是怎么工作的？（技术版）</strong></h1>
+<p>流程如下：</p>
+<ol>
+<li>
+<p>Clash 创建一个 TUN 虚拟网卡</p>
+</li>
+<li>
+<p>操作系统把所有流量（透明代理）导向这个 TUN</p>
+</li>
+<li>
+<p>进入 Clash → Clash 按规则处理流量</p>
+</li>
+<li>
+<p>Clash 再决定：</p>
+<ul>
+<li>直连</li>
+<li>通过节点代理发出</li>
+<li>或走其他协议（如 REDIR、SOCKS、HTTP）</li>
+</ul>
+</li>
+</ol>
+<p>这就是一个“透明代理”系统：</p>
+<p><strong>捕获 → 解析 → 代理 → 回包 → 返回给系统 → 软件无感知</strong></p>
+<p>整个过程软件完全不知道你用代理。</p>
+<hr/>
+<h1>🧪 <strong>为什么它比系统代理强很多？</strong></h1>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>系统代理</th>
+<th>TUN 模式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>浏览器</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>Python requests</td>
+<td>要自己写 proxies</td>
+<td>自动代理</td>
+</tr>
+<tr>
+<td>游戏</td>
+<td>❌</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>APP 客户端</td>
+<td>❌</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>内网穿透</td>
+<td>❌</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>分流粒度</td>
+<td>弱</td>
+<td>超强</td>
+</tr>
+<tr>
+<td>UDP 支持</td>
+<td>部分支持</td>
+<td>完整支持</td>
+</tr>
+</tbody>
+</table>
+<p>结论只有一句：</p>
+<blockquote>
+<p><strong>TUN = Clash 的真正完全体。</strong></p>
+</blockquote>
+<hr/>
+<h1>⚠️ 使用 TUN 的注意点</h1>
+<ol>
+<li>Windows 上需要管理员权限</li>
+<li>某些 VPN 会冲突</li>
+<li>某些公司网络会检测到虚拟网卡</li>
+<li>有时需要关闭“系统 DPI 加速”或“游戏加速器”</li>
+<li>如果你的爬虫跑在服务器上，不要开 TUN（会代理整个机器）</li>
+</ol>
+<hr/>
+<h1>🔥 最后一段总结（通俗版）</h1>
+<p>如果说：</p>
+<ul>
+<li><strong>系统代理 = 告诉一些软件走代理</strong></li>
+<li><strong>TUN 模式 = 强制所有软件都走 Clash，由 Clash 负责接管一切</strong></li>
+</ul>
+<p>那么 TUN 就是：</p>
+<blockquote>
+<p><strong>“一键强制全局代理 + 自动分流 + 不修改软件设置的终极代理模式”</strong></p>
+</blockquote></div></article></main></html>

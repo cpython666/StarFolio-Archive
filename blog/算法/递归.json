@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/%E7%AE%97%E6%B3%95/%E9%80%92%E5%BD%92",
+  "title": "探索递归：从简单到复杂的迷人之旅",
+  "category": "算法",
+  "html": "<h1>探索递归：从简单到复杂的迷人之旅</h1>\n<h2>前言：</h2>\n<p>递归是计算机科学中一个令人着迷的概念，它在解决问题时展现了强大的能力。从简单的数学问题到复杂的算法设计，递归都扮演着重要角色。本文将深入探讨递归的本质、原理以及如何在实践中应用它。</p>\n<h2>内容：</h2>\n<h3>1. 什么是递归？</h3>\n<p>递归是指一个函数不断地调用自身来解决问题的过程。在递归中，问题被分解成更小的子问题，直到达到基本情况，然后逐层返回结果。递归在许多领域都有广泛的应用，包括数学、计算机科学、算法设计等。</p>\n<h3>2. 递归的基本原理</h3>\n<ul>\n<li><strong>基本情况：</strong> 递归函数必须有一个基本情况，即递归调用的终止条件。</li>\n<li><strong>递归调用：</strong> 在递归函数中调用自身，但是每次调用时问题规模都应该减小。</li>\n<li><strong>返回值：</strong> 每个递归调用都应该返回一个值，用于组合成最终的结果。</li>\n</ul>\n<h3>3. 递归的应用</h3>\n<ul>\n<li><strong>数学问题：</strong> 递归常用于解决数学问题，如计算斐波那契数列、阶乘等。</li>\n<li><strong>算法设计：</strong> 在算法设计中，递归常用于解决树和图的问题，如树的遍历、图的搜索等。</li>\n<li><strong>编程实践：</strong> 许多编程语言都支持递归，可以用于编写清晰、简洁的代码。</li>\n</ul>\n<h3>4. 递归的示例代码</h3>\n<pre><code># 计算斐波那契数列\ndef fibonacci(n):\n    if n &lt;= 1:\n        return n\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\n# 计算阶乘\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nprint(\"斐波那契数列：\", [fibonacci(i) for i in range(10)])\nprint(\"阶乘：\", [factorial(i) for i in range(10)])\n</code></pre>\n<h3>总结：</h3>\n<p>递归是一种强大而优雅的问题解决方法，它能够将复杂的问题简化成更小的子问题，并通过不断调用自身来解决这些子问题。本文从递归的基本概念、原理到实际应用进行了全面的介绍，希望读者能够通过本文更深入地理解和应用递归。</p>",
+  "sourcePath": "docs/算法/递归.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-27T23:22:19+08:00",
+  "modified": "2026-08-05T12:18:35+08:00"
+}

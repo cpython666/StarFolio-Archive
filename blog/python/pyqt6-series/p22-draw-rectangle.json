@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p22-draw-rectangle",
+  "title": "P22-窗口中画一个框",
+  "category": "Python",
+  "html": "<h1>P22-窗口中画一个框</h1>\n<pre><code>import sys\nfrom PyQt6.QtWidgets import QApplication, QMainWindow, QWidget\nfrom PyQt6.QtGui import QPainter, QBrush, QPen\nfrom PyQt6.QtCore import Qt, QRect, QPoint\n\n\nclass DrawingApp(QMainWindow):\n    def __init__(self):\n        super().__init__()\n\n        self.initUI()\n\n    def initUI(self):\n        self.setGeometry(100, 100, 800, 600)\n        self.setWindowTitle('Draw Rectangle')\n\n        self.canvas = DrawingCanvas(self)\n        self.setCentralWidget(self.canvas)\n\n        self.show()\n\n\nclass DrawingCanvas(QWidget):\n    def __init__(self, parent):\n        super().__init__(parent)\n        self.setGeometry(0, 0, parent.width(), parent.height())\n\n        self.origin = QPoint(0, 0)  # 初始化为 (0, 0)\n        self.end = QPoint(0, 0)     # 初始化为 (0, 0)\n\n    def paintEvent(self, event):\n        painter = QPainter(self)\n        # 设置绘制选项，启用抗锯齿。\n        painter.setRenderHint(QPainter.RenderHint.Antialiasing)\n\n        rect = QRect(self.origin, self.end)\n        painter.drawRect(rect)\n\n    def mousePressEvent(self, event):\n        if event.button() == Qt.MouseButton.LeftButton:\n            self.origin = event.pos()\n            self.end = event.pos()\n\n    def mouseMoveEvent(self, event):\n        if event.buttons() &amp; Qt.MouseButton.LeftButton:\n            self.end = event.pos()\n            self.update()\n\n    def mouseReleaseEvent(self, event):\n        if event.button() == Qt.MouseButton.LeftButton:\n            self.end = event.pos()\n            self.update()\n\nif __name__ == '__main__':\n    app = QApplication(sys.argv)\n    ex = DrawingApp()\n    sys.exit(app.exec())\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p22-draw-rectangle.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:41:36",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

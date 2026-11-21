@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p13-login-before-main-window",
+  "title": "P13-先显示登陆页面，登陆成功后显示主页面",
+  "category": "Python",
+  "html": "<h1>P13-先显示登陆页面，登陆成功后显示主页面</h1>\n<pre><code>import sys\nfrom PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLineEdit, QPushButton, QLabel\nfrom PyQt6 import QtCore\nfrom PyQt6.QtGui import QIcon\n\nclass LoginWindow(QWidget):\n    loginSuccessSignal = QtCore.pyqtSignal()  # 登录成功的信号\n\n    def __init__(self):\n        super().__init__()\n\n        self.initUI()\n\n    def initUI(self):\n        layout = QVBoxLayout(self)\n\n        self.username_input = QLineEdit(self)\n        self.password_input = QLineEdit(self)\n        self.password_input.setEchoMode(QLineEdit.EchoMode.Password)\n\n        login_button = QPushButton('Login', self)\n        login_button.clicked.connect(self.login)\n\n        layout.addWidget(QLabel('Username:'))\n        layout.addWidget(self.username_input)\n        layout.addWidget(QLabel('Password:'))\n        layout.addWidget(self.password_input)\n        layout.addWidget(login_button)\n\n        self.setGeometry(300, 300, 400, 200)\n        self.setWindowTitle('Login Window')\n\n    def login(self):\n        # 在实际应用中，这里应该有登录验证的逻辑\n        # 这里简化为判断用户名和密码是否为正确\n        if self.username_input.text() == '1' and self.password_input.text() == '1':\n            self.loginSuccessSignal.emit()  # 发送登录成功信号\n            self.close()\n\nclass YourMainWindow(QWidget):\n    def __init__(self):\n        super().__init__()\n\n        self.initUI()\n\n    def initUI(self):\n        self.login_window = LoginWindow()\n        self.login_window.loginSuccessSignal.connect(self.showMainWindow)\n\n    def showMainWindow(self):\n        self.setGeometry(300, 300, 400, 200)\n        self.setWindowTitle('派森斗罗')\n        self.setWindowIcon(QIcon('logo.png'))\n        self.show()\n\nif __name__ == '__main__':\n    app = QApplication(sys.argv)\n\n    main_window = YourMainWindow()\n    main_window.login_window.show()\n\n    sys.exit(app.exec())\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p13-login-before-main-window.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:38:17",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

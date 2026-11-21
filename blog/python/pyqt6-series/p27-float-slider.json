@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p27-float-slider",
+  "title": "P27-浮点数滑块",
+  "category": "Python",
+  "html": "<h1>P27-浮点数滑块</h1>\n<pre><code>from PyQt6.QtWidgets import QApplication, QMainWindow, QSlider, QLabel, QVBoxLayout, QWidget\nfrom PyQt6.QtCore import Qt,pyqtSignal\n\nclass FloatSlider(QSlider):\n    valueChangedFloat = pyqtSignal(float)\n    \n    def __init__(self, parent=None):\n        super().__init__(Qt.Orientation.Horizontal, parent)\n        self._multiplier = 100  # 放大倍数，例如设置为100，就支持两位小数\n\n        self.valueChanged.connect(self.emitFloatValueChanged)\n\n    def setFloatValue(self, floatValue):\n        intValue = int(floatValue * self._multiplier)\n        self.setValue(intValue)\n\n    def floatValue(self):\n        return self.value() / self._multiplier\n\n    def emitFloatValueChanged(self):\n        self.valueChangedFloat.emit(self.floatValue())\n\n    def setMultiplier(self, multiplier):\n        self._multiplier = multiplier\n\n    def multiplier(self):\n        return self._multiplier\n\nclass ExampleWindow(QMainWindow):\n    def __init__(self):\n        super().__init__()\n\n        self.initUI()\n\n    def initUI(self):\n        central_widget = QWidget(self)\n        self.setCentralWidget(central_widget)\n\n        layout = QVBoxLayout(central_widget)\n\n        self.float_label = QLabel('Float Value:', self)\n        layout.addWidget(self.float_label)\n\n        self.float_slider = FloatSlider(self)\n        self.float_slider.setRange(0, 100 * self.float_slider.multiplier())  # 设置范围\n        self.float_slider.setFloatValue(50.0)  # 设置初始值\n        self.float_slider.valueChangedFloat.connect(self.updateFloatLabel)\n        layout.addWidget(self.float_slider)\n\n    def updateFloatLabel(self, value):\n        self.float_label.setText(f'Float Value: {value:.2f}')\n\nif __name__ == '__main__':\n    app = QApplication([])\n    window = ExampleWindow()\n    window.setGeometry(100, 100, 300, 200)\n    window.show()\n    app.exec()\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p27-float-slider.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:43:23",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

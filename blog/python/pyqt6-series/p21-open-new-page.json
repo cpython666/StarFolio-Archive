@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p21-open-new-page",
+  "title": "P21-点击按钮打开新页面",
+  "category": "Python",
+  "html": "<h1>P21-点击按钮打开新页面</h1>\n<pre><code>import sys\nfrom PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QDialog, QVBoxLayout, QLabel\n\nclass MainWindow(QMainWindow):\n    def __init__(self):\n        super().__init__()\n\n        # 创建主窗口\n        self.setWindowTitle(\"派森斗罗\")\n        self.setGeometry(100, 100, 400, 200)\n\n        # 创建按钮并连接点击信号与槽\n        self.button = QPushButton(\"打开新窗口\", self)\n        self.button.clicked.connect(self.open_dialog)\n\n    def open_dialog(self):\n        # 创建对话框\n        self.dialog = MyDialog()\n        self.dialog.show()\n        self.dialog.exec()\n\nclass MyDialog(QDialog):\n    def __init__(self):\n        super().__init__()\n\n        # 创建对话框中的控件\n        layout = QVBoxLayout(self)\n        label = QLabel(\"这是新窗口！\", self)\n        layout.addWidget(label)\n\n        self.setWindowTitle(\"派森斗罗\")\n        self.setGeometry(200, 200, 300, 150)\n\n\nif __name__ == \"__main__\":\n    app = QApplication(sys.argv)\n    window = MainWindow()\n    window.show()\n    sys.exit(app.exec())\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p21-open-new-page.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:41:22",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

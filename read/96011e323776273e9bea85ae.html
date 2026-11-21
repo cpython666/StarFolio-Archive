@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><link href="../reader.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="no-referrer" name="referrer"/><meta content="default-src 'none'; style-src 'self' file:; img-src 'self' file:; form-action 'none'; base-uri 'none'" http-equiv="Content-Security-Policy"/><title>P9-代码-鼠标环形文字旋转动画特效</title><main><a class="back" href="../index.html">← 返回公开书架</a><header><p class="eyebrow">星藏 / cpython666.github.io</p><h1>P9-代码-鼠标环形文字旋转动画特效</h1><p><a href="https://cpython666.github.io/python/pygame-series/p9-rotating-text-effect">原文</a> · 1 条正文与评论 · 存于 2026-11-21T05:12:57.394590+00:00</p></header><article class="post" id="p1"><p class="meta"><a href="https://cpython666.github.io/python/pygame-series/p9-rotating-text-effect">#1</a> · 未署名 · <time>2024-12-20 23:06:52</time></p><div class="body"><h1>P9-代码-鼠标环形文字旋转动画特效</h1>
+<pre><code>import pygame
+import math
+
+# 初始化Pygame，设置窗口尺寸和标题，定义背景颜色
+pygame.init()
+width, height = 800, 600
+screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("编程启航")
+white = (255, 255, 255)
+
+# 获取文本渲染所需的矩形
+def get_text_rect(text, font):
+    text_surface,rect = font.render(text, (0, 0, 0))
+    return text_surface, text_surface.get_rect()
+
+running = True
+clock = pygame.time.Clock()
+font = pygame.freetype.Font('./assets/fonts/铁蒺藜体/Tiejili Regular.ttf', 36)
+angle = 0
+radius = 150
+
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # 清屏
+    screen.fill(white)
+
+    # 获取鼠标位置
+    mouse_x, mouse_y = pygame.mouse.get_pos()
+
+    angle += 0.02  # 每帧增加的角度
+    num_points = 5
+
+    for i in range(num_points):
+        angle_offset = i * (2 * math.pi / num_points)
+        x = int(mouse_x + radius * math.cos(angle + angle_offset))
+        y = int(mouse_y + radius * math.sin(angle + angle_offset))
+
+        text = "编程启航"
+        text_surface, text_rect = get_text_rect(text, font)
+        text_rect.center = (x, y)
+
+        screen.blit(text_surface, text_rect)
+
+    pygame.display.flip()
+    clock.tick(60)
+
+# 退出Pygame
+pygame.quit()
+</code></pre></div></article></main></html>

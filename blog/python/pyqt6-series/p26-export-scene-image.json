@@ -1,0 +1,11 @@
+{
+  "format": "starfolio.article.v1",
+  "url": "https://cpython666.github.io/python/pyqt6-series/p26-export-scene-image",
+  "title": "P26-图片场景输出为图片",
+  "category": "Python",
+  "html": "<h1>P26-图片场景输出为图片</h1>\n<h3>按照区域大的输出：</h3>\n<pre><code>def exportSceneToImage(self):\n    # 获取场景的范围\n    scene_rect = self.sceneRect()\n     # 弹出输入对话框获取用户输入的文件名，默认为\"img_1.png\"\n    file_name, _ = QInputDialog.getText(self, '导出图片', '输入文件名', text='img_1.png')\n    # 如果用户取消了输入，则返回\n    if not file_name:\n        return\n    # 创建一个QImage对象\n    image = QImage(scene_rect.size().toSize(), QImage.Format.Format_ARGB32)\n    image.fill(Qt.GlobalColor.white)\n    # 创建一个QPainter对象\n    painter = QPainter(image)\n    # 将场景渲染到QImage中\n    self.scene().render(painter, QRectF(image.rect()), scene_rect)\n    # 结束绘制\n    painter.end()\n    # 保存QImage为图片文件\n    image.save(file_name)\n    QMessageBox.information(self, '提示', '图片已保存在当前目录下！', QMessageBox.StandardButton.Ok)\n</code></pre>\n<h3>按照场景内容的大小输出图片</h3>\n<p><strong>itemsBoundingRect()</strong> 获取的场景内容的外接矩形。然后，使用 <strong>image_size</strong> 变量来确定导出的图片的大小。</p>\n<pre><code>def exportSceneToImage(self):\n    # 获取场景的范围\n    scene_rect = self.sceneRect()\n    # 获取场景内容的大小\n    content_rect = self.scene().itemsBoundingRect()\n    # 使用场景内容的大小来确定导出图片的大小\n    image_size = content_rect.size().toSize()\n    # 弹出输入对话框获取用户输入的文件名，默认为\"img_1.png\"\n    file_name, _ = QInputDialog.getText(self, '导出图片', '输入文件名', text='img_1.png')\n    # 如果用户取消了输入，则返回\n    if not file_name:\n        return\n    # 创建一个QImage对象\n    image = QImage(image_size, QImage.Format.Format_ARGB32)\n    image.fill(Qt.GlobalColor.white)\n    # 创建一个QPainter对象\n    painter = QPainter(image)\n    # 将场景渲染到QImage中，以内容的大小为主\n    self.scene().render(painter, QRectF(image.rect()), content_rect)\n    # 结束绘制\n    painter.end()\n    # 保存QImage为图片文件\n    image.save(file_name)\n    QMessageBox.information(self, '提示', '图片已保存在当前目录下！', QMessageBox.StandardButton.Ok)\n</code></pre>",
+  "sourcePath": "docs/python/pyqt6-series/p26-export-scene-image.md",
+  "sourceCommit": "882c14a4821cbe3c583a75db3f5b8abdd0a2d188",
+  "published": "2024-12-20 21:42:58",
+  "modified": "2026-08-04T23:04:13+08:00"
+}

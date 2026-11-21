@@ -1,23 +1,11 @@
-# 星藏 · 个人公开书架
+# 星藏 · 外站备份
 
 [中文](README.md) · [English](README.en.md)
 
-这不是星藏的软件仓库，也不是整台设备的备份。这里是从[星梦启航博客](https://cpython666.github.io/)已公开发布的内容中，单独挑选的可读归档。星藏软件见 [StarDreamTech/StarFolio](https://github.com/StarDreamTech/StarFolio)。
+这里是个人主动选入的公开外站备份，不是博客镜像，也不与本机书架自动同步。星藏软件：[StarDreamTech/StarFolio](https://github.com/StarDreamTech/StarFolio)。
 
-| 馆藏 | 数量 |
-| --- | ---: |
-| 公开博客文章 | 212 篇 |
-| X 主帖 / 原档已收录的可见回复 | 108 / 1501 |
-| 有离线文件的图片地址 / 已记录地址 | 311 / 318 |
-| 去重后的图片文件 | 308 |
+从[原公开备份](https://github.com/cpython666/cpython666.github.io/tree/882c14a4821cbe3c583a75db3f5b8abdd0a2d188)迁入 108 条 X 主帖、1,501 条当时可见的回复。`x/` 原始 JSON 未改写；原档中的译文、缺失和署名差异均保留。正文图 95 个来源中有 93 个可离线查看。
 
-**不用安装即可离线阅读。** 在 GitHub 选择 **Code → Download ZIP**，解压后打开根目录的 **index.html**；与 `read/`、`media/` 和 `reader.css` 放在一起即可。页面不加载远端脚本或图片。
+**头像**：按发帖署名、主页和帖子地址核对，再从公开主页确认图片。现有 258 位作者、913 处署名可离线显示；日期是补录时，不代表发帖时。其余留空。不同帖子引用 `avatars/objects/` 的同一文件。
 
-**加入星藏书架：** 使用星藏 0.2 或更高版本：`folio import-collection <解压后的目录>`。这只写入本机，不登录 X 或 GitHub，不从源站重抓。重复导入同样的资料不会多出一册。macOS 应用包内的命令行位于 `StarFolio.app/Contents/MacOS/folio`。
-
-- `catalog.json`：记录的原文 URL、分类、内容哈希与媒体映射，缺图列在 `missingMedia`。
-- `blog/`：公开文章的标题、栏目、正文、来源路径和可取得的日期；保留正文内链接和图片。不是评论服务的导出，不含站外评论库。
-- `x/`：旧博客已发布的 v3 原始索引和逐帖 JSON，保留可见回复、可用的作者标识与主页、时间、媒体和历史互动计数。不是 X 全站或账号的完整历史。原档有 5 条回复标为译文、一处署名与状态链接不一致，阅读页单独标出，不补造身份。
-- `media/`：只保存本次入选文章实际引用且可验证格式的图片。X 原档仅有链接，本次补齐 93/95 个不同的图片地址；不尝试解锁受限资源。
-
-来源：[博客公开提交 882c14a](https://github.com/cpython666/cpython666.github.io/tree/882c14a4821cbe3c583a75db3f5b8abdd0a2d188)。会员内容、草稿、没有可读正文及需另行审查的页面不在本批内。原博客没有移动或删除。本机其他归档、登录态及私人阅读信息不会自动同步到这里。归档不改变原作者权利，不给第三方内容另行授予许可。
+**离线阅读**：下载仓库 ZIP 并解压，直接打开 `index.html`，保持同目录文件结构。页面不加载外站图片或脚本。星藏 0.2.2+ 可用 `folio import-collection <目录>`；若已经有文章，只补头像可用 `folio import-avatars <目录>/avatars`。原博客未删除；归档不改变原作者权利。
